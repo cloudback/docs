@@ -4,7 +4,7 @@ baseURL = 'https://cloudback.github.io/'
 title = 'Cloudback'
 theme = 'hugo-book'
 enablegitinfo = true
-publishDir = "docs"
+publishDir = "docs/docs"
 
 # Book configuration
 [build]
