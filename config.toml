@@ -97,7 +97,7 @@ maxAge = 0
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/cloudback/cloudback.github.io'
+  BookRepo = 'https://github.com/cloudback/docs/'
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
