@@ -14,7 +14,7 @@ script:
   - hugo # This commands builds your website on travis
 
 deploy:
-  local_dir:  # Default static site output dir for Hugo
+  local_dir: "docs" # Default static site output dir for Hugo
   repo: cloudback/cloudback.github.io # This is the slug of the repo you want to deploy your site to
   target_branch: master # GitHub pages branch to deploy to (in other cases it can be gh-pages)
   provider: pages
