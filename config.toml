@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://cloudback.github.io/docs/'
+baseURL = 'https://cloudback.github.io/'
 title = 'Cloudback'
 theme = 'hugo-book'
 enablegitinfo = true
