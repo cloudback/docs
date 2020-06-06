@@ -1,10 +1,10 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://cloudback.github.io/docs'
+baseURL = 'https://cloudback.github.io'
 title = 'Cloudback'
 theme = 'hugo-book'
 enablegitinfo = true
-publishDir = "docs/docs"
+publishDir = "docs"
 
 # Book configuration
 [build]
@@ -97,7 +97,7 @@ maxAge = 0
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/cloudback/docs/'
+  BookRepo = 'https://github.com/cloudback/docs'
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
