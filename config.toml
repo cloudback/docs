@@ -85,7 +85,7 @@ maxAge = 0
 
   # (Optional, default none) Set the path to a logo for the book. If the logo is
   # /static/logo.png then the path would be logo.png
-   BookLogo = 'logo.svg'
+  BookLogo = 'logo.svg'
 
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
@@ -93,7 +93,7 @@ maxAge = 0
 
   # (Optional, default docs) Specify section of content to render as menu
   # You can also set value to '*' to render all sections to menu
-  BookSection = 'docs'
+  BookSection = '*'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
