@@ -10,7 +10,7 @@ bookToc: true
 
 ### Introduction
 
-The Cloudback Terms of Service are between COMPANYNAME ("we" or "Cloudback") and the customer who orders the Cloudback services ("you" or "Customer"). By using the cloudback.it website or any services described on the cloudback.it website (collectively, "Service"), you are agreeing to be bound by the following terms and conditions ("Terms of Service").
+The Cloudback Terms of Service are between MYRTLECONSULTING S.A. ("we" or "Cloudback") and the customer who orders the Cloudback services ("you" or "Customer"). By using the cloudback.it website or any services described on the cloudback.it website (collectively, "Service"), you are agreeing to be bound by the following terms and conditions ("Terms of Service").
 
 Violation of any of the terms below will result in the termination of your Account.  Cloudback prohibits certain conduct on the Service as described below. You understand and agree that Cloudback cannot be responsible for conduct or activity on the Service or for "Content" transmitted, posted, or stored  using the Service. You agree to use the Service at your own risk. For the purposes of this agreement "Content" means information, data files, written text, computer software, music, audio files or other sounds, photographs, videos or other images to which you may have access as part of, or through your use of, the Service.
 
@@ -82,7 +82,7 @@ You may not assign these Terms of Service without Cloudback's prior written cons
 Cloudback reserves the right to update and change the Terms of Service from time to time. Any new features that augment or enhance the current Service, including the release of new tools and resources, shall be subject to the amended Terms of Service as follows: Amended Terms of Service will become effective the earlier of either your acceptance of the amended Terms of Service, your continued use of the Services after written notice of the amended Terms of Service, or thirty days after the date Cloudback posts such amended Terms of Service on the Cloudback website. In addition, if over time you sign multiple orders for a single account, then the Terms of Service incorporated in the latest order posted on the effective date of the latest order will govern the entire account.
 The failure of Cloudback to exercise or enforce any right or provision of the Terms of Service shall not constitute a waiver of such right or provision. The Terms of Service constitutes the entire agreement between you and Cloudback and govern your use of the Service, superseding any prior agreements between you and Cloudback (including, but not limited to, any prior versions of the Terms of Service).
 
-This document is effective as of 2020-05-22
+This document is effective as of 2020-07-16
 
 ### Contact Us
 If you have any questions or suggestions about the Terms of Service, do not hesitate to contact us at support@cloudback.it

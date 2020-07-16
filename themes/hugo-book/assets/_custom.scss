@@ -3,6 +3,10 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  font-weight: 500;
+}
+
 .book-menu {
   background-color: aliceblue;
 }

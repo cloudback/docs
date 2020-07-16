@@ -9,11 +9,11 @@ bookToc: true
 
 ### Introduction
 
-We, the COMPANYNAME, have built the Cloudback application as a Commercial service. This service is provided by us and is intended for use as is. We fully comply with the European General Data Protection Regulation (GDPR) laws, requirements and regulations.
+We, the MYRTLECONSULTING S.A., have built the Cloudback application as a Commercial service. This service is provided by us and is intended for use as is. We fully comply with the European General Data Protection Regulation (GDPR) laws, requirements and regulations.
 
 This Policy is used to inform visitors and users regarding our policies about the collection, use, and disclosure of Personal Information of anyone using the Service.
 
-By using the Service, you agree to the collection and use of information mentioned in this policy. The Personal Information that we collect is used for providing and improving the Service. We respect the privacy of our users and will not use or share the information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which can be accessed [here](LINK_TO_TERMS_PAGE) unless otherwise defined in this Privacy Policy.
+By using the Service, you agree to the collection and use of information mentioned in this policy. The Personal Information that we collect is used for providing and improving the Service. We respect the privacy of our users and will not use or share the information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which can be accessed [here](https://docs.cloudback.it/terms/) unless otherwise defined in this Privacy Policy.
 
 This policy only applies to our site. If you leave the site via a link or otherwise, you will be subject to the policy of that website provider. We have no control over that policy or the terms of the website and you should check their policy before continuing to access the site. 
 
@@ -60,14 +60,16 @@ You may refuse to accept cookies by activating the setting on your browser which
 
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-This policy is effective as of 2020-05-22
+This policy is effective as of 2020-07-16
 
 ### Controller Name and Address
 Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
 
-FULL ADDRESS HERE
+Address: Ecuador, Quito, La Armenia, Juan Leon Mera y Charles Darvin, cjt Prados de la Armenia, casa 73C
 
-Phone: ‭+1 (111) 111-1111‬
+RUC 1792537754001
+
+Phone: ‭(593) 26007251, (593) 992436282‬
 
 Email: support@cloudback.it
 
