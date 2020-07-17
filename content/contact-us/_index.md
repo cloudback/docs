@@ -6,23 +6,23 @@ bookToc: true
 ---
 
 
-## Contact Us
+## Contact us
 
 ### Contact us by email
 
 Use any of these emails to contact us:
 
- - Questions regarding our Privacy policy: <a href="mailto:privacy@cloudback.it">privacy@cloudback.it</a>
+ - Questions regarding our privacy policy: <a href="mailto:privacy@cloudback.it">privacy@cloudback.it</a>
  - Questions about Cloudback functionality: <a href="mailto:support@cloudback.it">support@cloudback.it</a>
 
 ### Issue tracker 
 
-If you have any issues with the product or any ideas about how it can be improved, please feel free to raise a request using our [Issue tracker](https://github.com/cloudback/issue-tracker):
+If you have any issues with the product or any ideas about how it can be improved, please feel free to raise a request using our [issue tracker](https://github.com/cloudback/issue-tracker):
 
- - [Submit an Issue](https://github.com/cloudback/issue-tracker/issues/new?template=bug_report.md)
- - [Create a Feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md)
+ - [Submit an issue](https://github.com/cloudback/issue-tracker/issues/new?template=bug_report.md)
+ - [Create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md)
 
-### Company Name and Address
+### Company name and address
 
 We are the MYRTLECONSULTING S.A.
 
