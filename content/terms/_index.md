@@ -16,42 +16,42 @@ Violation of any of the terms below will result in the termination of your Accou
 
 ### Account Terms
 
- - You must be 13 years or older to use this Service.
  - You must be a human. Accounts registered by "bots" or other automated methods are not permitted.
- - You must provide your legal full name, a valid email address, and any other information requested in order to complete the signup process.
- - Your login may only be used by one person – a single login shared by multiple people is not permitted. You may create separate logins for as many people as your plan allows.
- - You are responsible for maintaining the security of your account and password. Cloudback cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
+ - You must a valid GitHub account in order to complete the signup process.
+ - Your login may only be used by one person – a single login shared by multiple people is not permitted. You may create separate logins for as many people as you need.
+ - You are responsible for maintaining the security of your GitHub account and password. Cloudback cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
  - You are responsible for all Content posted and activity that occurs under your account (even when Content is posted by others who have accounts under your account).
- - One person or legal entity may not maintain more than one free account.
  - You may not use the Service for any illegal or unauthorized purpose. You must not, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws).
 
 ### Payment, Refunds, Upgrading and Downgrading Terms
 
-All paid plans must enter a valid credit card.
-Billing will commence immediately following an upgrade from a free plan to any paying plan.
-The Service is billed in advance on a monthly basis and is non-refundable. There will be no refunds or credits for partial months of service, upgrade/downgrade refunds, or refunds for months unused with an open account. In order to treat everyone equally, no exceptions will be made.
-All fees are exclusive of all taxes, levies, or duties imposed by taxing authorities, and you shall be responsible for payment of all such taxes, levies, or duties, excluding only United States (federal or state) taxes.
-For any upgrade or downgrade in plan level, your credit card that you provided will automatically be charged the new rate on your next billing cycle.
-Downgrading your Service may cause the loss of Content, features, or capacity of your Account. Cloudback does not accept any liability for such loss.
+All payments are processed by GitHub Marketplace. By using the Service you agree with [GitHub Marketplace Terms of Service](https://docs.github.com/en/github/site-policy/github-marketplace-terms-of-service)
+Downgrading your Service may cause the loss of features or capacity of your Account. Cloudback does not accept any liability for such loss.
 
-### Cancellation and Termination
+### GitHub Marketplace Plan Cancellation
 
-You are solely responsible for properly canceling your account. An email or phone request to cancel your account is not considered cancellation. You can cancel your account at any time by clicking on the Settings link in the global navigation bar at the top of the screen, and going into the Account Settings tab. Under Account Settings, there is a cancel button in the upper right of the settings bar.
-Your error details and related account information will be deleted from the Service within 90 days of cancellation. This information can not be recovered once it is deleted.
-If you cancel the Service before the end of your current paid up month, your cancellation will take effect immediately and you will not be charged again.
-Cloudback, in its sole discretion, has the right to suspend or terminate your account and refuse any and all current or future use of the Service, or any other Cloudback service, for any reason at any time. Such termination of the Service will result in the deactivation or deletion of your Account or your access to your Account, and the forfeiture and relinquishment of all Content in your Account. Cloudback reserves the right to refuse service to anyone for any reason at any time.
+You are solely responsible for properly canceling your plan. An email or phone request to cancel your plan is not considered cancellation. You can cancel your plan at any time at GitHub website.
+For more details visit [Canceling a GitHub Marketplace app](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/canceling-a-github-marketplace-app) page in the [Managing Billing for GitHub Marletplace app](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/managing-billing-for-github-marketplace-apps) guide.
+
+### Cloudback Account Termination
+
+You are solely responsible for properly terminating your account. An email or phone request to terminate your account is not considered termination.
+You can terminate your account by clicking on the Settings link in the user menu at the top right corner of the screen, and going into the Settings page. Under Account Settings, there is a 'Delete my account' button.
+Your error details and related account information will be deleted from the Service within 30 days of termination. This information can not be recovered once it is deleted.
+Be aware that account termination does not cancel your GitHub Marketplace plan.
+Cloudback, in its sole discretion, has the right to suspend or terminate your account and refuse any and all current or future use of the Service, for any reason at any time. Such termination of the Service will result in the deactivation or deletion of your Account or your access to your Account. Cloudback reserves the right to refuse service to anyone for any reason at any time.
 
 ### Modifications to the Service and Prices
 
 Cloudback reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice.
-Prices of all Services, including but not limited to monthly subscription plan fees to the Service, are subject to change upon 30 days notice from us. Such notice may be provided at any time by posting the changes to the Cloudback Site (Cloudback.io) or the Service itself.
+Prices of all Services, including but not limited to monthly subscription plan fees to the Service, are subject to change upon 30 days notice from us. Such notice may be provided at any time by posting the changes to the [Cloudback website](https://cloudback.it) or the Service itself.
 Cloudback shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the Service.
 
 ### Copyright and Content Ownership
 
 We claim no intellectual property rights over the material you provide to the Service. Your profile and materials uploaded remain yours.
 Cloudback does not pre-screen Content, but Cloudback and its designee have the right (but not the obligation) in their sole discretion to refuse or remove any Content that is available via the Service.
-The name and logos for Cloudback are trademarks of Cloudback Technologies. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML/CSS, Javascript, or visual design elements or concepts without express written permission from Cloudback Technologies. You may not use the Cloudback name without express written permission from Cloudback Technologies.
+All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML/CSS, Javascript, or visual design elements or concepts without express written permission from Cloudback. 
 
 ### General Conditions
 

@@ -40,8 +40,7 @@ For more information on the privacy practices of Google, please visit the Google
 
 **GitHub** brings together the world's largest community of developers to discover, share, and build better software. Cloudback was build as a GitHub Application for public use.
 
-For more information on the privacy practices of GitHub, please visit the GitHub PrivacyStatement web page:
-https://help.github.com/en/github/site-policy/github-privacy-statement
+By using the Service you agree with [GitHub Privacy Statement](https://help.github.com/en/github/site-policy/github-privacy-statement).
 
 ### Cookies
 
