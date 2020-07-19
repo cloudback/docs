@@ -59,7 +59,7 @@ You may refuse to accept cookies by activating the setting on your browser which
 
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-This policy is effective as of 2020-07-16
+This policy is effective as of 2020-07-16.
 
 ### Controller Name and Address
 Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:

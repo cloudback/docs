@@ -56,33 +56,30 @@ All rights reserved. You may not duplicate, copy, or reuse any portion of the HT
 ### General Conditions
 
 Your use of the Service is at your sole risk. The service is provided on an "as is" and "as available" basis.
-Technical support is only provided to paying account holders.
-By using Cloudback, your company accepts public disclosure of its integration with Cloudback via Cloudback's marketing activities. If you want to opt out, please contact our marketing team.
+By using Cloudback, your company accepts public disclosure of its integration with Cloudback via Cloudback's marketing activities. If you want to opt out, please contact our marketing team at team@cloudback.it.
 You understand that Cloudback uses third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Service.
 You must not modify, adapt or hack the Service or modify another website so as to falsely imply that it is associated with the Service, Cloudback, or any other Cloudback service.
 You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service without the express written permission by Cloudback.
 You may not access the Service for the purpose of bringing an intellectual property infringement claim against Cloudback or for the purpose of creating a product or service competitive with the Cloudback Service.
-We may, but have no obligation to, remove Content and Accounts containing Content that we determine in our sole discretion are unlawful, offensive, threatening, libelous, defamatory, pornographic, obscene or otherwise objectionable or violates any party’s intellectual property or these Terms of Service.
+We may, but have no obligation to, remove Content and Accounts containing Content that we determine in our sole discretion are unlawful, destructive, offensive, threatening, libelous, defamatory, pornographic, obscene or otherwise objectionable or violates any party’s intellectual property or these Terms of Service.
 Verbal, physical, written or other abuse (including threats of abuse or retribution) of any Cloudback customer, employee, member, or officer will result in immediate account termination.
-You understand that the technical processing and transmission of the Service, including your Content, may be transferred unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks or devices.
-You must not transmit any worms or viruses or any code of a destructive nature.
 
 Cloudback does not warrant that:
 
  - the service will meet your specific requirements, 
- - the service will be uninterrupted, timely, secure, or error-free, 
+ - the service will be uninterrupted, timely, or error-free, 
  - the results that may be obtained from the use of the service will be accurate or reliable, 
  - the quality of any products, services, information, or other material purchased or obtained by you through the service will meet your expectations, 
  - any errors in the Service will be corrected.
  
-You expressly understand and agree that Cloudback shall not be liable for any  indirect, incidental, special, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill,  or other intangible losses (even if Cloudback has been advised of the possibility of such damages).
+You expressly understand and agree that Cloudback shall not be liable for any indirect, incidental, special, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill, or other intangible losses (even if Cloudback has been advised of the possibility of such damages).
 If Cloudback, its affiliates, or any of the employees, agents, or suppliers of Cloudback (the "Cloudback Indemnitees") are faced with a legal claim by a third party arising out of your actual or alleged gross negligence, willful misconduct, violation of law, failure to meet your obligations under the Terms of Service, then you will pay the cost of defending the claim (including reasonable attorney fees) and any damages award, fine, or other amount that is imposed on the Cloudback Indemnitees as a result of the claim. Your obligations under this Section include claims arising out of the acts or omissions of your employees, any other person to whom you have given access to the Services, and any person who gains access to the Services as a result of your failure to meet your security obligations in the Terms of Service, even if the acts or omissions of such persons were not authorized by you. Cloudback will choose legal counsel to defend the claim, provide that these decisions must be reasonable and must be promptly communicated to you. You must comply with our reasonable requests for assistance and cooperation in the defense of the claim. Cloudback may not settle the claim without your consent, although such consent may not be unreasonably withheld. You must pay expenses due under this Section as Cloudback incurs them.
 Neither of us will be in violation of these Terms of Service if the failure to perform the obligation is due to an event beyond our control, such as significant failure of a part of the power grid, significant failure of the Internet, natural disaster, war, riot, insurrection, epidemic, strikes or other organized labor action, terrorism, or other events of a magnitude or type for which precautions are not generally taken in the industry.
 You may not assign these Terms of Service without Cloudback's prior written consent. Cloudback may assign the Terms of Service in whole or in part to an affiliate with sufficient financial standing in order to meet its obligations under the Terms of Service or as part of a corporate reorganization or a sale of its business, and we may transfer your information as part of any such transaction.
 Cloudback reserves the right to update and change the Terms of Service from time to time. Any new features that augment or enhance the current Service, including the release of new tools and resources, shall be subject to the amended Terms of Service as follows: Amended Terms of Service will become effective the earlier of either your acceptance of the amended Terms of Service, your continued use of the Services after written notice of the amended Terms of Service, or thirty days after the date Cloudback posts such amended Terms of Service on the Cloudback website. In addition, if over time you sign multiple orders for a single account, then the Terms of Service incorporated in the latest order posted on the effective date of the latest order will govern the entire account.
 The failure of Cloudback to exercise or enforce any right or provision of the Terms of Service shall not constitute a waiver of such right or provision. The Terms of Service constitutes the entire agreement between you and Cloudback and govern your use of the Service, superseding any prior agreements between you and Cloudback (including, but not limited to, any prior versions of the Terms of Service).
 
-This document is effective as of 2020-07-16
+This document is effective as of 2020-07-16.
 
 ### Contact Us
-If you have any questions or suggestions about the Terms of Service, do not hesitate to contact us at support@cloudback.it
+If you have any questions or suggestions about the Terms of Service, do not hesitate to contact us at support@cloudback.it.
