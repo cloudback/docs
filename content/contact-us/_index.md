@@ -12,8 +12,8 @@ bookToc: true
 
 Use any of these emails to contact us:
 
- - Questions regarding our privacy policy: <a href="mailto:privacy@cloudback.it">privacy@cloudback.it</a>
- - Questions about Cloudback functionality: <a href="mailto:support@cloudback.it">support@cloudback.it</a>
+ - Questions regarding our privacy policy: privacy@cloudback.it
+ - Questions about Cloudback functionality: support@cloudback.it
 
 ### Issue tracker 
 

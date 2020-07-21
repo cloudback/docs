@@ -1,6 +1,6 @@
 ---
 title: Terms of Service
-weight: 30
+weight: 20
 type: docs
 bookToc: true
 ---
@@ -17,6 +17,7 @@ Violation of any of the terms below will result in the termination of your Accou
 ### Account Terms
 
  - You must be a human. Accounts registered by "bots" or other automated methods are not permitted.
+ - You must be 16 years or older to use this Service.
  - You must a valid GitHub account in order to complete the signup process.
  - Your login may only be used by one person – a single login shared by multiple people is not permitted. You may create separate logins for as many people as you need.
  - You are responsible for maintaining the security of your GitHub account and password. Cloudback cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
