@@ -61,14 +61,38 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 
 This policy is effective as of 2020-07-16.
 
+### For Data Subjects in the EU
+
+We value your data subject rights under GDPR and therefore appointed GDPR-Rep.eu as representative according to Art 27 GDPR and provide you with an easy way to submit us privacy related request like a requests to access or erase your personal data. If you want to make use of your data subject rights, please visit: https://gdpr-rep.eu/q/15719145
+
+  Contact GDPR-Rep.eu
+
+  GDPR-Rep.eu
+  Maetzler Rechtsanwalts GmbH & Co KG
+  Attorneys at Law
+  c/o MYRTLECONSULTING S.A.
+  Schellinggasse 3/10, 1010 Vienna, Austria
+
+  Please add the following subject to all correspondence:
+  GDPR-REP ID: 15719145
+  
+**Information according to Art 27 EU GDPR**
+
+MYRTLECONSULTING S.A. is a company located outside of the European Union. In order to comply with Art 27 EU GDPR, GDPR-Rep.eu has been nominated as our representative in the European Union. If you want to
+make use of your data privacy rights, please visit [our GDPR-Rep.eu landing page](https://gdpr-rep.eu/q/15719145)
+
+<a href="https://gdpr-rep.eu/q/15719145"><img style="max-width: 301px; max-height: 148px;" src="https://gdpr-rep.eu/certificateofrepresentation/15719145/getwebcertificate.png"
+     alt="GDPR-Rep.eu certificate of Art 27 representation"></a>
+
 ### Controller Name and Address
+
 Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
 
 Address: Ecuador, Quito, La Armenia, Juan Leon Mera y Charles Darvin, cjt Prados de la Armenia, casa 73C
 
 RUC 1792537754001
 
-Phone: ‭(593) 26007251, (593) 992436282‬
+Phone: ‭+372 712 2103
 
 Email: support@cloudback.it
 
