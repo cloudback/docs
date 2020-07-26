@@ -13,7 +13,7 @@ We, the MYRTLECONSULTING S.A., have built the Cloudback application as a Commerc
 
 This Policy is used to inform visitors and users regarding our policies about the collection, use, and disclosure of Personal Information of anyone using the Service.
 
-By using the Service, you agree to the collection and use of information mentioned in this policy. The Personal Information that we collect is used for providing and improving the Service. We respect the privacy of our users and will not use or share the information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which can be accessed [here](https://docs.cloudback.it/terms/) unless otherwise defined in this Privacy Policy.
+By using the Service, you agree to the collection and use of information mentioned in this policy. The Personal Information that we collect is used for providing and improving the Service. We respect the privacy of our users and will not use or share the information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms of Service, which can be accessed [here](https://docs.cloudback.it/terms/) unless otherwise defined in this Privacy Policy.
 
 This policy only applies to our site. If you leave the site via a link or otherwise, you will be subject to the policy of that website provider. We have no control over that policy or the terms of the website and you should check their policy before continuing to access the site. 
 
@@ -23,16 +23,21 @@ For a better experience, while using our Service, we may require you to provide 
 
 We may collect and process the following data about you:
 
- - Information that you provide by filling in forms on our site (https://cloudback.it). This includes the information provided at the time of registering to use our site, subscribing to our service or requesting further services. We may also ask you for information when you report a problem with our site or sending any feedback information.
- - If you contact us, we may keep a record of that correspondence.
- - We may also ask you to complete some surveys that we use for research purposes, although you do not have to respond to them.
- - Details of your visits to our site including, but not limited to, traffic data, location data, weblogs, operating workspace, browser usage and other communication data, whether this is required for our own billing purposes or otherwise and the resources that you access.
+* Information provided by GitHub at the time of signing up into our service or requesting further services: 
+  - Your GitHub account name
+  - Your email address
+* Information that you provide by filling in forms on our site (https://cloudback.it). We may also ask you for information when you report a problem with our site or sending any feedback information.
+* If you contact us, we may keep a record of that correspondence.
+* We may also ask you to complete some surveys that we use for research purposes, although you do not have to respond to them.
+* Details of your visits to our site including, but not limited to, traffic data, location data, weblogs, operating workspace, browser usage and other communication data.
 
 ### Links to Other Sites
 
 This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
 
 ### External Services
+
+**SendGrid** is GDRP compliant customer communication platform for transactional and marketing email. For more information see https://www.twilio.com/legal/privacy
 
 **Google Analytics** is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 
@@ -42,11 +47,19 @@ For more information on the privacy practices of Google, please visit the Google
 
 By using the Service you agree with [GitHub Privacy Statement](https://help.github.com/en/github/site-policy/github-privacy-statement).
 
+**Microsoft Azure**
+
+**Amazon Web Services**
+
+**Google Cloud**
+
+**Alibaba Cloud**
+
 ### Cookies
 
 Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
 
-We may obtain information about your general internet usage by using a cookie file which is stored on the hard drive of your computer. Cookies contain information that is transferred to your computer’s hard drive. They help us to improve our site and to deliver a better and more personalized service. They enable us:
+We may obtain information about your general internet usage by using a cookie file which is stored on your computer. Cookies contain information that is transferred to your computer’s hard drive. They help us to improve our site and to deliver a better and more personalized service. They enable us:
 
  - To estimate our audience size and usage pattern.
  - To store information about your preferences, and so allow us to customize our site according to your individual interests.
@@ -65,13 +78,13 @@ This policy is effective as of 2020-07-16.
 
 We value your data subject rights under GDPR and therefore appointed GDPR-Rep.eu as representative according to Art 27 GDPR and provide you with an easy way to submit us privacy related request like a requests to access or erase your personal data. If you want to make use of your data subject rights, please visit: https://gdpr-rep.eu/q/15719145
 
-  Contact GDPR-Rep.eu
+  **Contact GDPR-Rep.eu**
 
-  GDPR-Rep.eu
-  Maetzler Rechtsanwalts GmbH & Co KG
-  Attorneys at Law
-  c/o MYRTLECONSULTING S.A.
-  Schellinggasse 3/10, 1010 Vienna, Austria
+  GDPR-Rep.eu </br>
+  Maetzler Rechtsanwalts GmbH & Co KG </br>
+  Attorneys at Law </br>
+  c/o MYRTLECONSULTING S.A. </br>
+  Schellinggasse 3/10, 1010 Vienna, Austria </br>
 
   Please add the following subject to all correspondence:
   GDPR-REP ID: 15719145
@@ -88,12 +101,12 @@ make use of your data privacy rights, please visit [our GDPR-Rep.eu landing page
 
 Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
 
-Address: Ecuador, Quito, La Armenia, Juan Leon Mera y Charles Darvin, cjt Prados de la Armenia, casa 73C
-
-RUC 1792537754001
-
-Email: support@cloudback.it
-
+Address: </br>
+Ecuador, Quito </br>
+La Armenia, Juan Leon Mera y Charles Darvin </br> 
+cjt Prados de la Armenia, casa 73C </br>
+RUC 1792537754001 </br>
+Email: support@cloudback.it </br>
 Website: [cloudback.it](https://cloudback.it)
 
 ### Contact Us
