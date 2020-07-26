@@ -92,8 +92,6 @@ Address: Ecuador, Quito, La Armenia, Juan Leon Mera y Charles Darvin, cjt Prados
 
 RUC 1792537754001
 
-Phone: ‭+372 712 2103
-
 Email: support@cloudback.it
 
 Website: [cloudback.it](https://cloudback.it)
