@@ -37,23 +37,23 @@ This Service may contain links to other sites. If you click on a third-party lin
 
 ### External Services
 
-**SendGrid** is GDRP compliant customer communication platform for transactional and marketing email. For more information see https://www.twilio.com/legal/privacy
+**SendGrid** is GDRP compliant customer communication platform for transactional and marketing email. For more information see the [Privacy Statement](https://www.twilio.com/legal/privacy) web page.
 
 **Google Analytics** is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 
-For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: http://www.google.com/intl/en/policies/privacy/
+For more information on the privacy practices of Google, please visit the [Google Privacy & Terms](http://www.google.com/intl/en/policies/privacy/) web page.
 
 **GitHub** brings together the world's largest community of developers to discover, share, and build better software. Cloudback was build as a GitHub Application for public use.
 
 By using the Service you agree with [GitHub Privacy Statement](https://help.github.com/en/github/site-policy/github-privacy-statement).
 
-**Microsoft Azure**
+**Microsoft Azure** commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers. By using Cloudback storage or creating your own Azure storage you agree with Microsoft privacy policy. See [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/PrivacyStatement) for more details.
 
-**Amazon Web Services**
+**Amazon Web Services** (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. When creating an AWS-based storage you agree with [AWS Privacy Notice](https://aws.amazon.com/ru/privacy/).
 
-**Google Cloud**
+**Google Cloud** offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail and YouTube. When working with Google Cloud storages you agree with Google Cloud privacy policy. For more details see Google Cloud [Data Privacy Commitments](https://cloud.google.com/security/privacy).
 
-**Alibaba Cloud**
+**Alibaba Cloud** also known as Aliyun, is a Chinese cloud computing company, a subsidiary of Alibaba Group. Alibaba Cloud provides cloud computing services to online businesses and Alibaba's own e-commerce ecosystem. When using the Alibaba Cloud you agree with Alibaba Cloud Privacy Policy. See [Alibaba Cloud International Website Privacy Policy](https://www.alibabacloud.com/help/faq-detail/42425.htm) and [GDPR Compliance](https://www.alibabacloud.com/trust-center/gdpr) for more details.
 
 ### Cookies
 

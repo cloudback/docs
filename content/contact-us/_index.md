@@ -1,6 +1,6 @@
 ---
 title: Contact us
-weight: 30
+weight: 40
 type: docs
 bookToc: true
 ---
