@@ -1,6 +1,6 @@
 ---
 title: Disaster Recovery Plan Policy
-weight: 15
+weight: 20
 type: docs
 bookToc: true
 ---
