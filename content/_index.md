@@ -1,6 +1,8 @@
 ---
 title: Getting started
+weight: 5
 type: docs
+bookToc: true
 ---
 
 # Welcome to Cloudback!
