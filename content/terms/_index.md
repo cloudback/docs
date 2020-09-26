@@ -2,7 +2,6 @@
 title: Terms of Service
 weight: 20
 type: docs
-bookToc: true
 ---
 
 
