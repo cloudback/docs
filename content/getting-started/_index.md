@@ -18,19 +18,19 @@ Open Cloudback's page on the GitHub Marketplace by clicking on the [following li
 Click on the `Set up a plan` button.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot1.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot1.png?raw=true" alt="social img" style="width: 500px;">
 </p>
 
 In the *Pricing and Setup* section select the account for which the Cloudback application will be installed and then click on the `Install it for free` button.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot2.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot2.png?raw=true" alt="social img" style="width: 500px;">
 </p>
 
 Review your order to make sure you've selected the correct plan and account. After that click on the `Complete order and begin installation`.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot3.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot3.png?raw=true" alt="social img" style="width: 500px;">
 </p>
 
 You will be redirected to the Cloudback application installation page. 
@@ -40,19 +40,19 @@ You will be redirected to the Cloudback application installation page.
 On the Cloudback installation page, select the repositories you want to backup by providing Cloudback the access to them. Click on the `Install` button.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot4.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot4.png?raw=true" alt="social img" style="width: 500px;">
 </p>
 
 Wait until you will be redirected to authorization page. Click on the `Authorize Cloudback` button. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot5.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot5.png?raw=true" alt="social img" style="width: 500px;">
 </p>
 
 You then will be redirected to the Cloudback Dashboard.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot6.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot6.png?raw=true" alt="social img" style="width: 500px;">
 </p>
 
 **Step 3:** Complete installation on Cloudback Dashboard
@@ -60,17 +60,17 @@ You then will be redirected to the Cloudback Dashboard.
 On the Cloudback Dashboard page review the default settings that will be used for creating repository backups. Accept the Cloudback's Terms of Service and Privacy Policy by clicking on the corresponding checkboxes, then click on the `Next step: select repositories` button.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot7.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot7.png?raw=true" alt="social img" style="width: 500px;">
 </p>
 
 Enable the repositories you want to backup. Please note that you can't enable more repositories than you have purchased earlier.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot8.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot8.png?raw=true" alt="social img" style="width: 500px;">
 </p>
 
 Click on the `Start backuping!` button. That's it, you now have completed the installation.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot9.png" alt="social img" style="width: 500px;">
+  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot9.png?raw=true" alt="social img" style="width: 500px;">
 </p>
