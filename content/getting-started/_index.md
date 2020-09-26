@@ -46,13 +46,13 @@ On the Cloudback installation page, select the repositories you want to backup b
 Wait until you will be redirected to authorization page. Click on the `Authorize Cloudback` button. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot6.png" alt="social img" style="width: 500px;">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot5.png" alt="social img" style="width: 500px;">
 </p>
 
 You then will be redirected to the Cloudback Dashboard.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot5.png" alt="social img" style="width: 500px;">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/screeshot6.png" alt="social img" style="width: 500px;">
 </p>
 
 **Step 3:** Complete installation on Cloudback Dashboard
