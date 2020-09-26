@@ -6,6 +6,8 @@ type: docs
 
 ## Welcome to Cloudback!
 
+![social img](https://raw.githubusercontent.com/cloudback/docs/master/static/social.png)
+
 ### What is Cloudback?
 
 Cloudback secures your GitHub repositories with recurrent data backups. With Cloudback you can use your favorite cloud storage provider or in-build one powered by Azure.
