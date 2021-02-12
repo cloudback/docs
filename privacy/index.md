@@ -13,7 +13,7 @@ We, the MYRTLECONSULTING S.A., have built the Cloudback application as a Commerc
 
 This Policy is used to inform visitors and users regarding our policies about the collection, use, and disclosure of Personal Information of anyone using the Service.
 
-By using the Service, you agree to the collection and use of information mentioned in this policy. The Personal Information that we collect is used for providing and improving the Service. We respect the privacy of our users and will not use or share the information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms of Service, which can be accessed [here](https://docs.cloudback.it/terms/) unless otherwise defined in this Privacy Policy.
+By using the Service, you agree to the collection and use of information mentioned in this policy. The Personal Information that we collect is used for providing and improving the Service. We respect the privacy of our users and will not use or share the information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms of Service, which can be accessed [here](/terms/) unless otherwise defined in this Privacy Policy.
 
 This policy only applies to our site. If you leave the site via a link or otherwise, you will be subject to the policy of that website provider. We have no control over that policy or the terms of the website and you should check their policy before continuing to access the site. 
 

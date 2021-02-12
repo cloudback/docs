@@ -15,7 +15,7 @@ Cloudback Information Security's intentions for publishing a Data Breach Respons
 
 ### Background
 
-This policy mandates that any individual who suspects that a theft, breach or exposure of Cloudback Protected data or Cloudback Sensitive data has occurred must immediately provide a description of what occurred via email to support@cloudback.it or using other options mentioned on the [Contact Us](https://docs.cloudback.it/contact-us/) web page. This email address and Cloudback's issue tracker are monitored by the Cloudback’s Support Team. The team will investigate all reported thefts, data breaches and exposures to confirm if a theft, breach or exposure has occurred. If a theft, breach or exposure has occurred, the Cloudback's Support Team will follow the appropriate procedure in place.
+This policy mandates that any individual who suspects that a theft, breach or exposure of Cloudback Protected data or Cloudback Sensitive data has occurred must immediately provide a description of what occurred via email to support@cloudback.it or using other options mentioned on the [Contact Us](../contact-us/) web page. This email address and Cloudback's issue tracker are monitored by the Cloudback’s Support Team. The team will investigate all reported thefts, data breaches and exposures to confirm if a theft, breach or exposure has occurred. If a theft, breach or exposure has occurred, the Cloudback's Support Team will follow the appropriate procedure in place.
 
 ### Scope
 

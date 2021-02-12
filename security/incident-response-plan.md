@@ -18,7 +18,7 @@ This document discusses the steps taken during an incident response plan.
 
  - Send an email to the support@cloudback.it 
  - Raise a request in the Cloudback [issue tracker](https://github.com/cloudback/issue-tracker/issues/new?template=bug_report.md)
- - Use any contacts from [Contact Us](https://docs.cloudback.it/contact-us/) web page
+ - Use any contacts from [Contact Us](../contact-us/) web page
 
 2) If the person discovering the incident is a member of the Cloudback team, they will proceed to step four (4).
 
