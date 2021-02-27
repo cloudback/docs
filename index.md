@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Cloudback Docs
 weight: 1
 type: docs
 ---
