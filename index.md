@@ -1,5 +1,5 @@
 ---
-title: Home
+title: HomeD
 weight: 1
 type: docs
 ---
