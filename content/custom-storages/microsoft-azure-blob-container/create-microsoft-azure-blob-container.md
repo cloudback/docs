@@ -3,13 +3,14 @@ title: How to create a new Microsoft Azure Blob Container
 weight: 2
 ---
 
-# How to create a new Microsoft Azure Blob Container
+# Backup GitHub repository using Azure: How to create a new Microsoft Azure Blob Container
+
+When creating [GitHub repository backup](https://docs.cloudback.it/how-to/how-to-backup-GitHub-repository/) using Cloudback you can set up your own Azure Storage where the backups will be saved. 
+This article describes how to create a new Azure Blob Container for GitHub repository backups.
 
 ## About Microsoft Azure Blob Containers
 
 Azure Blob storage is Microsoft's object storage solution for the cloud that is optimized for storing massive amounts of unstructured data. Unstructured data is data that doesn't adhere to a particular data model or definition, such as text or binary data. Azure Storage is a Microsoft-managed service that provides highly available, secure, durable, and scalable cloud storage.
-
-This page describes how to create a new Azure Blob Container.
 
 ## Create a new Microsoft Azure Blob Container
 

@@ -3,7 +3,12 @@ title: How to create a new shared access signature (SAS)
 weight: 3
 ---
 
-# How to create a new shared access signature
+# Backup GitHub repository using Azure: How to create a new shared access signature
+
+When creating [GitHub repository backup](https://docs.cloudback.it/how-to/how-to-backup-GitHub-repository/) using Cloudback you can set up your own Azure Storage where the backups will be saved. If you want to use Azure Storage for backups created by Cloudback you need to provide Cloudback access to your storage, which should be done by creating a new Shared Access Signature (SAS) inside your Azure Container.
+This page describes how to create a new SAS for your storage container. If you don't have the Azure Blob Container you need to create one. 
+
+[Learn more](https://docs.cloudback.it/custom-storages/microsoft-azure-blob-container/create-microsoft-azure-blob-container/) about how to create a new Azure Blob Container.
 
 ## About shared access signatures
 
@@ -13,10 +18,6 @@ With a SAS, you have granular control over how a client can access your data. Fo
  - What resources the client may access
  - What permissions they have to those resources
  - How long the SAS is valid
-
-This page describes how to create a new SAS for your storage container. If you don't have the Azure Blob Container you need to create one. 
-
-[Learn more](https://docs.cloudback.it/custom-storages/microsoft-azure-blob-container/create-microsoft-azure-blob-container/) about how to create a new Azure Blob Container.
 
 ## Create a new SAS
 

@@ -6,7 +6,7 @@ weight: 10
 
 ## Cloudback default storage
 
-By default, Cloudback uses its own storage to save backups of your repositories. The storage is powered by Microsoft Azure Storage and available for all Cloudback users without any additional payments. 
+By default, Cloudback uses its own storage to backup GitHub repositories. The storage is powered by Microsoft Azure Storage and available for all Cloudback users without any additional payments. 
 
 ## Custom storages
 
@@ -24,7 +24,7 @@ There are several options available for Cloudback users:
  - Google Cloud Storage Bucket
  - Alibaba Cloud Object Storage Service
 
-Each of the options can be used as a custom storage for the repository backups. You can use any of your custom storage for each of your repositories. Please be aware that the user-defined storages are provided by third-party companies may require additional expenses which are not included in Cloudback's pricing.
+Each of the options can be used as a custom storage for the repository backups. You can use any of your custom storage for each of your GitHub repositories. Please be aware that the user-defined storages are provided by third-party companies may require additional expenses which are not included in Cloudback's pricing.
 
 ## Setting up a custom storage
 
