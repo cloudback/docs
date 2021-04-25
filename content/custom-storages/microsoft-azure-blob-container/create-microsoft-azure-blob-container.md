@@ -1,6 +1,6 @@
 ---
 title: How to create a new Microsoft Azure Blob Container
-weight: 1
+weight: 2
 ---
 
 # How to create a new Microsoft Azure Blob Container

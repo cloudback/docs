@@ -1,6 +1,6 @@
 ---
 title: How to create a new shared access signature (SAS)
-weight: 2
+weight: 3
 ---
 
 # How to create a new shared access signature
