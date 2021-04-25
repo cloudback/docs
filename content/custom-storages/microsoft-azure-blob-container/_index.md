@@ -5,7 +5,7 @@ weight: 1
 
 # Backup GitHub repository using Microsoft Azure Blob Container
 
-One of the ways to [backup GitHub repository](https://docs.cloudback.it/how-to/how-to-backup-GitHub-repository/) using custom storage is to use your own Azure Container. Azure Blob Storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, therefore it can be used as a storage for GitHub repository backups created by Cloudback.
+One of the ways to [backup GitHub repository](https://docs.cloudback.it/how-to/how-to-backup-github-repository/) using custom storage is to use your own Azure Container. Azure Blob Storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, therefore it can be used as a storage for GitHub repository backups created by Cloudback.
 
 This page describes how to set up your own Azure Blob Container as a custom storage for Cloudback backups of your GitHub repositories. 
 To be able to use your Azure Blob Container as custom storage, you need to have an existing Azure storage or create a new one. Also, you should create a new shared access signature for that storage.
