@@ -12,8 +12,8 @@ Azure Blob storage is Microsoft's object storage solution for the cloud that is 
 This page describes how to set up your own Azure Blob Container as a custom storage for Cloudback backups. 
 To be able to use your Azure Blob Container as custom storage, you need to have a storage or create a new one. Also, you should create a new shared access signature for that storage.
 
- - [How to create a new Microsoft Azure Blob Container](https://docs.cloudback.it/how-to/create-microsoft-azure-blob-container/)
- - [How to create a new shared access signature](https://docs.cloudback.it/how-to/create-shared-access-signature/)
+ - [How to create a new Microsoft Azure Blob Container](https://docs.cloudback.it/custom-storages/microsoft-azure-blob-container/create-microsoft-azure-blob-container/)
+ - [How to create a new shared access signature](https://docs.cloudback.it/custom-storages/microsoft-azure-blob-container/create-shared-access-signature/)
 
 ## Set up Microsoft Azure Blob Containers as a custom storage
 
