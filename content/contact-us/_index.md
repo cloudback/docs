@@ -26,6 +26,10 @@ If you have any issues with the product or any ideas about how it can be improve
 
 We are the MYRTLECONSULTING S.A.
 
-*Address:* Ecuador, Quito, La Armenia, Juan Leon Mera y Charles Darvin, cjt Prados de la Armenia, casa 73C <br/>
-*Email:* team@cloudback.it <br/>
-*Website:* [cloudback.it](https://cloudback.it/) <br/>
+Address: </br>
+Ecuador, Quito </br>
+La Armenia, Juan Leon Mera y Charles Darvin </br> 
+cjt Prados de la Armenia, casa 73C </br>
+RUC 1792537754001 </br>
+Email: support@cloudback.it </br>
+Website: [cloudback.it](https://cloudback.it)
