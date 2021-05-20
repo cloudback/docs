@@ -31,7 +31,7 @@ The backup restore will be displayed on the repository card:
   <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/restore-backup/4-restore-in-progress.png" alt="restore" title="restore" class="screenshot">
 </p>
 
-After the restore is done, you can use the 'Open restored repository' link to visit the new repository.:
+After the restore is done, you can use the 'Open restored repository' link to visit the new repository:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/restore-backup/5-view-restore.png" alt="restore" title="restore" class="screenshot">
