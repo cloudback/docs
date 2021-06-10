@@ -13,7 +13,7 @@ To restore a backup, click on the restore icon on the repository card:
   <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/restore-backup/1-start-backup-restore.png" alt="restore" title="restore" class="screenshot">
 </p>
 
-Cloudback uses a separate GitHub application to restore the backups. You can install the application manually using the following [https://github.com/apps/cloudback-restore](link). If the restore application is not installed, you will be asked to do so in the modal window:
+Cloudback uses a separate GitHub application to restore the backups. You can install the application manually using the following [link](https://github.com/apps/cloudback-restore). If the restore application is not installed, you will be asked to do so in the modal window:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/restore-backup/2-install-cloudback-restore.png" alt="restore" title="restore" class="screenshot">
