@@ -81,4 +81,8 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 * Click on the ‘Save changes’ button to apply the changes for the repository:
 ![Save-changes](/static/bucket/20-Save-changes.png)
 
+![Storage](/static/bucket/21-Storage-badge.png)
+
 * When the backup is created you should be able to see it in the Amazon S3 Bucket page:
+
+![Backup](/static/bucket/22-last-mod.png)
