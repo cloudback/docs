@@ -5,7 +5,7 @@ title = 'Cloudback'
 theme = 'hugo-book'
 enablegitinfo = true
 publishDir = "docs"
-staticDir = "/"
+staticDir = ""
 
 # Book configuration
 [build]
