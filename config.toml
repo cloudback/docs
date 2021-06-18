@@ -34,10 +34,6 @@ publishDir = "docs"
       decimals = -1
     [minify.tdewolff.xml]
       keepWhitespace = false
-[module]
-  [[module.mounts]]
-    source = "static"
-    target = "static/static"
 [caches]
 [caches.getjson]
 dir = ":cacheDir/:project"
