@@ -39,25 +39,29 @@ Alibaba Cloud Object Storage Service (OSS) is an encrypted, secure, cost-effecti
 
 ![authorize](/static/ali/03-authorize.png)
 
-* In the Authorize panel, configure the parameters, write Cloudback RAM id () to the `Accounts` field:
+* In the Authorize panel, configure the parameters
 
-![set-ram-id](/static/ali/04-.png)
+* Copy Cloudback RAM id from `Step 2`:
 
-* 
+![set-ram-id](/static/ali/04-copy-ram.png)
+
+* Paste to `Other accounts` field:
 
 * In `Authorized Operation` click on `Any Operation`  click `OK`:
 
-![any-operations](/static/ali/05-.png)
+![any-operations](/static/ali/05-paste-ram.png)
 
-* Type your bucket name in Step 3 field on the Cloudback site
 
-* Click on `Save` on Cloudback:
+* Type your bucket name to the Step 3 field on the Cloudback site
 
-![save-storage](/static/ali/0-.png)
+* Click on `Save` button:
+
+![save-storage](/static/ali/06-save.png)
+
 
 * The new storage will be selected as a storage for this repository
 
 * Click on the ‘Save changes’ button to apply the changes for the repository:
 
-![apply-changes](/static/ali/0-/png)
+![apply-changes](/static/ali/07-save-storage.png)
 
