@@ -5,7 +5,6 @@ title = 'Cloudback'
 theme = 'hugo-book'
 enablegitinfo = true
 publishDir = "docs"
-staticDir = "static"
 
 # Book configuration
 [build]
@@ -38,7 +37,7 @@ staticDir = "static"
 [module]
   [[module.mounts]]
     source = "static"
-    target = "static"
+    target = "static/static"
 [caches]
 [caches.getjson]
 dir = ":cacheDir/:project"
