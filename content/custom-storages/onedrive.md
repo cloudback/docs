@@ -41,7 +41,7 @@ OneDrive is the cloud storage service that Microsoft offers to store all your fi
 
 ![save-changes](/static/onedrive/05-save-changes.png)
 
-* You will able to see your OneDrive storage as the main:
+* You will able to see your OneDrive storage as the backups storage for your repository:
 
 ![storage](/static/onedrive/06-onedrive.png)
 
