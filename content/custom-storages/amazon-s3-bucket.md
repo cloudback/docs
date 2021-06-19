@@ -1,5 +1,5 @@
 ---
-title: Amazon S3 Bucket
+title: Amazon S3 Bucket via Access Point
 weight: 2
 ---
 

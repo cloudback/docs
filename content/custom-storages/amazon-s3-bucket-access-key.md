@@ -1,5 +1,5 @@
 ---
-title: Amazon S3 Bucket Access Key
+title: Amazon S3 Bucket via Access Key
 weight: 2
 ---
 
