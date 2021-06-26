@@ -6,7 +6,6 @@
   {{ .Scratch.Set "BookSections" $bookSections }}
 {{ end }}
 
-
 {{ $sections := .Scratch.Get "BookSections" }}
 {{/* If there is only one section to render then render its children, else render all sections */}}
 {{ if eq (len $sections) 1 }} 
