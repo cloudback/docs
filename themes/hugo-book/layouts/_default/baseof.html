@@ -57,8 +57,8 @@
     </header>
     <div class="container" style="padding-top: 45px;">
       <div class="flex">
-	    <aside class="book-menu">
-          {{ template "menu" . }} <!-- Left menu Content -->
+	      <aside class="book-menu">
+            {{ template "menu" . }} <!-- Left menu Content -->
         </aside>
 	    
         <div class="book-page">
@@ -81,13 +81,13 @@
           {{ template "comments" . }} <!-- Comments block -->
 	    
           <label for="menu-control" class="hidden book-menu-overlay"></label>
-		</div>
+		    </div>
         {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
         <aside class="book-toc">
           {{ template "toc" . }} <!-- Table of Contents -->
         </aside>
         {{ end }}
-	  </div>
+	    </div>
     </div>
   </main>
 
@@ -124,7 +124,7 @@
 {{ end }}
 
 {{ define "main" }}
-  <article class="markdown">
+  <article class="markdown-body">
     {{- .Content -}}
   </article>
 {{ end }}

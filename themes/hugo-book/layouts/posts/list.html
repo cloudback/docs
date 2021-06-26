@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
   {{ range sort .Paginator.Pages }}
-  <article class="markdown book-post">
+  <article class="markdown-body book-post">
     <h2>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h2>
