@@ -1,5 +1,5 @@
 ---
-title: Micosoft Azure Blob Container
+title: Microsoft Azure Blob Container
 weight: 1
 ---
 
