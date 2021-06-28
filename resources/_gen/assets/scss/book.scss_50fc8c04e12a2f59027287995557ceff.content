@@ -17560,12 +17560,8 @@ aside nav ul {
   margin: 0;
   list-style: none; }
   aside nav ul li {
-    margin: 1em 0;
+    margin: 0;
     position: relative; }
-  aside nav ul a {
-    display: block; }
-  aside nav ul a:hover {
-    opacity: 0.5; }
   aside nav ul ul {
     padding-left: 1rem; }
 
@@ -17788,7 +17784,7 @@ code {
   --scrollbar-background: #f8f8f8;
   --scrollbar-color: #a7b8c0;
   --body-background: #f8f8f8;
-  --docs-menu-background: white;
+  --docs-menu-background: #f8f8f8;
   --docs-content-background: white;
   --search-results-background: white;
   --search-icon-color: lightgrey;
@@ -17917,7 +17913,7 @@ a:visited {
 .docs-menu a.active {
   color: var(--link-active-color); }
 
-.docs-menu a.active div {
+.docs-menu a.active {
   background-color: var(--docs-content-background);
   border-left: 2px solid var(--link-active-color); }
 
@@ -17962,7 +17958,8 @@ aside nav, .docs-page, .markdown-body, .article-footer-btn {
 .docs-menu-item {
   display: block;
   padding-top: 6px;
-  padding-bottom: 6px; }
+  padding-bottom: 6px;
+  padding-right: 8px; }
 
 .docs-menu-item:hover {
   background-color: var(--docs-content-background);
@@ -17991,6 +17988,11 @@ li input + label + ul > li {
   max-height: 0;
   transition: max-height 0.5s ease-out;
   overflow: hidden; }
+
+li input + label a.collapsed::after {
+  content: "▸";
+  position: absolute;
+  right: 0; }
 
 li input:checked + label + ul > li {
   max-height: 100vh; }

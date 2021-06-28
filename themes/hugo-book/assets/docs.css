@@ -3,7 +3,7 @@
     --scrollbar-color: #a7b8c0;
   
     --body-background: #f8f8f8;
-    --docs-menu-background: white;
+    --docs-menu-background: #f8f8f8;
     --docs-content-background: white;
   
     --search-results-background: white;
@@ -157,7 +157,7 @@
     color: var(--link-active-color); 
   }
   
-  .docs-menu a.active div {
+  .docs-menu a.active {
     background-color: var(--docs-content-background);
     border-left: 2px solid var(--link-active-color);
   } 
@@ -208,6 +208,7 @@
     display: block;
     padding-top: 6px;
     padding-bottom: 6px;
+    padding-right: 8px;
   }
   
   .docs-menu-item:hover{
@@ -241,6 +242,12 @@
     max-height: 0;
     transition: max-height 0.5s ease-out;
     overflow: hidden;
+  }
+  
+  li input + label a.collapsed::after {
+    content: "▸";
+    position: absolute;
+    right: 0;
   }
   
   li input:checked + label + ul > li {

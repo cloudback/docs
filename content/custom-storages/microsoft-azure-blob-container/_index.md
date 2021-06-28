@@ -1,6 +1,7 @@
 ---
 title: Microsoft Azure Blob Container
 weight: 1
+bookCollapseSection: true
 ---
 
 # Backup GitHub repository using Microsoft Azure Blob Container
