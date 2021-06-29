@@ -151,6 +151,10 @@
   .docs-menu a {
     color: inherit;
     word-wrap: break-word;
+    padding: 6px;
+  }
+
+  .docs-menu .docs-menu-item a {
   }
   
   .docs-menu a.active { 
@@ -201,14 +205,10 @@
   .docs-menu-item-text {
     font-weight: normal;
     cursor: pointer;
-    padding-right: 8px;
   }
   
   .docs-menu-item {
     display: block;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 8px;
   }
   
   .docs-menu-item:hover{
