@@ -17903,19 +17903,27 @@ a:visited {
   max-width: var(--page-toc-max-width);
   position: sticky; }
 
+.page-toc ul li a {
+  padding: 4px;
+  display: block; }
+
 .user-avatar {
   border-radius: 10px; }
 
-.docs-menu a {
+.docs-menu ul a {
   color: inherit;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  padding: 6px 12px 6px 12px; }
 
-.docs-menu a.active {
+.docs-menu ul a.active {
   color: var(--link-active-color); }
 
-.docs-menu a.active {
+.docs-menu ul a.active {
   background-color: var(--docs-content-background);
   border-left: 2px solid var(--link-active-color); }
+
+.docs-menu ul a.active + span {
+  background-color: var(--docs-content-background); }
 
 .docs-page {
   min-width: 300px;
@@ -17947,19 +17955,12 @@ aside nav, .docs-page, .markdown-body, .article-footer-btn {
 .hidden {
   display: none; }
 
-.left-menu-link-div {
-  padding-left: 21px; }
-
 .docs-menu-item-text {
   font-weight: normal;
-  cursor: pointer;
-  padding-right: 8px; }
+  cursor: pointer; }
 
 .docs-menu-item {
-  display: block;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 8px; }
+  display: block; }
 
 .docs-menu-item:hover {
   background-color: var(--docs-content-background);
@@ -17976,7 +17977,7 @@ aside nav ul ul {
 .docs-menu-item-icon {
   transition: transform 0.25s ease-out;
   vertical-align: baseline;
-  margin-right: 4px; }
+  padding: 6px 12px 6px 6px; }
 
 .docs-menu input:checked + label .docs-menu-item-icon svg {
   transform: rotate(90deg); }
@@ -18177,6 +18178,9 @@ li input:checked + label + ul > li {
 
 .in-this-article {
   border-bottom: 1px solid var(--page-border-color); }
+
+.menu-header-link {
+  color: var(--text-color); }
 
 .menu-header-link:hover {
   color: var(--text-color); }

@@ -82,8 +82,10 @@
               <div class="search-results-container" id="search-results-container">
                 <ul>
                   {{ range (.Site.AllPages.ByTitle ) }}
-                    <li class="search-result-item"><a href="{{ .Permalink }}">{{- partial "docs/title" .Page -}}</a></li>
-                    {{ partial "docs/breadcrumbs" . }}                    
+                    <li class="search-result-item">
+                      <a href="{{ .Permalink }}">{{- partial "docs/title" .Page -}}</a>
+                      {{ partial "docs/breadcrumbs" . }}
+                    </li>
                   {{ end }}
                   <li class="nothing-found" id="nothing-found">No pages found</li>
                 </ul>
