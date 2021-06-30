@@ -143,6 +143,11 @@
     max-width: var(--page-toc-max-width);
     position: sticky;
   }
+
+  .page-toc ul li a {
+    padding: 4px;
+    display: block;
+  }
   
   .user-avatar {
     border-radius: 10px;
@@ -450,6 +455,7 @@
     border-bottom: 1px solid var(--page-border-color);
   }
   
+  .menu-header-link { color: var(--text-color); }
   .menu-header-link:hover { color: var(--text-color); }
   
   ::-webkit-scrollbar {

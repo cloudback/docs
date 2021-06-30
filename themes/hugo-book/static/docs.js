@@ -1,4 +1,4 @@
-function createCookie(name, value, days) {
+  function createCookie(name, value, days) {
     if (days) {
       var date = new Date();
       date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
@@ -61,7 +61,10 @@ function createCookie(name, value, days) {
   
   document.addEventListener("DOMContentLoaded", function (event) {
     var a = document.querySelector("a.active");
-    a.scrollIntoView(false);
+    if(a !== null)
+    {
+      a.scrollIntoView(false);
+    }
     var themeSelect = document.getElementById("theme-select");
     var themeCookie = readCookie("mddocs-theme");
     if (themeCookie !== null) {

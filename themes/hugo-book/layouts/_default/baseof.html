@@ -81,8 +81,11 @@
                 placeholder="Search by title..." title="Type page title">
               <div class="search-results-container" id="search-results-container">
                 <ul>
-				SEARCH RESULTS
-                 <li class="nothing-found" id="nothing-found">No pages found</li>
+                  {{ range (.Site.AllPages.ByTitle ) }}
+                    <li class="search-result-item"><a href="{{ .Permalink }}">{{- partial "docs/title" .Page -}}</a></li>
+                    {{ partial "docs/breadcrumbs" . }}                    
+                  {{ end }}
+                  <li class="nothing-found" id="nothing-found">No pages found</li>
                 </ul>
               </div>
             </div>
@@ -115,9 +118,7 @@
           </header>
           <div class="page-with-toc d-flex flex-grow-1">
             <div class="flex-grow-1 d-flex flex-column">
-              <article class="markdown-body">
-			          {{ template "main" . }} 
-              </article>
+			        {{ template "main" . }}
               <div class="p-4 article-footer">
                 <div class="d-flex flex-justify-between">
                   <div class="article-footer-btn p-2">
@@ -177,63 +178,6 @@
     </main>
   </div>
 </body>
-
-<div class="d-none" style="min-height: 100vh;">
-  <input type="checkbox" class="hidden" id="menu-control" />
-  <main>
-    <header class="custom-header" style="display: none; width: 100%; position: fixed; height: 45px; z-index: 9999">
-      <div class="container flex">
-        <div style="padding: 5px; max-width: 16rem;">
-          <div style="margin-left: auto; margin-right: auto;">
-            {{ partial "docs/brand" . }}
-          </div>
-        </div>
-        <div style="padding: 5px; max-width: 16rem; margin-left: auto; margin-right: 0;">
-          <div style="margin-left: auto; margin-right: auto;">
-            {{ partial "docs/search" . }}
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="container" style="padding-top: 45px;">
-      <div class="flex">
-	      <aside class="book-menu">
-          {{ partial "docs/menu" . }}
-        </aside>
-	    
-        <div class="book-page">
-          <header class="book-header">
-            {{ template "header" . }} <!-- Mobile layout header -->
-          </header>
-	    
-          {{ partial "docs/inject/content-before" . }}
-          {{ template "main" . }} <!-- Page Content -->
-          {{ partial "docs/inject/content-after" . }}
-	    
-          <footer class="book-footer">
-            {{ template "footer" . }} <!-- Footer under page content -->
-            {{ partial "docs/inject/footer" . }}
-          </footer>
-	    
-          <div class="book-footer">
-            <div style="font-size: smaller;">&copy; Cloudback 2020 - <a href="/privacy">Privacy</a></div>
-          </div>
-          {{ template "comments" . }} <!-- Comments block -->
-	    
-          <label for="menu-control" class="hidden book-menu-overlay"></label>
-		    </div>
-        {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-        <aside class="book-toc">
-          {{ template "toc" . }} <!-- Table of Contents -->
-        </aside>
-        {{ end }}
-	    </div>
-    </div>
-  </main>
-
-  {{ partial "docs/inject/body" . }}
-</div>
-
 </html>
 
 {{ define "header" }}

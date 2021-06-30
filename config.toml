@@ -111,7 +111,7 @@ maxAge = 0
 
   # (Optional, default none) Set the path to a logo for the book. If the logo is
   # /static/logo.png then the path would be logo.png
-  BookLogo = '/static/LogoFB.png'
+  BookLogo = '/static/Logo.png'
 
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
@@ -134,11 +134,6 @@ maxAge = 0
   # - In git information
   # - In blog posts
   BookDateFormat = 'Jan 2, 2006'
-
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
-  # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch = true
 
   # (Optional, default true) Enables comments template on pages
   # By default partals/docs/comments.html includes Disqus template
