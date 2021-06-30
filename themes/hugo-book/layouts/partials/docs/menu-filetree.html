@@ -33,23 +33,23 @@
     <label for="section-{{ md5 .Page }}">
       <span class="docs-menu-item">
         <span class="docs-menu-item-text d-flex flex-grow-1">
-          <span class="docs-menu-item-icon">
+          <a {{ if .Page.Content }}href="{{ .Page.Permalink }}"{{ else }}role="button"{{ end }} 
+            class="{{ if $current }}active{{ end }}">
+            {{- partial "docs/title" .Page -}}
+          </a>
+          <span class="docs-menu-item-icon flex-grow-1 text-right">
             <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12">
               <path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z">
               </path>
             </svg>
           </span>
-          <a {{ if .Page.Content }}href="{{ .Page.Permalink }}"{{ else }}role="button"{{ end }} 
-            class="d-flex flex-grow-1 {{ if $current }}active{{ end }}">
-            {{- partial "docs/title" .Page -}}
-          </a>
         </span>
       </span>
     </label>
   {{ else if .Page.Content }}
-    <a href="{{ .Page.Permalink }}" class="d-flex {{ if $current }} active{{ end }}">
-      <div class="docs-menu-item left-menu-link-div">
-        <span class="docs-menu-item-text">{{- partial "docs/title" .Page -}}</span>
+    <a href="{{ .Page.Permalink }}" class="docs-menu-item d-flex {{ if $current }} active{{ end }}">
+      <div class="d-flex flex-grow-1">
+        <span class="docs-menu-item-text d-flex flex-grow-1">{{- partial "docs/title" .Page -}}</span>
       </div>
     </a>
   {{ else }}
