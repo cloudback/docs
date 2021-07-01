@@ -279,10 +279,6 @@
     fill: var(--search-icon-color);
   }
   
-  .search-result-item {
-    padding: 4px;
-  }
-  
   .search-result-item:hover{
     background-color: var(--docs-menu-background);
     opacity: 75%;

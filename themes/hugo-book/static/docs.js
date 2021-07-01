@@ -108,7 +108,7 @@
       for (var i = 0; i < items.length; i++) {
         var s = items[i];
         if (s.innerText.toUpperCase().indexOf(filter) > -1) {
-          s.style.display = "";
+          s.style.display = "flex";
           foundResult = true;
         } else {
           s.style.display = "none";

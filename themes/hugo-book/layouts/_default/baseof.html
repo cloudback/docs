@@ -82,9 +82,12 @@
               <div class="search-results-container" id="search-results-container">
                 <ul>
                   {{ range (.Site.AllPages.ByTitle ) }}
-                    <li class="search-result-item">
-                      <a href="{{ .Permalink }}">{{- partial "docs/title" .Page -}}</a>
-                      {{ partial "docs/breadcrumbs" . }}
+                    <li class="search-result-item flex-column">
+                      <a class="p-1 flex-grow-1" href="{{ .Permalink }}">
+                        {{- partial "docs/title" .Page -}}
+                        <br/>
+                        {{ partial "docs/breadcrumbs" . }}
+                      </a>
                     </li>
                   {{ end }}
                   <li class="nothing-found" id="nothing-found">No pages found</li>
@@ -147,12 +150,12 @@
               </div>
               <footer class="page-footer position-relative d-table w-100">
                 <div class="pl-3 d-table-cell v-align-middle h-100">
-                  <span>&copy; Cloudback 2020 - <a href="/privacy" target="_blank" class="custom-link">Privacy</a></span>
+                  <span>&copy; Cloudback 2018-{{ now.Format "2006" }} - <a href="/privacy" target="_blank" class="custom-link">Privacy</a></span>
                 </div>
               </footer>
             </div>
             <aside class="page-toc">
-              <div class="d-flex">
+              <div class="d-flex d-none">
                 <div class="d-table h32">
                   <div class="d-table-cell v-align-middle">
                     <select id="theme-select">
