@@ -1,0 +1,12 @@
+    <span class="search-result-breadcrumbs">
+    {{ $split :=  (split .RelPermalink "/")}}
+    {{ range $index, $element := $split }}
+        {{$title := (. | humanize | title)}}
+        {{ if gt $index 0 }}
+          {{ if ne $index 1 }}
+            {{ if ne $title "" }} > {{end}}
+          {{end}}
+          {{$title}}
+        {{ end }}
+    {{ end }}
+    </span>

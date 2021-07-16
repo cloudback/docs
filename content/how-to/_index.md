@@ -1,6 +1,7 @@
 ---
 title: How to
 weight: 7
+bookCollapseSection: true
 ---
 
 # How to
