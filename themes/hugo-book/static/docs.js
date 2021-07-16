@@ -22,7 +22,7 @@
   function eraseCookie(name) {
     createCookie(name, "", -1);
   }
-  
+    
   function applyStyle(theme) {
     const root = document.documentElement;
     switch (theme) {

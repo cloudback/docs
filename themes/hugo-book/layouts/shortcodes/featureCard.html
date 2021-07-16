@@ -1,0 +1,20 @@
+
+    <div class="mt-3-to-1dot5 mb-3-to-1dot5 mr-3-to-0 ml-3-to-0 w-33-to-100 p-0 feature-card d-flex flex-column">
+      <div class="w-100 text-center feature-img-container">
+        <img class="feature-img" src='{{ .Get "image"}}' alt="Backup whatever you want" title="Backup whatever you want">
+      </div>
+      <h3 class="fw500 w-100 p-3 mb-0 mt-0 flex-grow-1">{{ .Get "title" }}</h3>
+      <div class="pr-3 pl-3 pb-3 flex-grow-1">
+        {{ if (.Get "text") }}
+        <p class="mb-0">{{ .Get "text"}}</p>
+        {{ end }}
+      </div>
+      <div class="text-right justify-content-end pb-3 pl-3 pr-3">
+        <a href='{{ .Get "href"}}' class="feature-btn d-flex align-center fw600 float-right">
+          <span>Read more</span>
+          <svg class="link-icon h20 w20" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"/>
+          </svg>
+        </a>
+      </div>
+    </div>

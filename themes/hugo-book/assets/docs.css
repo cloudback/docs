@@ -239,6 +239,10 @@
   .svg-icon {
     fill: var(--text-color);
   }
+
+  .link-icon {
+    fill: var(--custom-link-color);
+  }
   
   li input + label + ul > li {
     max-height: 0;
