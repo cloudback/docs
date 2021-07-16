@@ -27,16 +27,16 @@
     const root = document.documentElement;
     switch (theme) {
       case "Light theme":
-        root.style.setProperty("--scrollbar-background", "#f8f8f8");
+        root.style.setProperty("--scrollbar-background", "aliceblue");
         root.style.setProperty("--scrollbar-color", "#a7b8c0");
-        root.style.setProperty("--body-background", "#f8f8f8");
-        root.style.setProperty("--docs-menu-background", "#f8f8f8");
+        root.style.setProperty("--body-background", "aliceblue");
+        root.style.setProperty("--docs-menu-background", "aliceblue");
         root.style.setProperty("--docs-content-background", "white");
         root.style.setProperty("--search-results-background", "white");
-        root.style.setProperty("--search-icon-color", "lightgrey");
-        root.style.setProperty("--search-input-background", "#f8f8f8");
+        root.style.setProperty("--search-icon-color", "#c0c1d2");
+        root.style.setProperty("--search-input-background", "aliceblue");
         root.style.setProperty("--page-border-color", "lightgrey");
-        root.style.setProperty("--shadow-color", "lightgrey");
+        root.style.setProperty("--shadow-color", "#c0c1d2");
         root.style.setProperty("--custom-link-color", "#007bff");
         root.style.setProperty("--link-active-color", "#007bff");
         root.style.setProperty("--text-color", "#24292e");
