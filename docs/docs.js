@@ -1,9 +1,3 @@
-  function swapGif(sender) {
-    var src = sender.src 
-    sender.src = sender.getAttribute('data-alt'); 
-    sender.setAttribute('data-alt', src);
-  }
-
   function createCookie(name, value, days) {
     if (days) {
       var date = new Date();
