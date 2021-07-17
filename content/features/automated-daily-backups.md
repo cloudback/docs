@@ -49,6 +49,6 @@ Available options:
 
 ## Learn more
 
-- [What is inside of a backup?]()
-- [What is a backup storage?]()
+- [What is inside of a backup?](/features/metadata)
+- [What is a backup storage?](/features/various-backup-storages)
 - [What if a backup fails?]()

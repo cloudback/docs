@@ -9,18 +9,15 @@ bookCollapseSection: true
 {{< featureCard 
   title="Automated daily backups" 
   image="./../lib/logo/features/automated-daily-backups.png" 
-  href="/features/automated-daily-backups"
-  text="Cloudback will automatically create daily backups of your repositories. No manual actions needed, just enable backup once." >}}
+  href="/features/automated-daily-backups" >}}
 {{< featureCard 
   title="Various backup storages" 
   image="./../lib/logo/features/various-backup-storages.png" 
-  href="/features/various-backup-storages"
-  text="We support Microsoft Azure, Microsoft OneDrive, Amazon S3 Bucket/Glacier, Google Cloud, Alibaba Cloud, and OpenStack Swift." >}}
+  href="/features/various-backup-storages" >}}
 {{< featureCard 
   title="Metadata backups" 
   image="./../lib/logo/features/metadata-backups.png" 
-  href=""
-  text="All backups include repository code and metadata: issues, comments, labels, and milestones." >}}
+  href="/features/metadata" >}}
 </div>
 <div class="flex-row-to-column">
 {{< featureCard 

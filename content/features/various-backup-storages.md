@@ -46,5 +46,5 @@ We added a support of [OpenStack Swift](https://github.com/cloudback/issue-track
 
 ## Learn more
 
-- [What is inside of a backup?]()
+- [What is inside of a backup?](/features/metadata)
 - [What if a backup fails?]()
