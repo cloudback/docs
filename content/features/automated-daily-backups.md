@@ -45,10 +45,10 @@ Available options:
 - 90 days
 - 180 days
 - 360 days
+- Need more? [Let us know!](/contact-us)
 
 ## Learn more
 
-
-- [What's inside of a backup?]()
-- [Backup storages]()
-
+- [What is inside of a backup?]()
+- [What is a backup storage?]()
+- [What if a backup fails?]()

@@ -14,7 +14,7 @@ bookCollapseSection: true
 {{< featureCard 
   title="Various backup storages" 
   image="./../lib/logo/features/various-backup-storages.png" 
-  href=""
+  href="/features/various-backup-storages"
   text="We support Microsoft Azure, Microsoft OneDrive, Amazon S3 Bucket/Glacier, Google Cloud, Alibaba Cloud, and OpenStack Swift." >}}
 {{< featureCard 
   title="Metadata backups" 

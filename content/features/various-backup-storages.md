@@ -1,0 +1,50 @@
+---
+title: Various Backup Storages
+weight: 2
+---
+
+# Various Backup Storages
+
+Cloudback allows you to store a backup archive in your own storage, leaving no copies to us. That is. Cloudback backs up a repository into archive, sends the archive to your storage and wipes the archive from Cloudback's disk leaving no chance to recover any data from the Cloudback servers.
+
+Also, we offer our in-build storage named just `Cloudback`. It is an [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) with a [Geo-redundant](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy#redundancy-in-a-secondary-region) replication. 
+
+We store password-protected zip archives. The password is encrypted and well protected behind several security layers. If someone breaks into our storage he will get useless encrypted archives and no chance to access user data.
+
+## Register your storage
+
+In order to tell Cloudback to store backups into your storage, please use `+ New storage` button in the settings of the repository. The button opens a simple wizard that guides you through registration process. Please refer to a particular storage page to learn about specific steps.
+
+Please note, that you could apply recently registered storage to all your repositories using `Builk Operations` menu.
+
+<p align="center">
+  <img src="/static/features/storages-wizard.png" data-alt="/static/features/storages-wizard.gif"
+       alt="Storage Wizard" onclick="swapGif(this)" style="cursor: pointer;"/>
+</p>
+
+
+## Supported storages
+
+Please follow the link below to find additional details about a particular storage:
+
+- Cloudback in-build storage (Azure powered)
+- [Microsoft Azure Blob Storage](/custom-storages/microsoft-azure-blob-container/)
+- [Microsoft OneDrive Personal](/custom-storages/onedrive)
+- [Microsoft OneDrive For Business](/custom-storages/onedrive)
+- [Amazon S3 Bucket via Access Point](/custom-storages/amazon-s3-bucket)
+- [Amazon S3 Bucket via Access Key](/custom-storages/amazon-s3-bucket-access-key)
+- [Amazon S3 Glacier](/custom-storages/amazon-s3-glacier)
+- [Google Cloud Storage Bucket](/custom-storages/google-cloud)
+- [Alibaba Cloud Object Storage Service](/custom-storages/alibaba-cloud)
+- [OpenStack Swift Container via S3 API](/custom-storages/swift)
+
+## Need another storage?
+
+We added a support of [OpenStack Swift](https://github.com/cloudback/issue-tracker/issues/6) and [Microsoft OneDrive](https://github.com/cloudback/issue-tracker/issues/7) within a feature request from our users.
+
+[Contact us](/contact-us) or [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing your storage.
+
+## Learn more
+
+- [What is inside of a backup?]()
+- [What if a backup fails?]()
