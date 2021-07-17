@@ -18757,7 +18757,8 @@ img {
     width: 100%; } }
 
 .w-33 {
-  width: 33%; }
+  width: 33.333%;
+  max-width: 33.333%; }
 
 .feature-img-container {
   box-shadow: inset 0 0 90px 25px rgba(0, 0, 0, 0.5);
