@@ -338,6 +338,9 @@ img {
   font-size: smaller;
 }
 
+.max-w-50 {
+  max-width: 50%;
+}
 .d-flex-row-to-column {
   display: flex !important;
   flex-direction: row; 
@@ -397,7 +400,7 @@ img {
 }
 
 .with-blur {
-  background-color: rgba(244, 244, 244, .95);
+  background-color: rgba(244, 244, 244, .95);  
 }
 
 /* if backdrop support: very transparent and blurred */
@@ -516,4 +519,13 @@ img {
 
 .feature-btn:hover {
   transform: scale(1.05);
+}
+
+.big-header {
+  background: var(--docs-content-background);
+}
+
+.big-header-card {
+  border: 2px solid var(--docs-content-background);
+  border-radius: 1rem;
 }

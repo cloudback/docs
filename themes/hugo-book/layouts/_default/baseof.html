@@ -40,6 +40,9 @@
 
 <body>
   <div class="page d-flex flex-column h-100">
+    {{ if (.Page.Params.showCustomHeader) }}
+      {{ partial "docs/big-header" . }}
+    {{ end }}
     <input type="checkbox" class="hidden menu-control" id="menu-control">
     <main class="page-main container w-100">
       <input type="checkbox" class="hidden toc-control" id="toc-control">
@@ -124,9 +127,9 @@
             </div>
           </header>
           <div class="page-with-toc d-flex flex-grow-1">
-            <div class="flex-grow-1 d-flex flex-column">
+            <div class="flex-column d-flex flex-grow-1">
               {{ if (.Page.Params.hidePageNav) }}
-                <div class="d-flex justify-end pr-5">
+                <div class="d-flex justify-end pr-5 pt-2">
                   <div class="d-table h32">
                     <div class="d-table-cell v-align-middle">
                       <select id="theme-select">

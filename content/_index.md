@@ -2,6 +2,8 @@
 title: Home
 weight: 1
 type: docs
+showCustomHeader: true
+hidePageNav: true
 ---
 
 # Welcome to Cloudback!

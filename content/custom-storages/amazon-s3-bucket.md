@@ -25,7 +25,7 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 
 * Select ‘Amazon S3 Bucket’ as a storage provider
 
-* Sign in to [AWS Managment Console](https://console.aws.amazon.com/s3/) and click on the `Create bucket`:
+* Sign in to [AWS Management Console](https://console.aws.amazon.com/s3/) and click on the `Create bucket`:
 
 ![AS3-create-bucket](/static/bucket/1-create-bucket.png)
 
@@ -41,7 +41,7 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 
 ![Copy-ARN](/static/bucket/6-copy-arn.png)
 
-* Insert ARN on the Cloudback site to the Step 1. In Step 2 you will recieve generated bucket policy document:
+* Insert ARN on the Cloudback site to the Step 1. In Step 2 you will receive generated bucket policy document:
 
 ![ARN-step-1](/static/bucket/7-past-step1.png)
 
