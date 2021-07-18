@@ -18607,9 +18607,6 @@ img {
 .font-size-smaller {
   font-size: smaller; }
 
-.max-w-50 {
-  max-width: 50%; }
-
 .d-flex-row-to-column {
   display: flex !important;
   flex-direction: row; }
