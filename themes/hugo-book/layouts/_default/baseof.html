@@ -154,6 +154,7 @@
                 </div>
               </footer>
             </div>
+            {{ if not (.Page.Params.hidePageNav) }}
             <aside class="page-toc">
               <div class="d-flex">
                 <div class="d-table h32">
@@ -177,6 +178,7 @@
                 {{ template "toc" . }}
               </nav>
             </aside>
+            {{ end }}
           </div>
         </div>
       </div>

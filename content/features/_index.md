@@ -1,6 +1,7 @@
 ---
 weight: 8
 bookCollapseSection: true
+hidePageNav: true 
 ---
 
 # Cloudback Features
