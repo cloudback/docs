@@ -111,6 +111,7 @@
               </div>
               <div class="flex-grow-1">
               </div>
+              {{ if not (.Page.Params.hidePageNav) }}
               <div>
                 <label for="toc-control" class="toc-label toc-label-right cursor-pointer p-2">
                   <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -119,10 +120,23 @@
                   </svg>
                 </label>
               </div>
+              {{ end }}
             </div>
           </header>
           <div class="page-with-toc d-flex flex-grow-1">
             <div class="flex-grow-1 d-flex flex-column">
+              {{ if (.Page.Params.hidePageNav) }}
+                <div class="d-flex justify-end pr-5">
+                  <div class="d-table h32">
+                    <div class="d-table-cell v-align-middle">
+                      <select id="theme-select">
+                        <option>Light theme</option>
+                        <option>Dark theme</option>
+                      </select>  
+                    </div>
+                  </div>
+                </div>
+              {{ end }}
 			        {{ template "main" . }}
               <div class="p-4 article-footer">
                 <div class="d-flex flex-justify-between">
