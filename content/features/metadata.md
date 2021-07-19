@@ -21,7 +21,7 @@ Here is the list of repository's data in a backup archive:
 - A [bare clone](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---bare) of a git repository
 - All [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 - All [Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
-- All open and closed [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) with comments
+- All opened and closed [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) with comments
 
 Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 

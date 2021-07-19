@@ -24,12 +24,12 @@ hidePageNav: true
 {{< featureCard 
   title="Security" 
   image="/static/lib/logo/features/security.png" 
-  href="/features/automated-daily-backups"
+  href="/security"
   text="Cloudback is a service with focus on data security and availability. We value your data and make our best to protect it." >}}
 {{< featureCard 
   title="Restore to GitHub" 
   image="/static/lib/logo/features/restore-to-github.png" 
-  href=""
+  href="/features/restore-to-github"
   text="Each backup can be easily restored back to GitHub. Just type the repository name and we will do the rest." >}}
 {{< featureCard 
   title="Download backups" 
