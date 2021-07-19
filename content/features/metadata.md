@@ -1,9 +1,9 @@
 ---
-title: Metadata backups
+title: Metadata Backups
 weight: 3
 ---
 
-# Metadata backups
+# Metadata Backups
 
 Cloudback archives not only the whole git repository but a GitHub-specific metadata as well. The list of metadata we are able to backup is not complete and limited by the GitHub API.
 
@@ -16,16 +16,18 @@ Important things to know:
 
 ## What is included in a backup?
 
-Metadata is stored inside a backup archive as a JSON file in the same format we download it from GitHub.
+Here is the list of repository's data in a backup archive:
 
 - A [bare clone](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---bare) of a git repository
 - All [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 - All [Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 - All open and closed [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) with comments
 
+Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
+
 ## This metadata is not included yet, but will be soon
 
-We are working right now to support below data to be included as well.
+We are working right now to support below data to be included as well:
 
 - [Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects)
 - [Releases](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/about-releases)
