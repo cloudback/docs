@@ -7,7 +7,7 @@ weight: 1
 
 This is why we created Cloudback - to continuously backup a repository and its metadata on a daily basis. Cloudback captures a backup daily at a defined hour according to a defined time zone and puts a resulting archive into a defined storage.
 
-![Backup](/static/features/scheduled-backup.png)
+<img src="/static/features/triggered-automatically.png" alt="Backup" width=500/>
 
 ## Schedule
 
