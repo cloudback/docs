@@ -61,6 +61,10 @@ main {
   background-color: #343a40;
 }
 
+.custom-link-color {
+  color: var(--custom-link-color);
+}
+
 #book-search-results {
   z-index: 9999;
   background-color: aliceblue;
@@ -245,6 +249,10 @@ a:hover {
     cursor: pointer !important;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .fw300 {
     font-weight: 300;
 }
@@ -397,18 +405,17 @@ img {
 }
 
 .with-blur {
-  background-color: rgba(244, 244, 244, .95);  
+  background-color: var(--blur-background-backdrop);  
 }
 
 /* if backdrop support: very transparent and blurred */
 @supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
   .with-blur {
-    background-color: rgba(244, 244, 244, .4);
+    background-color: var(--blur-background);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
   }
 }
-
 
 .p-4-to-0 { padding: 1.5rem; }
 .p-3-to-0 { padding: 1rem; }
@@ -503,15 +510,16 @@ img {
 }
 
 .feature-btn {
+  width: fit-content;
   padding: 6px 12px;
   line-height: 20px;
   -ms-border-radius: 0.25rem;
   border-radius: 0.25rem;
   color: var(--custom-link-color);
-  background-color: var(--docs-content-background);
+  background-color: transparent;
   box-shadow: 0 0.1rem 0.25rem var(--shadow-color);
   transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color, background-color, border-color, transform;
+  transition-property: transform;
 }
 
 .feature-btn:hover {
@@ -523,6 +531,18 @@ img {
 }
 
 .big-header-card {
-  border: 2px solid var(--docs-content-background);
+  border: 1px solid var(--docs-content-background);
   border-radius: 1rem;
+  box-shadow: 0 0 20px var(--shadow-color), inset 0 0 10px var(--docs-content-background);
+}
+
+.big-header-background-img {
+  margin: auto;
+  position: absolute;
+  right: 10%;
+  top: 0;
+  bottom: 0;
+  height: 50%;
+  width: auto;
+  opacity: 50%;
 }
