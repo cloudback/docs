@@ -44,10 +44,14 @@
   .transparent-background {
     background-color: transparent;
   }
+
+  .text-color {
+    color: var(--text-color) !important;
+  }
   
   html, body {
     height: 100%;
-    background: var(--body-background) !important;
+    font-size: 16px;
     color: var(--text-color);
     margin: 0 !important;
     position: relative;

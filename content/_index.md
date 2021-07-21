@@ -3,9 +3,12 @@ title: Home
 weight: 1
 type: docs
 showCustomHeader: true
+showCustomFooter: true
 hidePageNav: true
 hideDocsNav: true
-docsContentUseBodyBackground: true
+hidePageHeader: true
+hidePageThemeSwitch: true
+bodyUseDocsBackground: true
 hideArticleFooter: true
 ---
 
@@ -42,23 +45,3 @@ hideArticleFooter: true
   href=""
   text="You can download every backup on your PC. Each backup includes the code and the repository metadata." >}}
 </div>
-
-<p align="center">
-  <a href="/"><img src="https://raw.githubusercontent.com/cloudback/docs/master/static/social.png" alt="Cloudback | GitHub repository backup" title="Cloudback | GitHub repository backup" style="width: 500px;"></a>
-</p>
-
-## What is Cloudback?
-
-Cloudback secures your GitHub repositories with recurrent data backups. With Cloudback you can use your favorite cloud storage provider or in-build one powered by Azure.
-
-## Getting started
-
-Complete [three simple steps](/getting-started) to set up Cloudback for your GitHub account.
-
-## GitHub repository backup
-
-Learn more about creating your first [GitHub repository backup](/how-to/how-to-backup-github-repository/) using Cloudback.
-
-## Backup GitHub repository to your own storage
-
-Learn more about setting up [your own storage to backup GitHub repository](/custom-storages/) using Cloudback.

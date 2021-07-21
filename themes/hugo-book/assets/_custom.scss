@@ -16,22 +16,6 @@
   pointer-events: none;
 }
 
-.book-menu {
-  background-color: aliceblue;
-}
-
-.book-toc {
-  background-color: aliceblue;
-}
-
-body {
-  background-color: white;
-}
-
-main {
-  background-color: aliceblue;
-}
-
 .book-search input {
   background-color: white;
 }
@@ -45,7 +29,6 @@ main {
 }
 
 .book-brand a {
-  color: white;
   font-weight: 700;
 }
 
@@ -67,7 +50,6 @@ main {
 
 #book-search-results {
   z-index: 9999;
-  background-color: aliceblue;
   position: absolute;
   margin: 3px;
   border-radius: 5px;
@@ -81,7 +63,6 @@ main {
 }
 
 .book-page {
-  background-color: white;
   min-height: calc(100vh - 45px);
   padding: 10px 20px 10px 20px;
 }
@@ -230,6 +211,10 @@ a:hover {
 
 .h-100 {
     height: 100%;
+}
+
+.z-index-10 {
+  z-index: 10;
 }
 
 .h-inherit {
@@ -441,6 +426,7 @@ img {
 }
 
 .big-header-background-img {
+  padding-top: 128px !important;
   opacity: 50%;
   height: 100%;
   width: 100%;
@@ -460,7 +446,7 @@ img {
   .flex-row-to-column {
     flex-direction: column;
   }
-  .big-header-background-img {
+  .hide-768 {
     display: none;
   }  
   .w-33-to-100 {
@@ -532,4 +518,26 @@ img {
   border: 1px solid var(--docs-content-background);
   border-radius: 1rem;
   box-shadow: 0 0 20px var(--shadow-color), inset 0 0 10px var(--docs-content-background);
+}
+
+.sign-in-btn {
+  width: fit-content;
+  padding: 6px 12px;
+  line-height: 20px;
+  height: 36px;
+  -ms-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  color: var(--text-color) !important;
+  background-color: transparent;
+  box-shadow: 0 0.1rem 0.25rem var(--shadow-color);
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: transform;
+}
+
+.sign-in-btn:hover {
+  transform: scale(1.05);
+}
+
+.big-footer {
+  background: var(--body-background);
 }

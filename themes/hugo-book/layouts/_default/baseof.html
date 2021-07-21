@@ -37,8 +37,11 @@
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 </head>
-
-<body>
+{{ .Scratch.Set "bodyBackgroundClass" "body-background" }}
+{{ if (.Page.Params.bodyUseDocsBackground) }}
+  {{ .Scratch.Set "bodyBackgroundClass" "docs-content-background" }}
+{{ end }}
+<body class="{{ .Scratch.Get "bodyBackgroundClass" }}">
   <div class="page d-flex flex-column h-100">
     {{ if (.Page.Params.showCustomHeader) }}
       {{ partial "docs/big-header" . }}
@@ -104,13 +107,8 @@
           </div>
         </aside>
         {{ end }}
-        {{ .Scratch.Set "docsBackgroundClass" "docs-content-background" }}
-        {{ .Scratch.Set "selectBackgroundClass" "docs-content-background" }}
-        {{ if (.Page.Params.docsContentUseBodyBackground) }}
-        	{{ .Scratch.Set "docsBackgroundClass" "body-background" }}
-        	{{ .Scratch.Set "selectBackgroundClass" "body-background" }}
-        {{ end }}
-        <div class="docs-page {{ .Scratch.Get "docsBackgroundClass" }} d-flex flex-column">
+        <div class="docs-page docs-content-background d-flex flex-column">
+          {{ if not (.Page.Params.hidePageHeader) }}
           <header class="docs-header p-2">
             <div class="d-flex align-center h32">
               {{ if not (.Page.Params.hideDocsNav) }}
@@ -136,19 +134,22 @@
               {{ end }}
             </div>
           </header>
+          {{ end }}
           <div class="page-with-toc d-flex flex-grow-1">
             <div class="flex-column d-flex flex-grow-1">
+              {{ if not (.Page.Params.hidePageThemeSwitch) }}
               {{ if (.Page.Params.hidePageNav) }}
                 <div class="d-flex justify-end pr-5 pt-2">
                   <div class="d-table h32">
                     <div class="d-table-cell v-align-middle">
-                      <select class="p-1 {{ .Scratch.Get "selectBackgroundClass" }}" id="theme-select">
+                      <select class="p-1 docs-content-background" id="theme-select">
                         <option>Light theme</option>
                         <option>Dark theme</option>
                       </select>  
                     </div>
                   </div>
                 </div>
+              {{ end }}
               {{ end }}
 			        {{ template "main" . }}
               {{ if not (.Page.Params.hideArticleFooter) }}
@@ -177,23 +178,27 @@
                 </div>   
               </div>
               {{ end }}
+              {{ if not (.Page.Params.showCustomFooter) }}
               <footer class="page-footer position-relative d-table w-100">
                 <div class="pl-3 d-table-cell v-align-middle h-100">
                   <span>&copy; Cloudback 2018-{{ now.Format "2006" }} - <a href="/privacy" target="_blank" class="custom-link">Privacy</a></span>
                 </div>
               </footer>
+              {{ end }}
             </div>
             {{ if not (.Page.Params.hidePageNav) }}
             <aside class="page-toc">
               <div class="d-flex">
+                {{ if not (.Page.Params.hidePageThemeSwitch) }}
                 <div class="d-table h32">
                   <div class="d-table-cell v-align-middle">
-                    <select class="p-1 {{ .Scratch.Get "docsBackgroundClass" }} " id="theme-select">
+                    <select class="p-1 docs-content-background" id="theme-select">
                       <option>Light theme</option>
                       <option>Dark theme</option>
                     </select>  
                   </div>
                 </div>
+                {{ end }}
                 <div class="flex-grow-1"></div>
                 <div class="pr-2 h32 d-none">
                   <span class="d-table-cell v-align-middle">Hello, <span class="username">Guest</span>!</span>
@@ -212,6 +217,9 @@
         </div>
       </div>
     </main>
+    {{ if (.Page.Params.showCustomFooter) }}
+      {{ partial "docs/big-footer" . }}
+    {{ end }}
   </div>
 </body>
 </html>
