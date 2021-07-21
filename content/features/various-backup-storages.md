@@ -9,11 +9,11 @@ Cloudback allows you to store a backup archive in your own storage, leaving no c
 
 Also, we offer our in-build storage named just `Cloudback`. It is an [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) with a [Geo-redundant](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy#redundancy-in-a-secondary-region) replication. 
 
-We store password-protected zip archives. The password is encrypted and well protected behind several security layers. If someone breaks into our storage he will get useless encrypted archives and no chance to access user data.
+<img src="/static/features/storages-wizard-combobox.png" alt="Storages" width=500/>
 
 ## Register your storage
 
-In order to tell Cloudback to store backups into your storage, please use the `+ New storage` button in the settings of the repository. The button opens a simple wizard that guides you through the registration process. Please refer to a particular storage page to learn about specific steps.
+In order to tell Cloudback to store backups into your own storage, please use the `+ New storage` button in the settings of the repository card. The button opens a simple wizard that guides you through the registration process. Please refer to a particular storage page to learn about specific steps.
 
 Please note, that you could apply recently registered storage to all your repositories using the `Bulk Operations` menu.
 
@@ -40,9 +40,11 @@ Please follow the link below to find additional details about particular storage
 
 ## Need another storage?
 
-We added support of [OpenStack Swift](https://github.com/cloudback/issue-tracker/issues/6) and [Microsoft OneDrive](https://github.com/cloudback/issue-tracker/issues/7) within a feature request of our users.
+We added support of [OpenStack Swift](https://github.com/cloudback/issue-tracker/issues/6) and [Microsoft OneDrive](https://github.com/cloudback/issue-tracker/issues/7) within a feature request of our users. [Contact us](/contact-us) or [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing your storage.
 
-[Contact us](/contact-us) or [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing your storage.
+## What we upload to the storage?
+
+We upload password-protected zip archives. The password is encrypted and stored at our side. The password is well protected behind several security layers. If someone breaks into any storage he will get useless encrypted archives and no chance to access archive content.
 
 ## Learn more
 

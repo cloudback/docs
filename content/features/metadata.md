@@ -39,14 +39,20 @@ We are working right now to support below data to be included as well:
 - [Watchers](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications): Justification: there is no API
 - [Stargazers](https://docs.github.com/en/rest/reference/activity#starring): Justification: there is no API
 
-## What is inside a backup?
+## What is inside an archive?
 
-The archive represents [ZIP File Version 5.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-5.2.0.txt) with [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption. Please note that we put one ZIP into another one. This is done to hide the list of files and file names inside the archive. Filename encryption is introduced in [ZIP File Format Specification 6.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-6.2.0.txt). We decided to keep version 5.2 for better compatibility.
+The archive represents [ZIP File Version 5.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-5.2.0.txt) with [AES-256](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption. **Be aware that AES encryption is not widely supported by ZIP tools and archivers.** For instance, Microsoft Windows Compressed Folders [does not support AES encryption](https://devblogs.microsoft.com/oldnewthing/20180515-00/?p=98755) and won't be able to open any AES-encrypted ZIP archive. Please consider using third-party software. We recommend you [7-Zip](https://www.7-zip.org/) which is cross-platform and is free for commercial use (there are limitations, please refer to [7-Zip License](https://www.7-zip.org/license.txt) for details). 
+
+Also, please note that we put one ZIP into another one. This is done to hide filenames inside an archive. Filename encryption is introduced in [ZIP File Format Specification 6.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-6.2.0.txt). We decided to keep version 5.2 for better compatibility.
 
 Sample archive presented on screenshots below:
+<br><img src="/static/features/zip-aes.png" alt="Inside a backup 1"/>
 
-<img src="/static/features/inside-backup-1.png" alt="Inside a backup 1" width=600/>
-<img src="/static/features/inside-backup-2.png" alt="Inside a backup 2" width=600/>
+Password prompt:
+<br><img src="/static/features/zip-password.png" alt="Inside a backup 2"/>
+
+Archive content:
+<br><img src="/static/features/zip-content.png" alt="Inside a backup 3"/>
 
 ## Learn more
 
