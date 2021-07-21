@@ -15,33 +15,31 @@ hideArticleFooter: true
 # Cloudback Documentation
 
 <div class="flex-row-to-column">
-{{< featureCard 
-  title="Automated daily backups" 
-  image="/static/lib/logo/features/automated-daily-backups.png" 
-  href="/features/automated-daily-backups" >}}
-{{< featureCard 
-  title="Various backup storages" 
-  image="/static/lib/logo/features/various-backup-storages.png" 
-  href="/features/various-backup-storages" >}}
-{{< featureCard 
-  title="Metadata backups" 
-  image="/static/lib/logo/features/metadata-backups.png" 
-  href="/features/metadata" >}}
+{{< docsCard 
+  title="What is Cloudback?"
+  href="/features/automated-daily-backups"
+  text="Learn more about what Cloudback is and how it works." >}}
+{{< docsCard 
+  title="Getting Started"
+  href="/features/various-backup-storages"
+  text="Check out how to start using Cloudback and protect your repositories." >}}
+{{< docsCard 
+  title="FAQs"
+  href="/features/metadata"
+  text="Here you can find frequently asked questions and answers to them." >}}
 </div>
-<div class="flex-row-to-column">
-{{< featureCard 
-  title="Security" 
+<div class="flex-row-to-column pb-5">
+{{< docsCard 
+  title="Cloudback Security" 
   image="/static/lib/logo/features/security.png" 
   href="/features/automated-daily-backups"
-  text="Cloudback is a service with focus on data security and availability. We value your data and make our best to protect it." >}}
-{{< featureCard 
-  title="Restore to GitHub" 
-  image="/static/lib/logo/features/restore-to-github.png" 
+  text="Detailed information on how we protect your data can be found here." >}}
+{{< docsCard 
+  title="Supported storages"
   href=""
-  text="Each backup can be easily restored back to GitHub. Just type the repository name and we will do the rest." >}}
-{{< featureCard 
-  title="Download backups" 
-  image="/static/lib/logo/features/download-backups.png" 
+  text="Want to use your own storage? See the details about setting up a new one." >}}
+{{< docsCard 
+  title="Backup and restore"
   href=""
-  text="You can download every backup on your PC. Each backup includes the code and the repository metadata." >}}
+  text="All you need to know on how to create, restore, and download backups." >}}
 </div>

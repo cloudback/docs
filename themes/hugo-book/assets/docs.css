@@ -99,6 +99,10 @@
     color: var(--custom-link-color);
   }
   
+  .font-size-small {
+    font-size: small;
+  }
+
   .page-footer {
     font-size: 12px;
     bottom: 0;

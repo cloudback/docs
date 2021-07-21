@@ -17858,6 +17858,9 @@ a:visited {
 .custom-link {
   color: var(--custom-link-color); }
 
+.font-size-small {
+  font-size: small; }
+
 .page-footer {
   font-size: 12px;
   bottom: 0;
@@ -18515,7 +18518,10 @@ a:hover {
 
 .h36 {
   height: 36px !important;
-  min-height: 16px !important; }
+  min-height: 36px !important; }
+
+.mh36 {
+  min-height: 36px; }
 
 .w-100 {
   width: 100% !important; }
@@ -18782,11 +18788,17 @@ img {
   display: flex;
   flex-direction: row; }
 
+.big-footer {
+  display: flex; }
+
 @media (max-width: 768px) {
   .flex-row-to-column {
     flex-direction: column; }
   .hide-768 {
     display: none; }
+  .big-footer {
+    display: grid;
+    grid-template: "a a"; }
   .w-33-to-100 {
     width: 100%; } }
 
@@ -18849,6 +18861,16 @@ img {
   border: 1px solid var(--docs-content-background);
   border-radius: 1rem;
   box-shadow: 0 0 20px var(--shadow-color), inset 0 0 10px var(--docs-content-background); }
+
+.docs-card-title {
+  min-height: 120px;
+  -ms-border-top-left-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  -ms-border-top-right-radius: 0.75rem;
+  border-top-right-radius: 0.75rem; }
+
+.docs-card-title img {
+  opacity: 50%; }
 
 .sign-in-btn {
   width: fit-content;
