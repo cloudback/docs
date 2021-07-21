@@ -5,7 +5,7 @@ weight: 2
 
 # Various Backup Storages
 
-Cloudback allows you to store a backup archive in your own storage, leaving no copies to us. That is. Cloudback backs up a repository into archive, sends the archive to your storage and wipes the archive from Cloudback's disk leaving no chance to recover any data from the Cloudback servers.
+Cloudback allows you to store a backup archive in your own storage, leaving no copies to us. That is. Cloudback backs up a repository into an archive, sends the archive to your storage, and wipes the archive from Cloudback's disk leaving no chance to recover any data from the Cloudback servers.
 
 Also, we offer our in-build storage named just `Cloudback`. It is an [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) with a [Geo-redundant](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy#redundancy-in-a-secondary-region) replication. 
 
@@ -13,9 +13,9 @@ We store password-protected zip archives. The password is encrypted and well pro
 
 ## Register your storage
 
-In order to tell Cloudback to store backups into your storage, please use `+ New storage` button in the settings of the repository. The button opens a simple wizard that guides you through registration process. Please refer to a particular storage page to learn about specific steps.
+In order to tell Cloudback to store backups into your storage, please use the `+ New storage` button in the settings of the repository. The button opens a simple wizard that guides you through the registration process. Please refer to a particular storage page to learn about specific steps.
 
-Please note, that you could apply recently registered storage to all your repositories using `Builk Operations` menu.
+Please note, that you could apply recently registered storage to all your repositories using the `Bulk Operations` menu.
 
 <p align="center">
   <img src="/static/features/storages-wizard.png" data-alt="/static/features/storages-wizard.gif"
@@ -25,7 +25,7 @@ Please note, that you could apply recently registered storage to all your reposi
 
 ## Supported storages
 
-Please follow the link below to find additional details about a particular storage:
+Please follow the link below to find additional details about particular storage:
 
 - Cloudback in-build storage (Azure powered)
 - [Microsoft Azure Blob Storage](/custom-storages/microsoft-azure-blob-container/)
@@ -40,7 +40,7 @@ Please follow the link below to find additional details about a particular stora
 
 ## Need another storage?
 
-We added a support of [OpenStack Swift](https://github.com/cloudback/issue-tracker/issues/6) and [Microsoft OneDrive](https://github.com/cloudback/issue-tracker/issues/7) within a feature request from our users.
+We added support of [OpenStack Swift](https://github.com/cloudback/issue-tracker/issues/6) and [Microsoft OneDrive](https://github.com/cloudback/issue-tracker/issues/7) within a feature request of our users.
 
 [Contact us](/contact-us) or [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing your storage.
 

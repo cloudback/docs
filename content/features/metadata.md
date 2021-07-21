@@ -5,7 +5,7 @@ weight: 3
 
 # Metadata Backups
 
-Cloudback archives not only the whole git repository but a GitHub-specific metadata as well. The list of metadata we are able to backup is not complete and limited by the GitHub API.
+Cloudback archives not only the whole git repository but GitHub-specific metadata as well. The list of metadata we are able to backup is not complete and is limited by the GitHub API.
 
 Important things to know:
 - We don't backup your GitHub Account 
@@ -25,7 +25,7 @@ Here is the list of repository's data in a backup archive:
 
 Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 
-## This metadata is not included yet, but will be soon
+## This metadata is not included yet but will be soon
 
 We are working right now to support below data to be included as well:
 
@@ -41,12 +41,12 @@ We are working right now to support below data to be included as well:
 
 ## What is inside a backup?
 
-The archive represents [ZIP File Version 5.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-5.2.0.txt) with [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption. Please note that we put one ZIP into another one. This is done to hide the list of files and file names inside the archive. File name encryption is introduced in [ZIP File Format Specification 6.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-6.2.0.txt). We decided to keep version 5.2 for better compatibility.
+The archive represents [ZIP File Version 5.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-5.2.0.txt) with [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption. Please note that we put one ZIP into another one. This is done to hide the list of files and file names inside the archive. Filename encryption is introduced in [ZIP File Format Specification 6.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-6.2.0.txt). We decided to keep version 5.2 for better compatibility.
 
 Sample archive presented on screenshots below:
 
-![Inside a backup 1](/static/features/inside-backup-1.png)
-![Inside a backup 2](/static/features/inside-backup-2.png)
+<img src="/static/features/inside-backup-1.png" alt="Inside a backup 1" width=600/>
+<img src="/static/features/inside-backup-2.png" alt="Inside a backup 2" width=600/>
 
 ## Learn more
 
