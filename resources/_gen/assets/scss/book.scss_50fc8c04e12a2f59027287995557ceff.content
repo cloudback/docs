@@ -18844,7 +18844,7 @@ img {
   background-color: transparent !important; }
 
 .feature-btn {
-  width: fit-content;
+  width: max-content;
   padding: 6px 12px;
   line-height: 20px;
   -ms-border-radius: 0.25rem;
@@ -18877,7 +18877,7 @@ img {
   opacity: 50%; }
 
 .sign-in-btn {
-  width: fit-content;
+  width: max-content;
   padding: 6px 12px;
   line-height: 20px;
   height: 36px;
