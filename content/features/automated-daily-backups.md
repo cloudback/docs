@@ -11,7 +11,7 @@ This is why we created Cloudback - to continuously backup a repository and its m
 
 ## Schedule
 
-You can configure the exact hour you want to capture a backup every day. We recommend you to choose an hour with the statistically lowest number of commits. For instance, it could be an early morning hour.
+You can configure the exact hour you want to capture a backup every day. We recommend you to choose an hour when your repositories are not in use. For instance, it could be an early morning hour.
 
 Here is how you can change the schedule for an individual repository:
 
