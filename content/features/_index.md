@@ -26,7 +26,7 @@ hidePageNav: true
 <div class="flex-row-to-column">
 {{< featureCard 
   title="One-click manual backups" 
-  image="/static/lib/logo/features/security.png" 
+  image="/static/lib/logo/features/one-click-manual-backup.png" 
   href="/features/manual-backups"
   text="Cloudback allows you to create backups on-demand, just with a single click." >}}
 {{< featureCard 
@@ -43,7 +43,7 @@ hidePageNav: true
 <div class="flex-row-to-column">
 {{< featureCard 
   title="Email notifications" 
-  image="/static/lib/logo/features/security.png" 
+  image="/static/lib/logo/features/email-notifications.png" 
   href="/features/email-notifications"
   text="If something happens and a backup process fails you will get an email notification." >}}
 {{< featureCard 
@@ -53,7 +53,7 @@ hidePageNav: true
   text="We support GitHub organizations and a shared access among owners" >}}
 {{< featureCard 
   title="Invoiced customers" 
-  image="/static/lib/logo/features/security.png" 
+  image="/static/lib/logo/features/invoiced-customers.png" 
   href="/features/invoiced-customers"
   text="Cloudback is a service with focus on data security and availability. We value your data and make our best to protect it." >}}  
 </div>
