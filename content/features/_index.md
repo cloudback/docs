@@ -27,12 +27,12 @@ hidePageNav: true
 {{< featureCard 
   title="One-click manual backups" 
   image="/static/lib/logo/features/security.png" 
-  href="/features/manual-backup"
+  href="/features/manual-backups"
   text="Cloudback allows you to create backups on-demand, just with a single click." >}}
 {{< featureCard 
   title="Download backups" 
   image="/static/lib/logo/features/download-backups.png" 
-  href="/features/download-backup"
+  href="/features/download-backups"
   text="You can download every backup on your PC. Each backup includes the code and the repository metadata." >}}
 {{< featureCard 
   title="Restore to GitHub" 

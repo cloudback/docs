@@ -1,6 +1,6 @@
 ---
 title: Restore To GitHub
-weight: 3
+weight: 6
 ---
 
 # Restore To GitHub
