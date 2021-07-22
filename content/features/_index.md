@@ -44,29 +44,29 @@ hidePageNav: true
 {{< featureCard 
   title="Email notifications" 
   image="/static/lib/logo/features/security.png" 
-  href="/features/automated-daily-backups"
+  href="/features/email-notifications"
   text="If something happens and a backup process fails you will get an email notification." >}}
 {{< featureCard 
   title="GitHub organizations" 
   image="/static/lib/logo/features/download-backups.png" 
-  href=""
+  href="/features/github-organizations"
   text="We support GitHub organizations and a shared access among owners" >}}
 {{< featureCard 
   title="Invoiced customers" 
   image="/static/lib/logo/features/security.png" 
-  href="/features/automated-daily-backups"
+  href="/features/invoiced-customers"
   text="Cloudback is a service with focus on data security and availability. We value your data and make our best to protect it." >}}  
 </div>
 <div class="flex-row-to-column">
 {{< featureCard 
   title="Bulk operations" 
   image="/static/lib/logo/features/restore-to-github.png" 
-  href=""
+  href="/features/bulk-operations"
   text="Each backup can be easily restored back to GitHub. Just type the repository name and we will do the rest." >}}
 {{< featureCard 
   title="Filter repositories" 
   image="./../lib/logo/features/download-backups.png" 
-  href=""
+  href="/features/filter-repositories"
   text="You can download every backup on your PC. Each backup includes the code and the repository metadata." >}}
 {{< featureCard 
   title="Security" 
