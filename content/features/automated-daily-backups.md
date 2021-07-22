@@ -51,4 +51,3 @@ Available options:
 
 - [What is inside of a backup?](/features/metadata)
 - [What is a backup storage?](/features/various-backup-storages)
-- [What if a backup fails?]()

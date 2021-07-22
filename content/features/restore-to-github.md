@@ -33,4 +33,4 @@ Once restore is finished please follow the link `Open restored repository` to op
 ## Learn more
 
 - [What is a backup storage?](/features/various-backup-storages)
-- [What if a backup fails?]()
+- [What is inside of a backup?](/features/metadata)

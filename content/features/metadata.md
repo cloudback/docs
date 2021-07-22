@@ -57,4 +57,3 @@ Archive content:
 ## Learn more
 
 - [What is a backup storage?](/features/various-backup-storages)
-- [What if a backup fails?]()

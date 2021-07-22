@@ -35,5 +35,5 @@ In any of these cases you will get the `File not found` notification:
 
 ## Learn more
 
+- [What is inside of a backup?](/features/metadata)
 - [What is a backup storage?](/features/various-backup-storages)
-- [What if a backup fails?]()

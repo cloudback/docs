@@ -50,5 +50,5 @@ Please note, that you will receive no email notifications for manual backups. Em
 ## Learn more
 
 - [What is a backup storage?](/features/various-backup-storages)
-- [What is an email notification?]()
-- [What if a backup fails?]()
+- [What is inside of a backup?](/features/metadata)
+- [What is an email notification?](/features/email-notifications)
