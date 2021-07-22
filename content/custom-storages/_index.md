@@ -14,7 +14,7 @@ By default, Cloudback uses its own storage to backup GitHub repositories. The st
 
 Cloudback provides you the ability to set up your own storage that will be used to save repository backups.
 
-![Click-on-repository-settings](/static/storages.svg)
+![supported-storages](/static/storages.svg)
 
 There are several options available for Cloudback users:
 

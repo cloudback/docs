@@ -18789,7 +18789,11 @@ img {
   flex-direction: row; }
 
 .big-footer {
-  display: flex; }
+  display: flex;
+  background: var(--body-background); }
+
+.big-footer a:hover {
+  opacity: 75%; }
 
 @media (max-width: 768px) {
   .flex-row-to-column {
@@ -18887,6 +18891,3 @@ img {
 
 .sign-in-btn:hover {
   transform: scale(1.05); }
-
-.big-footer {
-  background: var(--body-background); }

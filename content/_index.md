@@ -17,29 +17,28 @@ hideArticleFooter: true
 <div class="flex-row-to-column">
 {{< docsCard 
   title="What is Cloudback?"
-  href="/features/automated-daily-backups"
+  href="/what-is-cloudback"
   text="Learn more about what Cloudback is and how it works." >}}
 {{< docsCard 
-  title="Getting Started"
-  href="/features/various-backup-storages"
+  title="Getting started"
+  href="/getting-started"
   text="Check out how to start using Cloudback and protect your repositories." >}}
 {{< docsCard 
-  title="FAQs"
-  href="/features/metadata"
-  text="Here you can find frequently asked questions and answers to them." >}}
+  title="Various backup storages"
+  href="/features/various-backup-storages/"
+  text="Cloudback allows you to store a backup archive in your own storage." >}}
 </div>
 <div class="flex-row-to-column pb-5">
 {{< docsCard 
-  title="Cloudback Security" 
-  image="/static/lib/logo/features/security.png" 
-  href="/features/automated-daily-backups"
+  title="Cloudback security"
+  href="/security"
   text="Detailed information on how we protect your data can be found here." >}}
 {{< docsCard 
-  title="Supported storages"
-  href=""
-  text="Want to use your own storage? See the details about setting up a new one." >}}
+  title="Metadata backups"
+  href="/features/metadata"
+  text="Cloudback archives not only the whole git repository but GitHub-specific metadata as well." >}}
 {{< docsCard 
-  title="Backup and restore"
-  href=""
-  text="All you need to know on how to create, restore, and download backups." >}}
+  title="Issue tracker"
+  href="https://github.com/cloudback/issue-tracker/issues"
+  text="Here we track user requests. Report a bug or ask for a new feature." >}}
 </div>
