@@ -6,7 +6,18 @@ hidePageNav: true
 
 # What is Cloudback
 
-Cloudback is the [cloud backup](https://en.wikipedia.org/wiki/Remote_backup_service) service for [GitHub repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories). The service includes:
+Cloudback is the [cloud backup](https://en.wikipedia.org/wiki/Remote_backup_service) service for [GitHub repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories). 
+
+The main feature is the support of [various backup storages](/features/various-backup-storages). When user storage is configured we **do not store backup archives** inside Cloudback infrastructure at all. All archives are put into your storage. In case you don't have your own storage there is still an option to use our internal storage called `Cloudback`.
+
+It uses the official GitHub [REST API](https://docs.github.com/en/rest) to access repository metadata for backups. Backups are triggered on a daily basis according to a defined schedule.
+
+![infrastructure](/static/infrastructure.svg)
+
+## Service components
+
+The service consists of the following components:
+
 - **[Cloudback Dashboard](https://cloudback.it)**
     - The main operational dashboard to manage and configure backups of your repositories.
 - **[Cloudback Documentation](https://docs.cloudback.it)**
@@ -20,4 +31,3 @@ Cloudback is the [cloud backup](https://en.wikipedia.org/wiki/Remote_backup_serv
 - **[Cloudback](https://github.com/marketplace/cloudback) GitHub Marketplace Listing**
     - We need it to manage purchase plans and the billing process. All payments are handled by GitHub Marketplace. The exception is made for invoiced customers only. Invoiced customers are handled by Cloudback's legal entity.
 
-![infrastructure](/static/infrastructure.svg)
