@@ -7,7 +7,6 @@
     --docs-content-background: white;
   
     --search-results-background: white;
-    --search-icon-color: lightgrey;
     --search-input-background: #f8f8f8;
   
     --page-border-color: lightgrey;
@@ -17,6 +16,9 @@
     --link-active-color: #05b;
   
     --text-color: #24292e;
+    
+    --blur-background: rgba(255, 255, 255, 0.2);
+    --blur-background-backdrop: rgba(255, 255, 255, 0.95);
   
     --page-header-h: 52px;
     --page-footer-h: 52px;
@@ -26,10 +28,30 @@
     --page-toc-width: 300px;
     --page-toc-max-width: 400px;
   }
+
+  .body-background {
+    background-color: var(--body-background);
+  }
+
+  .docs-menu-background {
+    background-color: var(--docs-menu-background);
+  }
+
+  .docs-content-background {
+    background-color: var(--docs-content-background);
+  }
+
+  .transparent-background {
+    background-color: transparent;
+  }
+
+  .text-color {
+    color: var(--text-color) !important;
+  }
   
   html, body {
     height: 100%;
-    background: var(--body-background) !important;
+    font-size: 16px;
     color: var(--text-color);
     margin: 0 !important;
     position: relative;
@@ -51,11 +73,10 @@
   a {
     color: var(--custom-link-color);
   }
-  
+
   select {
     cursor: pointer;
     color: var(--text-color);
-    background-color: var(--docs-content-background);
     border: none;
   }
   
@@ -78,6 +99,10 @@
     color: var(--custom-link-color);
   }
   
+  .font-size-small {
+    font-size: small;
+  }
+
   .page-footer {
     font-size: 12px;
     bottom: 0;
@@ -176,8 +201,7 @@
     min-width: 300px;
     -o-flex-grow: 1;
     -webkit-flex-grow: 1;
-    flex-grow: 1;  
-    background-color: var(--docs-content-background);
+    flex-grow: 1;
   }
   
   aside nav, .docs-page, .markdown-body, .article-footer-btn {
@@ -239,6 +263,10 @@
   .svg-icon {
     fill: var(--text-color);
   }
+
+  .link-icon {
+    fill: var(--custom-link-color);
+  }
   
   li input + label + ul > li {
     max-height: 0;
@@ -270,13 +298,34 @@
   .search-icon {
     position: absolute;
     z-index: 2;
-    margin: 7px 7px 7px 7px;
+    margin: 7px;
     height: 16px;
     width: 16px;
   }
+
+  .menu-search-input-big {
+    border: none;
+    padding: 14px 14px 14px 50px;
+    width: 100%;
+    position: relative;
+    height: 50px;
+    background-color: var(--search-input-background);
+    border-radius: 5px;
+    box-shadow: 0px 8px 32px -8px var(--shadow-color);
+    font-size: 18px;
+  }
+
+  .search-icon-big {
+    position: absolute;
+    z-index: 2;
+    margin: 13px;
+    height: 24px;
+    width: 24px;
+  }
   
   .search-icon-container {
-    fill: var(--search-icon-color);
+    fill: var(--text-color);
+    opacity: 50%;
   }
   
   .search-result-item:hover{
@@ -291,8 +340,9 @@
   
   .search-results-container {
     display: none;
-    max-width: 70%;
-    position: fixed;
+    max-width: 100%;
+    width: calc(100% - 16px);
+    position: absolute;
     background-color: var(--search-results-background);
     padding: 10px;
     z-index: 10;
@@ -300,6 +350,10 @@
     overflow-x: auto;
     max-height: calc(100vh - 185px);
     box-shadow: 0px 3px 9px var(--shadow-color);
+  }
+
+  .search-results-container a {
+    color: var(--text-color);
   }
   
   .nothing-found {
@@ -309,10 +363,11 @@
   .search-results-container ul {
     list-style: none;
   }
-  
+    
   .article-footer a {
     color: var(--text-color);
   }
+
   .article-footer-btn {
     border-radius: 17px;
     opacity: 50%;
@@ -360,6 +415,9 @@
   .close-menu {
     display: none;
   }
+  .svg-background {
+    max-width: 50%;
+  }
   @media screen and (max-width: 1280px) {
     .container { max-width: 1200px; }
   }
@@ -401,6 +459,9 @@
     }
     body {
       overflow-x: hidden;
+    }
+    .svg-background {
+      max-width: 100%;
     }
     .close-menu {
       display: flex;

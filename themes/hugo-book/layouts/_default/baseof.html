@@ -37,13 +37,20 @@
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 </head>
-
-<body>
+{{ .Scratch.Set "bodyBackgroundClass" "body-background" }}
+{{ if (.Page.Params.bodyUseDocsBackground) }}
+  {{ .Scratch.Set "bodyBackgroundClass" "docs-content-background" }}
+{{ end }}
+<body class="{{ .Scratch.Get "bodyBackgroundClass" }}">
   <div class="page d-flex flex-column h-100">
+    {{ if (.Page.Params.showCustomHeader) }}
+      {{ partial "docs/big-header" . }}
+    {{ end }}
     <input type="checkbox" class="hidden menu-control" id="menu-control">
     <main class="page-main container w-100">
       <input type="checkbox" class="hidden toc-control" id="toc-control">
       <div class="d-flex h-100">
+        {{ if not (.Page.Params.hideDocsNav) }}
         <aside class="docs-menu">
           <div class="docs-menu-content">
             <div class="docs-menu-logo">
@@ -55,7 +62,7 @@
                     {{- end -}}
                   </div>
                   <div class="h36 d-table">
-                    <h3 class="pl-2 pr-2 menu-header-link d-table-cell v-align-middle">{{ .Site.Title }}</h3>
+                    <h3 class="pl-2 pr-2 menu-header-link d-table-cell v-align-middle fw600">{{ .Site.Title }}</h3>
                   </div>
                 </a>
               </div>
@@ -80,7 +87,7 @@
                 onfocus="onFocus(this);"
                 placeholder="Search by title..." title="Type page title">
               <div class="search-results-container" id="search-results-container">
-                <ul>
+                <ul class="w-100">
                   {{ range (.Site.AllPages.ByTitle ) }}
                     <li class="search-result-item flex-column">
                       <a class="p-1 flex-grow-1" href="{{ .Permalink }}">
@@ -99,9 +106,12 @@
             </nav>
           </div>
         </aside>
-        <div class="docs-page d-flex flex-column">
+        {{ end }}
+        <div class="docs-page docs-content-background d-flex flex-column">
+          {{ if not (.Page.Params.hidePageHeader) }}
           <header class="docs-header p-2">
             <div class="d-flex align-center h32">
+              {{ if not (.Page.Params.hideDocsNav) }}
               <div class="docs-header-logo pr-2">
                 <label for="menu-control" class="toc-label toc-label-left cursor-pointer p-2">
                   <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -109,8 +119,10 @@
                   </svg>
                 </label>
               </div>
+              {{ end }}
               <div class="flex-grow-1">
               </div>
+              {{ if not (.Page.Params.hidePageNav) }}
               <div>
                 <label for="toc-control" class="toc-label toc-label-right cursor-pointer p-2">
                   <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -119,11 +131,28 @@
                   </svg>
                 </label>
               </div>
+              {{ end }}
             </div>
           </header>
+          {{ end }}
           <div class="page-with-toc d-flex flex-grow-1">
-            <div class="flex-grow-1 d-flex flex-column">
+            <div class="flex-column d-flex flex-grow-1">
+              {{ if not (.Page.Params.hidePageThemeSwitch) }}
+              {{ if (.Page.Params.hidePageNav) }}
+                <div class="d-flex justify-end pr-5 pt-2">
+                  <div class="d-table h32">
+                    <div class="d-table-cell v-align-middle">
+                      <select class="p-1 docs-content-background font-size-small" id="theme-select">
+                        <option>Light theme</option>
+                        <option>Dark theme</option>
+                      </select>  
+                    </div>
+                  </div>
+                </div>
+              {{ end }}
+              {{ end }}
 			        {{ template "main" . }}
+              {{ if not (.Page.Params.hideArticleFooter) }}
               <div class="p-4 article-footer">
                 <div class="d-flex flex-justify-between">
                   <div class="article-footer-btn p-2">
@@ -148,22 +177,28 @@
                   </div> 
                 </div>   
               </div>
+              {{ end }}
+              {{ if not (.Page.Params.showCustomFooter) }}
               <footer class="page-footer position-relative d-table w-100">
                 <div class="pl-3 d-table-cell v-align-middle h-100">
                   <span>&copy; Cloudback 2018-{{ now.Format "2006" }} - <a href="/privacy" target="_blank" class="custom-link">Privacy</a></span>
                 </div>
               </footer>
+              {{ end }}
             </div>
+            {{ if not (.Page.Params.hidePageNav) }}
             <aside class="page-toc">
               <div class="d-flex">
+                {{ if not (.Page.Params.hidePageThemeSwitch) }}
                 <div class="d-table h32">
                   <div class="d-table-cell v-align-middle">
-                    <select id="theme-select">
+                    <select class="p-1 docs-content-background font-size-small" id="theme-select">
                       <option>Light theme</option>
                       <option>Dark theme</option>
                     </select>  
                   </div>
                 </div>
+                {{ end }}
                 <div class="flex-grow-1"></div>
                 <div class="pr-2 h32 d-none">
                   <span class="d-table-cell v-align-middle">Hello, <span class="username">Guest</span>!</span>
@@ -177,10 +212,14 @@
                 {{ template "toc" . }}
               </nav>
             </aside>
+            {{ end }}
           </div>
         </div>
       </div>
     </main>
+    {{ if (.Page.Params.showCustomFooter) }}
+      {{ partial "docs/big-footer" . }}
+    {{ end }}
   </div>
 </body>
 </html>

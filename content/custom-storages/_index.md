@@ -1,29 +1,31 @@
 ---
 weight: 10
 bookCollapseSection: true
+title: Supported Storages
 ---
 
-# Storage configuration
+# Supported Storages
 
 ## Cloudback default storage
 
 By default, Cloudback uses its own storage to backup GitHub repositories. The storage is powered by Microsoft Azure Storage and available for all Cloudback users without any additional payments. 
 
-## Custom storages
+## Your own storages
 
-Cloudback provides you the ability to set up your own custom storage that will be used to save repository backups.
+Cloudback provides you the ability to set up your own storage that will be used to save repository backups.
 
-<p align="center">
-  <a href="/"><img src="https://raw.githubusercontent.com/cloudback/docs/master/static/storages.png" alt="img" style="width: 500px;"></a>
-</p>
+![supported-storages](/static/storages.svg)
 
 There are several options available for Cloudback users:
 
- - Microsoft Azure Blob Container
+ - Microsoft Azure Blob Storage
+ - Microsoft OneDrive Personal
+ - Microsoft OneDrive For Business
  - Amazon S3 Bucket
  - Amazon S3 Glacier
  - Google Cloud Storage Bucket
  - Alibaba Cloud Object Storage Service
+ - OpenStack Swift Container via S3 API
 
 Each of the options can be used as a custom storage for the repository backups. You can use any of your custom storage for each of your GitHub repositories. Please be aware that the user-defined storages are provided by third-party companies may require additional expenses which are not included in Cloudback's pricing.
 

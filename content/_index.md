@@ -2,26 +2,43 @@
 title: Home
 weight: 1
 type: docs
+showCustomHeader: true
+showCustomFooter: true
+hidePageNav: true
+hideDocsNav: true
+hidePageHeader: true
+hidePageThemeSwitch: true
+bodyUseDocsBackground: true
+hideArticleFooter: true
 ---
 
-# Welcome to Cloudback!
+# Cloudback Documentation
 
-<p align="center">
-  <a href="/"><img src="https://raw.githubusercontent.com/cloudback/docs/master/static/social.png" alt="Cloudback | GitHub repository backup" title="Cloudback | GitHub repository backup" style="width: 500px;"></a>
-</p>
-
-## What is Cloudback?
-
-Cloudback secures your GitHub repositories with recurrent data backups. With Cloudback you can use your favorite cloud storage provider or in-build one powered by Azure.
-
-## Getting started
-
-Complete [three simple steps](/getting-started) to set up Cloudback for your GitHub account.
-
-## GitHub repository backup
-
-Learn more about creating your first [GitHub repository backup](/how-to/how-to-backup-github-repository/) using Cloudback.
-
-## Backup GitHub repository to your own storage
-
-Learn more about setting up [your own storage to backup GitHub repository](/custom-storages/) using Cloudback.
+<div class="flex-row-to-column">
+{{< docsCard 
+  title="What is Cloudback?"
+  href="/what-is-cloudback"
+  text="Learn more about what Cloudback is and how it works." >}}
+{{< docsCard 
+  title="Getting started"
+  href="/getting-started"
+  text="Check out how to start using Cloudback and protect your repositories." >}}
+{{< docsCard 
+  title="Various backup storages"
+  href="/features/various-backup-storages/"
+  text="Cloudback allows you to store a backup archive in your own storage." >}}
+</div>
+<div class="flex-row-to-column pb-5">
+{{< docsCard 
+  title="Cloudback security"
+  href="/security"
+  text="Detailed information on how we protect your data can be found here." >}}
+{{< docsCard 
+  title="Metadata backups"
+  href="/features/metadata"
+  text="Cloudback archives not only the whole git repository but GitHub-specific metadata as well." >}}
+{{< docsCard 
+  title="Issue tracker"
+  href="https://github.com/cloudback/issue-tracker/issues"
+  text="Here we track user requests. Report a bug or ask for a new feature." >}}
+</div>
