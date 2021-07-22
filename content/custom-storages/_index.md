@@ -1,10 +1,10 @@
 ---
 weight: 10
 bookCollapseSection: true
-title: Supported storages
+title: Supported Storages
 ---
 
-# Supported storages
+# Supported Storages
 
 ## Cloudback default storage
 

@@ -1,10 +1,10 @@
 ---
-title: Getting started
+title: Getting Started
 weight: 5
 type: docs
 ---
 
-# Getting started
+# Getting Started
 
 This is a short instruction describing how to start creating backups for your GitHub repositories.
 

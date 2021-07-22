@@ -1,9 +1,9 @@
 ---
-title: Restore To GitHub
+title: Restore to GitHub
 weight: 6
 ---
 
-# Restore To GitHub
+# Restore to GitHub
 
 Cloudback allows you to restore a particular backup into a GitHub repository. This is a manual operation accessible from the repository card in the Cloudback Dashboard.
 
