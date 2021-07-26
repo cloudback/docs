@@ -45,7 +45,7 @@ hidePageNav: true
   title="Email notifications" 
   image="/static/lib/logo/features/email-notifications.png" 
   href="/features/email-notifications"
-  text="If something happens and a backup process fails you will get an email notification." >}}
+  text="If something happens and a backup process fails we will send you an email notification." >}}
 {{< featureCard 
   title="GitHub organizations" 
   image="/static/lib/logo/features/organizations.png" 
