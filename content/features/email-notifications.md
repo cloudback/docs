@@ -33,7 +33,8 @@ GitHub itself may go offline, sometimes it happens and may last a few hours. Clo
 ### 3. GitHub account issue
 
 There may be two types of issues related to your GitHub account:
-- The [Cloudback App](github.com/apps/cloudback) installation may be suspended or uninstalled from your account. If the application is uninstalled, Cloudback cannot access your data so backup fails.
+- [Cloudback App](github.com/apps/cloudback) installation may be suspended or uninstalled from your account. If the application is uninstalled, Cloudback cannot access your data so backup fails.
+- Repository may be deleted or inaccessible to Cloudback App
 - Your GitHub account may be locked or suspended. It is rare but happens. Please check your account is accessible.
 
 ### 4. Cloudback issue 
