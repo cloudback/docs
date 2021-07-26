@@ -9,11 +9,13 @@
 
 {{ define "book-section-children" }}{{/* (dict "Section" .Section "CurrentPage" .CurrentPage) */}}
   <ul>
-    {{ range (where .Section.Pages "Params.bookhidden" "ne" true) }}
+    {{ range (where .Section.Pages "Params.hideFromMenu" "ne" true) }}
       {{ if .IsSection }}
         <li {{- if .Params.BookFlatSection }} class="book-section-flat" {{ end -}}>
           {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
-          {{ template "book-section-children" (dict "Section" . "CurrentPage" $.CurrentPage) }}
+          {{ if not .Params.hideChildrenFromMenu }}
+            {{ template "book-section-children" (dict "Section" . "CurrentPage" $.CurrentPage) }}
+          {{ end }}
         </li>
       {{ else if and .IsPage .Content }}
         <li>
@@ -33,8 +35,7 @@
     <label for="section-{{ md5 .Page }}">
       <span class="docs-menu-item">
         <span class="docs-menu-item-text d-flex flex-grow-1">
-          <a {{ if .Page.Content }}href="{{ .Page.Permalink }}"{{ else }}role="button"{{ end }} 
-            class="{{ if $current }}active{{ end }}">
+          <a href="{{ .Page.Permalink }}" class="{{ if $current }}active{{ end }}">
             {{- partial "docs/title" .Page -}}
           </a>
           <span class="docs-menu-item-icon flex-grow-1 text-right">
@@ -46,13 +47,11 @@
         </span>
       </span>
     </label>
-  {{ else if .Page.Content }}
+  {{ else }}
     <a href="{{ .Page.Permalink }}" class="docs-menu-item d-flex {{ if $current }} active{{ end }}">
       <div class="d-flex flex-grow-1">
         <span class="docs-menu-item-text d-flex flex-grow-1">{{- partial "docs/title" .Page -}}</span>
       </div>
     </a>
-  {{ else }}
-    <span>{{- partial "docs/title" .Page -}}</span>
   {{ end }}
 {{ end }}

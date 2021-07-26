@@ -3,7 +3,7 @@
   {{ range sort .Paginator.Pages }}
   <article class="markdown-body book-post">
     <h2>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <a href="{{ .RelPermalink }}">{{ .Title }} </a>
     </h2>
     {{ partial "docs/post-meta" . }}
     <p>
@@ -15,7 +15,7 @@
   </article>
   {{ end }}
 
-  {{ template "_internal/pagination.html" . }}
+  {{ partial "docs/pagination.html" . }}
 {{ end }}
 
 {{ define "toc" }}

@@ -152,7 +152,7 @@
               {{ end }}
               {{ end }}
 			        {{ template "main" . }}
-              {{ if not (.Page.Params.hideArticleFooter) }}
+              {{ if and (not .Page.Params.hideArticleFooter) (not (eq .Page.Section "posts")) }}
               <div class="p-4 article-footer">
                 <div class="d-flex flex-justify-between">
                   <div class="article-footer-btn p-2">
@@ -178,7 +178,7 @@
                 </div>   
               </div>
               {{ end }}
-              {{ if not (.Page.Params.showCustomFooter) }}
+              {{ if and (not .Page.Params.showCustomFooter) (not (eq .Page.Section "posts")) }}
               <footer class="page-footer position-relative d-table w-100">
                 <div class="pl-3 d-table-cell v-align-middle h-100">
                   <span>&copy; Cloudback 2018-{{ now.Format "2006" }} - <a href="/privacy" target="_blank" class="custom-link">Privacy</a></span>
@@ -207,7 +207,7 @@
                   <img class="h32 w32 user-avatar" src="https://mddocs.io/Auth/Avatar" alt="avatar"/>
                 </div>      
               </div>
-              <div class="pt-2 pb-2 mt-2 mb-2 in-this-article"><h5>In this article</h5></div>
+              <div class="pt-2 pb-2 mt-2 mb-2 in-this-article"><h5>{{ if eq .Page.Section "posts" }} Tags {{ else }} In this article  {{ end }}</h5></div>
               <nav class="pt-2">
                 {{ template "toc" . }}
               </nav>
@@ -217,7 +217,7 @@
         </div>
       </div>
     </main>
-    {{ if (.Page.Params.showCustomFooter) }}
+    {{ if or (.Page.Params.showCustomFooter) (eq .Page.Section "posts") }}
       {{ partial "docs/big-footer" . }}
     {{ end }}
   </div>
