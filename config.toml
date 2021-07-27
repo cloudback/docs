@@ -4,6 +4,7 @@ baseURL = 'https://cloudback.github.io'
 title = 'Cloudback'
 theme = 'hugo-book'
 enablegitinfo = true
+paginate = 5
 publishDir = "docs"
 [module]
   [[module.mounts]]

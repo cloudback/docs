@@ -47,6 +47,7 @@
         root.style.setProperty("--text-color", "#24292e");
         root.style.setProperty("--blur-background", "rgba(255, 255, 255, 0.2)");
         root.style.setProperty("--blur-background-backdrop", "rgba(255, 255, 255, 0.95)");
+        root.style.setProperty("--twitter-theme", "light");
         break;
       case "Dark theme":
         root.style.setProperty("--scrollbar-background", "#2F3136");
@@ -63,6 +64,7 @@
         root.style.setProperty("--text-color", "#DCDDDE");
         root.style.setProperty("--blur-background", "rgba(54, 57, 63, 0.2)");
         root.style.setProperty("--blur-background-backdrop", "rgba(54, 57, 63, 0.95)");
+        root.style.setProperty("--twitter-theme", "dark");
         break;
     }
   }
@@ -88,15 +90,41 @@
       var theme = this.value;
       createCookie("mddocs-theme", theme, 365);
       applyStyle(theme);
+      var theme = readCookie("mddocs-theme") === "Dark theme" ? "dark" : "light";
+      applyBlogTimeline(twttr, theme);
     });
     document.addEventListener("click", function (e) {
       var searchMenu = document.getElementById("menu-search-container");
-      if (!searchMenu.contains(e.target)) {
+      if (searchMenu !== null && searchMenu !== undefined && !searchMenu.contains(e.target)) {
         var searchResults = document.getElementById("search-results-container");
         searchResults.style.display = "none";
       }
     }, false);
   });
+  
+  twttr.ready(function (twttr) {
+    var theme = readCookie("mddocs-theme") === "Dark theme" ? "dark" : "light";
+    applyBlogTimeline(twttr, theme);
+  });
+  function applyBlogTimeline(twttr, theme) {
+    var target = document.getElementById("blog-timeline");
+    if (target !== null && target !== undefined){
+      target.innerHTML = "";
+      console.log("apply", theme)
+      twttr.widgets.createTimeline(
+        {
+          sourceType: "profile",
+          screenName: "CloudbackIt"
+        },
+        target, 
+        {
+          theme: theme,
+          tweetLimit: 3
+        }
+      );
+    }
+  }
+
   function onFocus(input) {
     innerSearch(input);
   }

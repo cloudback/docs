@@ -34,6 +34,22 @@
       "applicationCategory": "SecurityApplication"
     }
   </script>
+  <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+  
+    return t;
+  }(document, "script", "twitter-wjs"));</script>
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 </head>
@@ -43,14 +59,18 @@
 {{ end }}
 <body class="{{ .Scratch.Get "bodyBackgroundClass" }}">
   <div class="page d-flex flex-column h-100">
-    {{ if (.Page.Params.showCustomHeader) }}
-      {{ partial "docs/big-header" . }}
+    {{ if eq .Page.Section "posts" }}
+      {{ partial "docs/blog-header" . }}
+    {{else}}
+      {{ if (.Page.Params.showCustomHeader) }}
+        {{ partial "docs/big-header" . }}
+      {{ end }}
     {{ end }}
     <input type="checkbox" class="hidden menu-control" id="menu-control">
     <main class="page-main container w-100">
       <input type="checkbox" class="hidden toc-control" id="toc-control">
       <div class="d-flex h-100">
-        {{ if not (.Page.Params.hideDocsNav) }}
+        {{ if and (not .Page.Params.hideDocsNav) (not (eq .Page.Section "posts")) }}
         <aside class="docs-menu">
           <div class="docs-menu-content">
             <div class="docs-menu-logo">
@@ -70,7 +90,8 @@
                 <div class="p-2">
                   <label for="menu-control" class="toc-label toc-label-close cursor-pointer p-2">
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                      <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+                      <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z">
+                      </path>
                     </svg>
                   </label>
                 </div>
@@ -108,32 +129,32 @@
         </aside>
         {{ end }}
         <div class="docs-page docs-content-background d-flex flex-column">
-          {{ if not (.Page.Params.hidePageHeader) }}
-          <header class="docs-header p-2">
-            <div class="d-flex align-center h32">
-              {{ if not (.Page.Params.hideDocsNav) }}
-              <div class="docs-header-logo pr-2">
-                <label for="menu-control" class="toc-label toc-label-left cursor-pointer p-2">
-                  <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
-                  </svg>
-                </label>
+          {{ if and (not .Page.Params.hidePageHeader) (or (.Page.IsPage) (not (eq .Page.Section "posts"))) }}
+            <header class="docs-header p-2">
+              <div class="d-flex align-center h32">
+                {{ if not (.Page.Params.hideDocsNav) }}
+                  <div class="docs-header-logo pr-2">
+                    <label for="menu-control" class="toc-label toc-label-left cursor-pointer p-2">
+                      <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                      </svg>
+                    </label>
+                  </div>
+                {{ end }}
+                <div class="flex-grow-1">
+                </div>
+                {{ if not (.Page.Params.hidePageNav) }}
+                  <div>
+                    <label for="toc-control" class="toc-label toc-label-right cursor-pointer p-2">
+                      <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M1.75 2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm4 5a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5zm0 5a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
+                        <path d="M13.314 4.918L11.07 2.417A.25.25 0 0111.256 2h4.488a.25.25 0 01.186.417l-2.244 2.5a.25.25 0 01-.372 0z"></path>
+                      </svg>
+                    </label>
+                  </div>
+                {{ end }}
               </div>
-              {{ end }}
-              <div class="flex-grow-1">
-              </div>
-              {{ if not (.Page.Params.hidePageNav) }}
-              <div>
-                <label for="toc-control" class="toc-label toc-label-right cursor-pointer p-2">
-                  <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                    <path fill-rule="evenodd" d="M1.75 2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm4 5a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5zm0 5a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
-                    <path d="M13.314 4.918L11.07 2.417A.25.25 0 0111.256 2h4.488a.25.25 0 01.186.417l-2.244 2.5a.25.25 0 01-.372 0z"></path>
-                  </svg>
-                </label>
-              </div>
-              {{ end }}
-            </div>
-          </header>
+            </header>
           {{ end }}
           <div class="page-with-toc d-flex flex-grow-1">
             <div class="flex-column d-flex flex-grow-1">
@@ -186,32 +207,10 @@
               </footer>
               {{ end }}
             </div>
-            {{ if not (.Page.Params.hidePageNav) }}
-            <aside class="page-toc">
-              <div class="d-flex">
-                {{ if not (.Page.Params.hidePageThemeSwitch) }}
-                <div class="d-table h32">
-                  <div class="d-table-cell v-align-middle">
-                    <select class="p-1 docs-content-background font-size-small" id="theme-select">
-                      <option>Light theme</option>
-                      <option>Dark theme</option>
-                    </select>  
-                  </div>
-                </div>
-                {{ end }}
-                <div class="flex-grow-1"></div>
-                <div class="pr-2 h32 d-none">
-                  <span class="d-table-cell v-align-middle">Hello, <span class="username">Guest</span>!</span>
-                </div>
-                <div class="h32 mr-0 d-none">
-                  <img class="h32 w32 user-avatar" src="https://mddocs.io/Auth/Avatar" alt="avatar"/>
-                </div>      
-              </div>
-              <div class="pt-2 pb-2 mt-2 mb-2 in-this-article"><h5>{{ if eq .Page.Section "posts" }} Tags {{ else }} In this article  {{ end }}</h5></div>
-              <nav class="pt-2">
-                {{ template "toc" . }}
-              </nav>
-            </aside>
+            {{ if and (not .Page.IsPage) (eq .Page.Section "posts") }}
+              
+            {{ else }}
+              {{ partial "docs/toc" . }}
             {{ end }}
           </div>
         </div>
@@ -224,35 +223,8 @@
 </body>
 </html>
 
-{{ define "header" }}
-  {{ partial "docs/header" . }}
-
-  {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-    <input type="checkbox" class="hidden" id="toc-control" />
-    <aside class="hidden clearfix">
-      {{ template "toc" . }}
-    </aside>
-  {{ end }}
-{{ end }}
-
-{{ define "footer" }}
-  {{ partial "docs/footer" . }}
-{{ end }}
-
-{{ define "comments" }}
-  {{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
-  <div class="book-comments">
-    {{- partial "docs/comments" . -}}
-  </div>
-  {{ end }}
-{{ end }}
-
 {{ define "main" }}
   <article class="markdown-body">
     {{- .Content -}}
   </article>
-{{ end }}
-
-{{ define "toc" }}
-  {{ partial "docs/toc" . }}
 {{ end }}

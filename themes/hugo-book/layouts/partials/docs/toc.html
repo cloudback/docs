@@ -1,1 +1,25 @@
-{{ .TableOfContents }}
+{{ if not (.Page.Params.hidePageNav) }}
+<aside class="page-toc">
+  <div class="d-flex">
+    {{ if not (.Page.Params.hidePageThemeSwitch) }}
+    <div class="d-table h32">
+      <div class="d-table-cell v-align-middle">
+        <select class="p-1 docs-content-background font-size-small" id="theme-select">
+          <option>Light theme</option>
+          <option>Dark theme</option>
+        </select>  
+      </div>
+    </div>
+    {{ end }}
+    <div class="flex-grow-1"></div>
+  </div>
+  {{ if not (eq .Page.TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
+    <div class="pt-2 pb-2 mt-2 mb-2 in-this-article">
+      <h5>{{ if eq .Page.Section "posts" }} In this post {{ else }} In this article  {{ end }}</h5>
+    </div>
+  {{ end }}
+  <nav class="pt-2">
+    {{ .Page.TableOfContents }}
+  </nav>
+</aside>
+{{ end }}

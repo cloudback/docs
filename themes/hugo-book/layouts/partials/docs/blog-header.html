@@ -76,7 +76,7 @@
   <div class="mr-3 ml-3 z-index-10">
     <div class="container with-blur big-header-card mt-4 mb-4">
       <div class="pr-5 pl-5 pt-5">
-        <h1 class="fw600 pb-3">Welcome to <a href="/"><span class="custom-link-color">Cloudback Docs</span></a>!</h1>
+        <h1 class="fw600 pb-3">Welcome to <a href="/posts"><span class="custom-link-color">Cloudback Blog</span></a>!</h1>
         <div class="flex-row-to-column">
           <div class="flex-grow-1 w-100 d-flex flex-column">
             <p class="mb-0 pt-3 pb-3 pr-4 flex-grow-1 ">
@@ -108,33 +108,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<div class="position-relative container w-100 pt-4 pb-4 docs-content-background">
-  <div class="p-2" id="menu-search-container">
-    <div class="search-icon-big" id="search-icon">
-      <svg class="search-icon-container h-100 w-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-        <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z">
-        </path>
-      </svg>
-    </div>
-    <input type="text" class="menu-search-input-big" id="menu-search" onkeyup="searchMenu(event, this);" 
-      onfocus="onFocus(this);"
-      placeholder="Search for article..." title="Type the request">
-    <div class="search-results-container" id="search-results-container">
-      <ul class="w-100">
-        {{ range (.Site.AllPages.ByTitle ) }}
-          <li class="search-result-item flex-column">
-            <a class="p-1 flex-grow-1" href="{{ .Permalink }}">
-              {{- partial "docs/title" .Page -}}
-              <br/>
-              {{ partial "docs/breadcrumbs" . }}
-            </a>
-          </li>
-        {{ end }}
-        <li class="nothing-found" id="nothing-found">No pages found</li>
-      </ul>
     </div>
   </div>
 </div>
