@@ -55,7 +55,7 @@ hidePageNav: true
   title="Invoiced customers" 
   image="/static/lib/logo/features/invoiced-customers.png" 
   href="/features/invoiced-customers"
-  text="GitHub invoiced customers cannot purchase paid plans on the GitHub Marketplace. We have a solution." >}}  
+  text="For GitHub Enterprise accounts paid by invoice we offer direct payment to Cloudback." >}}  
 </div>
 <div class="flex-row-to-column">
 {{< featureCard 
