@@ -47,7 +47,6 @@
         root.style.setProperty("--text-color", "#24292e");
         root.style.setProperty("--blur-background", "rgba(255, 255, 255, 0.2)");
         root.style.setProperty("--blur-background-backdrop", "rgba(255, 255, 255, 0.95)");
-        root.style.setProperty("--twitter-theme", "light");
         break;
       case "Dark theme":
         root.style.setProperty("--scrollbar-background", "#2F3136");
@@ -64,7 +63,6 @@
         root.style.setProperty("--text-color", "#DCDDDE");
         root.style.setProperty("--blur-background", "rgba(54, 57, 63, 0.2)");
         root.style.setProperty("--blur-background-backdrop", "rgba(54, 57, 63, 0.95)");
-        root.style.setProperty("--twitter-theme", "dark");
         break;
     }
   }

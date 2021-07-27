@@ -18559,6 +18559,9 @@ a:hover {
 .z-index-10 {
   z-index: 10; }
 
+.lh-125 {
+  line-height: 1.25; }
+
 .h-inherit {
   height: inherit !important;
   min-height: inherit !important; }
