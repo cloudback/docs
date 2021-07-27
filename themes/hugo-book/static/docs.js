@@ -119,7 +119,8 @@
         target, 
         {
           theme: theme,
-          tweetLimit: 3
+          tweetLimit: 3,
+          chrome: "noheader, noborders, nofooter"
         }
       );
     }
