@@ -61,9 +61,11 @@
   <div class="page d-flex flex-column h-100">
     {{ if eq .Page.Section "posts" }}
       {{ partial "docs/blog-header" . }}
-    {{else}}
+    {{ else }}
       {{ if (.Page.Params.showCustomHeader) }}
         {{ partial "docs/big-header" . }}
+      {{ else }}
+        {{ partial "docs/blog-header" . }}
       {{ end }}
     {{ end }}
     <input type="checkbox" class="hidden menu-control" id="menu-control">

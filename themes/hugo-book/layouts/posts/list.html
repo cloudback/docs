@@ -2,7 +2,7 @@
   <div class="flex-row-to-column">
     <div class="w-66-to-100 pt-3">
       <article class="markdown-body book-post">
-      <h2 class="pb-3">Latest Blog Posts</h2>
+      <h1 class="pb-3">Latest Blog Posts</h1>
       {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
       {{ range sort .Paginator.Pages }}
       <div class="pt-2 pb-2">
@@ -22,9 +22,8 @@
     </article>
     </div>
     <div class="w-33-to-100 pt-3">
-      <h2 class="pt-4 pb-3 mb-2 pl-5 lh-125">Latest Tweets</h2>
-      
-      <div id="blog-timeline" class="pl-3 pr-3"></div>
+      <h1 class="pt-4 pb-5 mb-2 pl-5 lh-125">Latest Tweets</h1>      
+      <div id="blog-timeline" class="timeline pl-3 pr-3"></div>
       <script>
       </script>
     </div>
