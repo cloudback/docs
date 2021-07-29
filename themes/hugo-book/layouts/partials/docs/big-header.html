@@ -1,30 +1,5 @@
 <div class="d-flex flex-column w-100 big-header position-relative">
-  <div class="w-100 flex-grow-1">
-    <svg preserveAspectRatio="xMidYMin meet" class="float-left position-absolute h-100 width-auto svg-background" 
-      width="875" height="500" viewBox="0 0 875 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 0L461.5 245.5L875 0H0Z" fill="url(#paint0_linear)" fill-opacity="0.42"/>
-      <path d="M3.96393e-05 499.5L0 0L461.5 245.5L3.96393e-05 499.5Z" fill="var(--docs-menu-background)"/>
-      <defs>
-        <linearGradient id="paint0_linear" x1="-1.14624e-05" y1="615" x2="832.965" y2="487.073" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#7B93AC"/>
-          <stop offset="1" stop-color="#7B93AC" stop-opacity="0"/>
-        </linearGradient>
-      </defs>
-    </svg>
-  </div>
-  <div class="w-100 flex-grow-1">
-    <svg preserveAspectRatio="xMidYMax meet" class="float-right position-absolute h-100 bottom-0 right-0 width-auto svg-background" 
-      width="875" height="500" viewBox="0 0 875 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M875 500V0L455 256.147L875 500Z" fill="url(#paint1_linear)" fill-opacity="0.42"/>
-      <path d="M875 500.001H0L455 256.15L875 500.001Z" fill="var(--docs-menu-background)"/>
-      <defs>
-        <linearGradient id="paint1_linear" x1="1076.37" y1="383.956" x2="1115.67" y2="89.6407" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#7B93AC"/>
-          <stop offset="1" stop-color="#7B93AC" stop-opacity="0"/>
-        </linearGradient>
-      </defs>
-    </svg>
-  </div>
+  {{ partial "docs/common-header.html" . }}
   <div class="w-100 h-100 position-absolute">
     <div class="container flex-row-to-column h-100">
       <div class="flex-grow-1 w-100 h-100"></div>
@@ -41,7 +16,6 @@
       </div>
     </div>
   </div>
-  {{ partial "docs/common-header.html" . }}
   <div class="mr-3 ml-3 z-index-10">
     <div class="container with-blur big-header-card mt-4 mb-4">
       <div class="pr-5 pl-5 pt-5">
@@ -52,7 +26,7 @@
               Cloudback is a cloud backup service for GitHub repositories. Are you prepared for business continuity in the worst-case scenario? See available plans on GitHub Marketplace.
             </p>
             <div class="pt-3 pb-5">
-              <a href="https://github.com/marketplace/cloudback" target="_blank" class="feature-btn d-flex align-center fw600">
+              <a href="https://github.com/marketplace/cloudback" target="_blank" class="feature-btn shadow-sm d-flex align-center fw600">
                 <span class="fw600">Start free trial</span>
                 <svg class="link-icon h20 w20" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"/>
@@ -65,7 +39,7 @@
               This website is the documentation site for the Cloudback service. Here you can find information on how it works and what features it provides. The documentation is under development. That's why a few articles may be missing.
             </p>
             <div class="pt-3 pb-5">
-              <a href="/features" class="feature-btn d-flex align-center fw600">
+              <a href="/features" class="feature-btn shadow-sm d-flex align-center fw600">
                 <span>See all features</span>
                 <svg class="link-icon h20 w20" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"/>

@@ -7,7 +7,6 @@ showCustomFooter: true
 hidePageNav: true
 hideDocsNav: true
 hidePageHeader: true
-hidePageThemeSwitch: true
 bodyUseDocsBackground: true
 hideArticleFooter: true
 ---

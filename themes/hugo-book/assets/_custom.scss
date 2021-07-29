@@ -429,7 +429,6 @@ img {
 
 .big-header-background-img {
   padding-top: 128px !important;
-  padding-bottom: 128px !important;
   opacity: 50%;
   height: 100%;
   width: 100%;
@@ -491,10 +490,17 @@ img {
   object-fit: cover;
 }
 
+.shadow-m {
+  box-shadow: 0 0.5rem 1.5rem var(--shadow-color);
+}
+
+.shadow-sm {
+  box-shadow: 0 0.1rem 0.25rem var(--shadow-color);
+}
+
 .feature-card {
   position: relative;
   background-color: transparent;
-  box-shadow: 0 0.5rem 1.5rem var(--shadow-color);
   -ms-border-radius: 0.75rem;
   border-radius: 0.75rem;
 }
@@ -512,7 +518,6 @@ img {
   border-radius: 0.25rem;
   color: var(--custom-link-color);
   background-color: transparent;
-  box-shadow: 0 0.1rem 0.25rem var(--shadow-color);
   transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   transition-property: transform;
 }
@@ -555,15 +560,32 @@ img {
   width: max-content;
   padding: 6px 12px;
   line-height: 20px;
-  height: 36px;
+  min-height: 36px;
   -ms-border-radius: 0.25rem;
   border-radius: 0.25rem;
   color: var(--text-color) !important;
-  box-shadow: 0 0.1rem 0.25rem var(--shadow-color);
   transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   transition-property: transform;
 }
 
 .sign-in-btn:hover {
   transform: scale(1.05);
+}
+
+.custom-pagination li a {
+  padding: 8px;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: transform;
+  -ms-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  display: block;
+}
+
+.custom-pagination li {
+  padding: 4px;
+}
+
+.custom-pagination li a:hover {
+  transform: scale(1.2);
+  background-color: var(--body-background);
 }
