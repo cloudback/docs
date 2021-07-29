@@ -5,18 +5,7 @@
       <h1 class="pb-3">Latest Blog Posts</h1>
       {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
       {{ range sort .Paginator.Pages }}
-      <div class="pt-2 pb-2">
-        <h3>
-          <a href="{{ .RelPermalink }}">{{ .Title }} </a>
-        </h3>
-        {{ partial "docs/post-meta" . }}
-        <p>
-          {{- .Summary -}}
-          {{ if .Truncated }}
-            <a href="{{ .RelPermalink }}">...</a>
-          {{ end }}
-        </p>
-      </div>
+        {{ partial "docs/post-list-item" . }}
       {{ end }}
       {{ partial "pagination.html" . }}
     </article>

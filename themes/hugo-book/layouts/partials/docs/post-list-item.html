@@ -1,0 +1,41 @@
+<div class="pt-2 pb-2">
+  <h2 class="border-none pb-3 mb-0">
+    <a class="text-color" href="{{ .RelPermalink }}">{{ .Title }} </a>
+  </h2>
+  <div class="w-100 d-flex pb-3">
+    <div class="">
+      {{ $dateFormat := (default "January 2, 2006" .Site.Params.BookDateFormat) }}
+      {{ with .Date}}
+        <span class="font-size-smaller">{{ .Format $dateFormat }}</span>
+      {{ end }}
+    </div>
+    <div class="flex-grow-1"></div>
+    <div class="">
+      <span class="font-size-smaller">{{ .Page.ReadingTime }} min read</span>
+    </div>
+  </div>
+  <div class="pb-3">
+  {{ range $taxonomy, $_ := .Site.Taxonomies }}
+    {{ with $terms := $.GetTerms $taxonomy }}
+    <div class="pb-0">
+      {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
+          <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+      {{- end }}
+    </div>
+    {{ end }}
+  {{ end }}
+  </div>
+  <p>
+    {{- .Summary -}}
+  </p>
+  {{ if .Truncated }}
+  <div class="w-100">
+    <a href="{{ .RelPermalink }}" class="feature-btn shadow-sm d-flex align-center fw600">
+      <span>Read more</span>
+      <svg class="link-icon h20 w20" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"/>
+      </svg>
+    </a>
+  </div>
+  {{ end }}
+</div>

@@ -62,7 +62,7 @@
 {{ $showDocsMenu := and (not .Page.IsHome) (or (and .Page.IsPage (not (eq .Page.Section "posts"))) $isDocsSection) }}
 <body class="{{ .Scratch.Get "bodyBackgroundClass" }}">
   <div class="page d-flex flex-column h-100">
-    {{ if eq .Page.Section "posts" }}
+    {{ if and (eq .Page.Section "posts") ( not .Page.IsPage ) }}
       {{ partial "docs/blog-header" . }}
     {{ else }}
       {{ if (.Page.IsHome) }}
