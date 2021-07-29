@@ -50,7 +50,7 @@ hidePageNav: true
   title="GitHub organizations" 
   image="/static/lib/logo/features/organizations.png" 
   href="/features/github-organizations"
-  text="We support GitHub organizations and organization's repositories are accessible for all owners." >}}
+  text="GitHub organization's repositories are accessible in Cloudback Dashboard for all accounts with owner access." >}}
 {{< featureCard 
   title="Invoiced customers" 
   image="/static/lib/logo/features/invoiced-customers.png" 
@@ -64,10 +64,10 @@ hidePageNav: true
   href="/features/bulk-operations"
   text="When you are managing hundreds of repositories, you need a proper tool to handle administrative tasks." >}}
 {{< featureCard 
-  title="Filter repositories" 
-  image="/static/lib/logo/features/filtering.png" 
-  href="/features/filter-repositories"
-  text="Dashboard supports searching and filtering of your repositories. In case you have a lot of them." >}}
+  title="Backup Status Badge" 
+  image="/static/lib/logo/features/status-badge.png" 
+  href="/features/status-badges"
+  text="Cloudback offers a public HTTP endpoint for status badges so you can embed it into your web page." >}}
 {{< featureCard 
   title="Security" 
   image="/static/lib/logo/features/security.png" 
