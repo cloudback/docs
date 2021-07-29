@@ -14,7 +14,7 @@
       <span class="font-size-smaller">{{ .Page.ReadingTime }} min read</span>
     </div>
   </div>
-  <div class="pb-3">
+  <div>
   {{ range $taxonomy, $_ := .Site.Taxonomies }}
     {{ with $terms := $.GetTerms $taxonomy }}
     <div class="pb-0">
@@ -25,7 +25,7 @@
     {{ end }}
   {{ end }}
   </div>
-  <p>
+  <p class="pt-3">
     {{- .Summary -}}
   </p>
   {{ if .Truncated }}
