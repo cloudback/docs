@@ -1,7 +1,6 @@
 ---
 title: What is Cloudback
 weight: 2
-hidePageNav: false 
 ---
 
 # What is Cloudback

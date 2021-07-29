@@ -2,12 +2,7 @@
 title: Home
 weight: 1
 type: docs
-showCustomHeader: true
-hidePageNav: true
-hideDocsNav: true
-hidePageHeader: true
-bodyUseDocsBackground: true
-hideArticleFooter: true
+hidePageToc: true
 ---
 
 # Cloudback Documentation

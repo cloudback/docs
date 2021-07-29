@@ -1,22 +1,31 @@
 {{ define "main" }}
-  {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
-  {{ range sort .Paginator.Pages }}
-  <article class="markdown-body book-post">
-    <h2>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </h2>
-    {{ partial "docs/post-meta" . }}
-    <p>
-      {{- .Summary -}}
-      {{ if .Truncated }}
-      <a href="{{ .RelPermalink }}">...</a>
+  <div class="flex-row-to-column">
+    <div class="w-66-to-100 pt-3">
+      <article class="markdown-body book-post">
+      <h1 class="pb-3">Latest Blog Posts</h1>
+      {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
+      {{ range sort .Paginator.Pages }}
+      <div class="pt-2 pb-2">
+        <h3>
+          <a href="{{ .RelPermalink }}">{{ .Title }} </a>
+        </h3>
+        {{ partial "docs/post-meta" . }}
+        <p>
+          {{- .Summary -}}
+          {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}">...</a>
+          {{ end }}
+        </p>
+      </div>
       {{ end }}
-    </p>
-  </article>
-  {{ end }}
-  {{ template "partials/pagination.html" . }}
-{{ end }}
-
-{{ define "toc" }}
-  {{ partial "docs/taxonomy" . }}
+      {{ partial "pagination.html" . }}
+    </article>
+    </div>
+    <div class="w-33-to-100 pt-3">
+      <h1 class="pt-4 pb-5 mb-2 pl-5 lh-125">Latest Tweets</h1>      
+      <div id="blog-timeline" class="timeline pl-3 pr-3"></div>
+      <script>
+      </script>
+    </div>
+  </div>
 {{ end }}
