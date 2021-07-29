@@ -3,7 +3,6 @@ title: Home
 weight: 1
 type: docs
 showCustomHeader: true
-showCustomFooter: true
 hidePageNav: true
 hideDocsNav: true
 hidePageHeader: true

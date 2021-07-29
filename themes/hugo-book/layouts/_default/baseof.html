@@ -151,7 +151,7 @@
           <div class="page-with-toc d-flex flex-grow-1">
             <div class="flex-column d-flex flex-grow-1">
 			        {{ template "main" . }}
-              {{ if and (not .Page.Params.hideArticleFooter) (not (eq .Page.Section "posts")) }}
+              {{ if and (not .Page.Params.hideArticleFooter) (not (eq .Page.Section "posts")) (not (eq .Page.Section "tags")) (not (eq .Page.Section "categories")) }}
               <div class="p-4 article-footer">
                 <div class="d-flex flex-justify-between">
                   <div class="article-footer-btn p-2">
@@ -177,13 +177,6 @@
                 </div>   
               </div>
               {{ end }}
-              {{ if and (not .Page.Params.showCustomFooter) (not (eq .Page.Section "posts")) }}
-              <footer class="page-footer position-relative d-table w-100">
-                <div class="pl-3 d-table-cell v-align-middle h-100">
-                  <span>&copy; Cloudback 2018-{{ now.Format "2006" }} - <a href="/privacy" target="_blank" class="custom-link">Privacy</a></span>
-                </div>
-              </footer>
-              {{ end }}
             </div>
             {{ if and (not .Page.IsPage) (eq .Page.Section "posts") }}
               
@@ -194,9 +187,7 @@
         </div>
       </div>
     </main>
-    {{ if or (.Page.Params.showCustomFooter) (eq .Page.Section "posts") }}
-      {{ partial "docs/big-footer" . }}
-    {{ end }}
+    {{ partial "docs/big-footer" . }}
   </div>
 </body>
 </html>

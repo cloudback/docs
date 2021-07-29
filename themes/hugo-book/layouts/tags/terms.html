@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="markdown-body">
+<div>
+  {{ range .Data.Terms.ByCount }}
+    <div class="pb-4">
+      <a class="pt-3 pb-3" href="{{ .Page.Permalink }}"><h2>{{ .Page.Title }}</h2></a>
+      {{ $pageCount := len .Pages }}
+      <p>{{ $pageCount }} post{{ if ne $pageCount 1 }}s{{ end }} </p>
+    </div>
+  {{ end }}
+</div>
+</article>
+{{ end }}

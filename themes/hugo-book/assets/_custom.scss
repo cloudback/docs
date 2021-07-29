@@ -588,4 +588,9 @@ img {
 .custom-pagination li a:hover {
   transform: scale(1.2);
   background-color: var(--body-background);
+  opacity: 75%;
+}
+
+.custom-pagination li.active a {
+  background-color: var(--body-background);
 }
