@@ -22,7 +22,7 @@ Here is the list of repository's data in a backup archive:
 - All [Topics](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/classifying-your-repository-with-topics)
 - All [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 - All [Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
-- All [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) with comments
+- All [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
 - All [Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects)
 - All [Commit Comments](https://github.blog/2008-04-10-commit-comments/)
 
