@@ -99,8 +99,9 @@
       }
     }, false);
   });
-  
+    
   twttr.ready(function (twttr) {
+    console.log("ready");
     var theme = readCookie("mddocs-theme") === "Dark theme" ? "dark" : "light";
     applyBlogTimeline(twttr, theme);
   });

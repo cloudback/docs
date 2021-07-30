@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="flex-row-to-column">
     <div class="w-66-to-100 pt-3">
-      <article class="markdown-body book-post">
+      <article class="blog-body book-post">
       <h1 class="pb-3">Latest Blog Posts</h1>
       {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
       {{ range sort .Paginator.Pages }}

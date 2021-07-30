@@ -17974,6 +17974,9 @@ aside nav, .docs-page, .markdown-body, .article-footer-btn {
   flex: 1 1 auto;
   padding: 24px 40px 24px 40px; }
 
+.blog-body {
+  padding: 24px 40px 24px 40px; }
+
 .hidden {
   display: none; }
 
@@ -18173,7 +18176,7 @@ li input:checked + label + ul > li {
     display: block; }
   .toc-label-right {
     display: block; }
-  .markdown-body {
+  .markdown-body, .blog-body {
     padding: 16px 40px 24px 40px; }
   .toc-control:checked + div .page-toc {
     display: block; } }
@@ -18216,11 +18219,11 @@ li input:checked + label + ul > li {
     max-width: 100%; } }
 
 @media screen and (max-width: 544px) {
-  .markdown-body {
+  .markdown-body, .blog-body {
     padding: 8px 16px 8px 16px; } }
 
 @media screen and (max-width: 320px) {
-  .markdown-body {
+  .markdown-body, .blog-body {
     padding: 4px 8px 8px 8px; }
   body {
     overflow-x: auto; } }

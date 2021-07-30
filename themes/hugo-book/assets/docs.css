@@ -232,6 +232,10 @@
     flex: 1 1 auto;
     padding: 24px 40px 24px 40px;
   }
+
+  .blog-body {
+    padding: 24px 40px 24px 40px;
+  }
   
   .hidden { display: none; }
   
@@ -446,7 +450,7 @@
     }
     .docs-header { display: block; }
     .toc-label-right { display: block; }
-    .markdown-body {
+    .markdown-body, .blog-body {
       padding: 16px 40px 24px 40px;
     }
     .toc-control:checked + div .page-toc {
@@ -501,12 +505,12 @@
     }
   }
   @media screen and (max-width: 544px) {
-    .markdown-body {
+    .markdown-body, .blog-body {
       padding: 8px 16px 8px 16px;
     }
   }
   @media screen and (max-width: 320px) {
-    .markdown-body {
+    .markdown-body, .blog-body {
       padding: 4px 8px 8px 8px;
     }
     body {

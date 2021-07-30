@@ -1,20 +1,40 @@
-<div class="pt-2 pb-2">
-  <h2 class="border-none pb-3 mb-0">
+<div class="pt-2 pb-4">
+  <h2 class="border-none pb-3 mb-0 fw600">
     <a class="text-color" href="{{ .RelPermalink }}">{{ .Title }} </a>
   </h2>
   <div class="w-100 d-flex pb-3">
     <div class="">
       {{ $dateFormat := (default "January 2, 2006" .Site.Params.BookDateFormat) }}
       {{ with .Date}}
-        <span class="font-size-smaller">{{ .Format $dateFormat }}</span>
+      <span class="d-flex align-center">
+        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+          <path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"></path>
+        </svg>
+        <span class="pl-2">{{ .Format $dateFormat }}</span>
+      </span>
       {{ end }}
     </div>
     <div class="flex-grow-1"></div>
     <div class="">
-      <span class="font-size-smaller">{{ .Page.ReadingTime }} min read</span>
+      <span class="d-flex align-center">
+        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+          <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z">
+          </path>
+        </svg>
+        <span class="pl-2">{{ .Page.ReadingTime }} min read</span>
+      </span>
     </div>
   </div>
-  <div>
+  {{ $hasMeta := false }}
+  {{ range $taxonomy, $_ := .Site.Taxonomies }}
+    {{ with $terms := $.GetTerms $taxonomy }}
+      {{ if not (eq (len $terms) 0) }}
+        {{$hasMeta = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  <div class="p-{{ if $hasMeta}}2{{else}}0{{end}}">
   {{ range $taxonomy, $_ := .Site.Taxonomies }}
     {{ with $terms := $.GetTerms $taxonomy }}
     <div class="pb-0">
@@ -25,11 +45,11 @@
     {{ end }}
   {{ end }}
   </div>
-  <p class="pt-3">
+  <p class="pt-0">
     {{- .Summary -}}
   </p>
   {{ if .Truncated }}
-  <div class="w-100">
+  <div class="w-100 pt-2">
     <a href="{{ .RelPermalink }}" class="feature-btn shadow-sm d-flex align-center fw600">
       <span>Read more</span>
       <svg class="link-icon h20 w20" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
