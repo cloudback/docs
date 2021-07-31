@@ -19,9 +19,12 @@ Important things to know:
 Here is the list of repository's data in a backup archive:
 
 - A [bare clone](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---bare) of a git repository
+- All [Topics](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/classifying-your-repository-with-topics)
 - All [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 - All [Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
-- All opened and closed [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) with comments
+- All [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+- All [Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects)
+- All [Commit Comments](https://github.blog/2008-04-10-commit-comments/)
 
 Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 
@@ -29,8 +32,8 @@ Metadata is stored as a JSON file per data type in the same format we download i
 
 We are working right now to support below data to be included as well:
 
-- [Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects)
 - [Releases](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/about-releases)
+- [Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 
 ## This metadata is not included due to GitHub API restrictions
 
