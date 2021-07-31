@@ -117,6 +117,7 @@
         },
         target, 
         {
+          id: 'profile:CloudbackIt',
           theme: theme,
           tweetLimit: 3,
           chrome: "noheader, noborders, nofooter"

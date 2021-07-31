@@ -2,9 +2,9 @@
   <div class="flex-row-to-column">
     <div class="w-66-to-100 pt-3">
       <article class="blog-body book-post">
-      <h1 class="pb-3 fw600">Latest Blog Posts</h1>
-      {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
-      {{ range sort .Paginator.Pages }}
+      <h1 class="pb-4 fw600 mb-3 with-border-bottom">Latest Blog Posts</h1>
+      {{ $paginator := .Paginate (where .Pages.ByDate.Reverse "Params.hidden" "ne" true) }}
+      {{ range .Paginator.Pages }}
         {{ partial "docs/post-list-item" . }}
       {{ end }}
       {{ partial "pagination.html" . }}

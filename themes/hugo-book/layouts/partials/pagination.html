@@ -19,7 +19,7 @@
 
 {{- if in $validFormats $format }}
   {{- if gt $page.Paginator.TotalPages 1 }}
-    <ul class="custom-pagination pr-0 pl-0 pt-4 pb-4 mt-3 d-flex list-style-none justify-center with-border-top">
+    <ul class="custom-pagination pr-0 pl-0 pt-4 pb-4 d-flex list-style-none justify-center">
       {{- partial "partials/inline/pagination/default" $page }}
     </ul>
   {{- end }}

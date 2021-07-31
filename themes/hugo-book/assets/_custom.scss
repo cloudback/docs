@@ -594,3 +594,12 @@ img {
 .custom-pagination li.active a {
   background-color: var(--body-background);
 }
+
+.blog-tag {
+  background-color: var(--body-background);
+  -ms-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  margin: 2px;
+  padding: 2px 6px;
+  display: inline-block;
+}

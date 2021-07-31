@@ -581,6 +581,10 @@
   .w24 {
     width: 24px;
   }
+
+  .opacity-50 {
+    opacity: 50%;
+  }
   
   .align-center {
     align-items: center;
