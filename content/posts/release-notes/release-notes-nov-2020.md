@@ -3,7 +3,6 @@ title: "Release Notes: November 25 2020"
 tags: ["Release notes", "Cloudback", "Azure", "Storages"]
 date: 2020-11-25
 categories: ["Development", "golang"]
-menu: "main"
 ---
 
 Hugo uses the excellent library for
