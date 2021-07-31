@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="flex-row-to-column">
   <div class="w-66-to-100 pt-3">
-    <article class="blog-body book-post">
+    <article class="blog-body">
     <h1 class="pb-3">Blog Tags</h1>
     <div>
       {{ range .Data.Terms.ByCount }}
@@ -12,13 +12,11 @@
         </div>
       {{ end }}
     </div>
-  </article>
+    </article>
   </div>
-  <div class="w-33-to-100 pt-3">
+  <div class="w-33-to-100 pt-3 pb-3">
     <h1 class="pt-4 pb-5 mb-2 pl-5 lh-125">Latest Tweets</h1>      
     <div id="blog-timeline" class="timeline pl-3 pr-3"></div>
-    <script>
-    </script>
   </div>
 </div>
 {{ end }}

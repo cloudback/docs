@@ -1,9 +1,9 @@
 <div class="pt-0 pb-4 mb-4 with-border-bottom">
   {{ $tags := .GetTerms "tags" }}
   {{ if not (eq (len $tags) 0) }}
-    <div class="font-size-small">
+    <div class="font-size-small pt-0 pb-3">
       {{ range $tags }}
-        <span class="mt-2 mb-2"><a class="blog-tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+        <span class="mt-2 mb-2"><a class="blog-tag scale-on-hover" href="{{ .RelPermalink }}"><span class="opacity-50">{{ .LinkTitle }}</span></a></span>
       {{ end }}
     </div>
   {{ end }}

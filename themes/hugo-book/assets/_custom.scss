@@ -532,7 +532,7 @@ img {
 }
 
 .scale-on-hover:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .big-header {
@@ -602,4 +602,5 @@ img {
   margin: 2px;
   padding: 2px 6px;
   display: inline-block;
+  color: var(--text-color) !important;
 }

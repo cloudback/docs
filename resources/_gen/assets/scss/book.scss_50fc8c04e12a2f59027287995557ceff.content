@@ -17622,9 +17622,6 @@ ul.pagination {
   flex-grow: 1;
   padding: 1rem; }
 
-.book-post {
-  margin-bottom: 3rem; }
-
 .book-header {
   display: none;
   margin-bottom: 1rem; }
@@ -18883,7 +18880,7 @@ img {
   transition-property: transform; }
 
 .scale-on-hover:hover {
-  transform: scale(1.05); }
+  transform: scale(1.1); }
 
 .big-header {
   background: var(--docs-content-background); }
@@ -18942,4 +18939,5 @@ img {
   border-radius: 0.25rem;
   margin: 2px;
   padding: 2px 6px;
-  display: inline-block; }
+  display: inline-block;
+  color: var(--text-color) !important; }
