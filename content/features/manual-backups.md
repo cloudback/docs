@@ -11,28 +11,7 @@ Cloudback allows you to trigger a backup process on demand by clicking a single 
 - You want to test [your own storage](/features/various-backup-storages) that you configured recently
 - You want to secure your data at a specific point in time
 
-<img src="/static/features/manual-backup.png" alt="Manual Backup" width=500/>
-
-## Works only for scheduled repositories
-
-The `Trigger backup now!` button is enabled only for scheduled repositories. You can schedule a repository in the `Repository settings` dialog of the card on the dashboard:
-
-<p align="center">
-  <img src="/static/features/schedule-if-disabled.png" data-alt="/static/features/schedule-if-disabled.gif"
-       alt="Schedule if disabled" onclick="swapGif(this)" style="cursor: pointer;"/>
-</p>
-
-## Number of scheduled repositories
-
-The overall number of scheduled repositories depends on a purchased [GitHub Marketplace Plan](https://github.com/marketplace/cloudback) and a purchased number of `units`. The detailed information on the available number of `units` can be found in the `Billing profile` dialog in the `Main menu`:
-
-- Repositories section:
-  - **Purchased**: the overall number of purchased repositories
-  - **In use**: the number of scheduled repositories
-  - **Remaining**: the delta between the number of purchased and the number of scheduled
-
-<img src="/static/features/billing-profile.png" alt="Billing Profile"/>
-
+<img src="/static/features/manual-backup.png" alt="Manual Backup" width=450/>
 
 ## Trigger a backup
 
@@ -51,4 +30,5 @@ Please note, that you will receive no email notifications for manual backups. Em
 
 - [What is a backup storage?](/features/various-backup-storages)
 - [What is inside of a backup?](/features/metadata)
+- [What is inside of an archive?](/features/archive)
 - [What is an email notification?](/features/email-notifications)

@@ -19,6 +19,8 @@ Important things to know:
 Here is the list of repository's data in a backup archive:
 
 - A [bare clone](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---bare) of a git repository
+- A [Git Large File Storage](https://docs.github.com/en/github/managing-large-files/versioning-large-files/about-git-large-file-storage)
+- A regular clone of a [Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis) repository
 - All [Topics](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/classifying-your-repository-with-topics)
 - All [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 - All [Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
@@ -29,34 +31,29 @@ Here is the list of repository's data in a backup archive:
 
 Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 
-## This metadata is not included yet but will be soon
+## This metadata is not included yet 
 
-We are working right now to support below data to be included as well:
+The metadata listed below are in our plans for future releases. You can speed up the release if you up-vote by email. Just let us know and we consider changing its priority to a higher one.
 
-- [Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
+- All [Deploy Keys](https://docs.github.com/en/rest/reference/repos#deploy-keys)
+- All [Collaborators](https://docs.github.com/en/rest/reference/repos#collaborators)
+- All [Environments](https://docs.github.com/en/rest/reference/repos#environments)
+- All [Discussions](https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions)
+- All [Webhooks](https://docs.github.com/en/rest/reference/repos#webhooks)
+- All [Autolinks](https://docs.github.com/en/rest/reference/repos#autolinks)
 
 ## This metadata is not included due to GitHub API restrictions
+
+We can't backup or restore this data because of GitHub limitations. Please let us know if there is a mistake or API is changed - we will fix it as soon as possible.
 
 - [Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets): Justification: there is no [API](https://docs.github.com/en/rest/reference/actions#get-a-repository-secret) to get a stored encrypted value
 - [Forks](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/about-forks): Justification: there is no API
 - [Watchers](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications): Justification: there is no API
 - [Stargazers](https://docs.github.com/en/rest/reference/activity#starring): Justification: there is no API
-
-## What is inside an archive?
-
-The archive represents [ZIP File Version 5.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-5.2.0.txt) with [AES-256](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption. **Be aware that AES encryption is not widely supported by ZIP tools and archivers.** For instance, Microsoft Windows Compressed Folders [does not support AES encryption](https://devblogs.microsoft.com/oldnewthing/20180515-00/?p=98755) and won't be able to open any AES-encrypted ZIP archive. Please consider using third-party software. We recommend you [7-Zip](https://www.7-zip.org/) which is cross-platform and is free for commercial use (there are limitations, please refer to [7-Zip License](https://www.7-zip.org/license.txt) for details). 
-
-Also, please note that we put one ZIP into another one. This is done to hide filenames inside an archive. Filename encryption is introduced in [ZIP File Format Specification 6.2](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-6.2.0.txt). We decided to keep version 5.2 for better compatibility.
-
-Sample archive presented on screenshots below:
-<br><img src="/static/features/zip-aes.png" alt="Inside a backup 1"/>
-
-Password prompt:
-<br><img src="/static/features/zip-password.png" alt="Inside a backup 2"/>
-
-Archive content:
-<br><img src="/static/features/zip-content.png" alt="Inside a backup 3"/>
+- [Commit Statuses](https://docs.github.com/en/rest/reference/repos#statuses): Justification: there is an API, but it doesn''t allow to explore all statuses for a whole repository
+- [Deployments](https://docs.github.com/en/rest/reference/repos#deployments): Justification: there is no API to restore completed deployments
 
 ## Learn more
 
+- [What is inside of an archive?](/features/archive)
 - [What is a backup storage?](/features/various-backup-storages)

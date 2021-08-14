@@ -27,6 +27,17 @@ Also, there is an option to change the schedule for all repositories in a GitHub
        alt="Change Schedule in a Bulk" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
+## Number of scheduled repositories
+
+The overall number of scheduled repositories depends on a purchased [GitHub Marketplace Plan](https://github.com/marketplace/cloudback) and a purchased number of `units`. The detailed information on the available number of `units` can be found in the `Billing profile` dialog in the `Main menu`:
+
+- Repositories section:
+  - **Purchased**: the overall number of purchased repositories
+  - **In use**: the number of scheduled repositories
+  - **Remaining**: the delta between the number of purchased and the number of scheduled
+
+<img src="/static/features/billing-profile.png" alt="Billing Profile"/>
+
 ## Time zone
 
 Please be aware that a backup schedule is sensitive to the account time zone you define at the initial setup. Additionally, you could verify and change the time zone in the `Account Settings` menu:
@@ -50,4 +61,5 @@ Available options:
 ## Learn more
 
 - [What is inside of a backup?](/features/metadata)
+- [What is inside of an archive?](/features/archive)
 - [What is a backup storage?](/features/various-backup-storages)

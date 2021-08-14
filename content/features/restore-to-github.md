@@ -34,3 +34,4 @@ Once restore is finished please follow the link `Open restored repository` to op
 
 - [What is a backup storage?](/features/various-backup-storages)
 - [What is inside of a backup?](/features/metadata)
+- [What is inside of an archive?](/features/archive)
