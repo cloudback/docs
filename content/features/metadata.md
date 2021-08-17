@@ -29,6 +29,7 @@ Here is the list of repository's data in a backup archive:
 - All [Commit Comments](https://github.blog/2008-04-10-commit-comments/)
 - All [Releases](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/about-releases)
 - All [Collaborators](https://docs.github.com/en/rest/reference/repos#collaborators)
+- All [Webhooks](https://docs.github.com/en/rest/reference/repos#webhooks) except [secret tokens](https://docs.github.com/en/developers/webhooks-and-events/webhooks/securing-your-webhooks#setting-your-secret-token). Secret tokens must be set manually after restore
 
 Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 
@@ -36,10 +37,9 @@ Metadata is stored as a JSON file per data type in the same format we download i
 
 The metadata listed below are in our plans for future releases. You can speed up the release if you up-vote by email. Just let us know and we consider changing its priority to a higher one.
 
-- All [Environments](https://docs.github.com/en/rest/reference/repos#environments)
-- All [Discussions](https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions)
-- All [Webhooks](https://docs.github.com/en/rest/reference/repos#webhooks)
 - All [Autolinks](https://docs.github.com/en/rest/reference/repos#autolinks)
+- All [Discussions](https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions)
+- All [Environments](https://docs.github.com/en/rest/reference/repos#environments)
 
 ## This metadata is not included due to GitHub API restrictions
 
