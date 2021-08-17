@@ -37,20 +37,20 @@ Metadata is stored as a JSON file per data type in the same format we download i
 
 The metadata listed below are in our plans for future releases. You can speed up the release if you up-vote by email. Just let us know and we consider changing its priority to a higher one.
 
-- All [Autolinks](https://docs.github.com/en/rest/reference/repos#autolinks)
 - All [Discussions](https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions)
-- All [Environments](https://docs.github.com/en/rest/reference/repos#environments)
 
 ## This metadata is not included due to GitHub API restrictions
 
 We can't backup or restore this data because of GitHub limitations. Please let us know if there is a mistake or API is changed - we will fix it as soon as possible.
 
-- [Deploy Keys](https://docs.github.com/en/rest/reference/repos#deploy-keys): Justification: not accessible by GitHub Apps integration API
+- [Deploy Keys](https://docs.github.com/en/rest/reference/repos#deploy-keys): Justification: not accessible by GitHub Apps integration API yet
+- [Autolinks](https://docs.github.com/en/rest/reference/repos#autolinks): Justification: not accessible by GitHub Apps integration API yet
+- [Environments](https://docs.github.com/en/rest/reference/repos#environments): Justification: there is no [API](https://docs.github.com/en/rest/reference/actions#get-an-environment-secret) to get environment variable value 
 - [Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets): Justification: there is no [API](https://docs.github.com/en/rest/reference/actions#get-a-repository-secret) to get an encrypted value
 - [Forks](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/about-forks): Justification: there is no API
 - [Watchers](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications): Justification: there is no API
 - [Stargazers](https://docs.github.com/en/rest/reference/activity#starring): Justification: there is no API
-- [Commit Statuses](https://docs.github.com/en/rest/reference/repos#statuses): Justification: there is an API, but it doesn''t allow to explore all statuses for a whole repository
+- [Commit Statuses](https://docs.github.com/en/rest/reference/repos#statuses): Justification: there is an API, but it doesn't allow to explore all statuses for a whole repository
 - [Deployments](https://docs.github.com/en/rest/reference/repos#deployments): Justification: there is no API to restore completed deployments
 
 ## Learn more
