@@ -4,8 +4,8 @@ go:
   - master # This uses automatically the latest version of go
 
 install:
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_extended_0.68.3_Linux-64bit.tar.gz
-  - tar -xzvf hugo_extended_0.68.3_Linux-64bit.tar.gz
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.86.0/hugo_extended_0.86.0_Linux-64bit.tar.gz
+  - tar -xzvf hugo_extended_0.86.0_Linux-64bit.tar.gz
   - chmod +x hugo
   - export PATH=$PATH:$PWD
   - hugo version

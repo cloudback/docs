@@ -45,6 +45,13 @@
     background-color: transparent;
   }
 
+  .with-border-bottom {
+    border-bottom: 1px solid var(--page-border-color);
+  }
+  .with-border-top {
+    border-top: 1px solid var(--page-border-color);
+  }
+
   .text-color {
     color: var(--text-color) !important;
   }
@@ -225,6 +232,10 @@
     flex: 1 1 auto;
     padding: 24px 40px 24px 40px;
   }
+
+  .blog-body {
+    padding: 24px 40px 24px 40px;
+  }
   
   .hidden { display: none; }
   
@@ -368,6 +379,12 @@
     color: var(--text-color);
   }
 
+  .timeline {
+    max-width: 500px;
+    position: relative;
+    margin: 0 auto;
+  }
+
   .article-footer-btn {
     border-radius: 17px;
     opacity: 50%;
@@ -403,14 +420,8 @@
   
   .menu-dropdown { display: block; }
   
-  .docs-menu-logo{
-    display: flex;
-  }
-  .docs-header-logo, .docs-header-site-name{
+  .docs-header-logo{
     display: none;
-  }
-  .docs-menu-logo {
-    display: flex;
   }
   .close-menu {
     display: none;
@@ -439,7 +450,7 @@
     }
     .docs-header { display: block; }
     .toc-label-right { display: block; }
-    .markdown-body {
+    .markdown-body, .blog-body {
       padding: 16px 40px 24px 40px;
     }
     .toc-control:checked + div .page-toc {
@@ -451,26 +462,8 @@
       --docs-menu-width: 300px;
       --page-toc-width: 300px;
     }
-  }
-  @media screen and (max-width: 768px) {
-    :root {
-      --docs-menu-width: 290px;
-      --page-toc-width: 290px;
-    }
-    body {
-      overflow-x: hidden;
-    }
-    .svg-background {
-      max-width: 100%;
-    }
-    .close-menu {
-      display: flex;
-    }
     .docs-header-logo{
       display: flex;
-    }
-    .docs-header-site-name{
-      display: table;
     }
     .search-results-container{
       max-width: var(--docs-menu-width);
@@ -491,16 +484,33 @@
     }
     .toc-label-left { display: block; }
     .docs-menu {
+      z-index: 20;
+      position: absolute;
       margin-left: calc(-1 * var(--docs-menu-width));
+    }
+    .close-menu {
+      display: flex;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    :root {
+      --docs-menu-width: 290px;
+      --page-toc-width: 290px;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    .svg-background {
+      max-width: 100%;
     }
   }
   @media screen and (max-width: 544px) {
-    .markdown-body {
+    .markdown-body, .blog-body {
       padding: 8px 16px 8px 16px;
     }
   }
   @media screen and (max-width: 320px) {
-    .markdown-body {
+    .markdown-body, .blog-body {
       padding: 4px 8px 8px 8px;
     }
     body {
@@ -570,6 +580,10 @@
   
   .w24 {
     width: 24px;
+  }
+
+  .opacity-50 {
+    opacity: 50%;
   }
   
   .align-center {
