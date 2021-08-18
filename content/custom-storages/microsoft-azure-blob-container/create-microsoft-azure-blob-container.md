@@ -5,7 +5,7 @@ weight: 2
 
 # Backup GitHub repository using Azure: How to create a new Microsoft Azure Blob Container
 
-When creating [GitHub repository backup](https://docs.cloudback.it/how-to/how-to-backup-github-repository/) using Cloudback you can set up your own Azure Storage where the backups will be saved. 
+When creating [GitHub repository backup](https://docs.cloudback.it/features/automated-daily-backups/) using Cloudback you can set up your own Azure Storage where the backups will be saved. 
 This article describes how to create a new Azure Blob Container for GitHub repository backups.
 
 ## About Microsoft Azure Blob Containers
