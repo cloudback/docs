@@ -52,8 +52,9 @@ Alibaba Cloud Object Storage Service (OSS) is an encrypted, secure, cost-effecti
 ![any-operations](/static/ali/05-paste-ram.png)
 
 
-* Type your bucket name to the Step 3 field on the Cloudback site
-
+* Type your [Bucket Domain Name](https://www.alibabacloud.com/help/doc-detail/31834.htm) to the Step 3 field on the `New Storage` dialog
+    * Sample input: `your-bucket-name.oss-me-east-1.aliyuncs.com`
+    
 * Click on `Save` button:
 
 ![save-storage](/static/ali/06-save.png)
