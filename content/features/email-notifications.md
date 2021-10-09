@@ -11,6 +11,16 @@ Once backup is failed our Support Team gets notification as well. Is the issue i
 
 <img src="/static/features/email-failure-notification.png" alt="Email notification"/>
 
+## Email address 
+
+* All emails and email notification are sent to a GitHub account [primary email address](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/changing-your-primary-email-address). 
+* Email address for failed backup notifications can be changed in `Account Settings` menu:
+
+<p align="center">
+  <img src="/static/features/email-override.png" data-alt="/static/features/email-override.gif"
+       alt="Change Failed Backups Notifications Email" onclick="swapGif(this)" style="cursor: pointer;"/>
+</p>
+
 ## Why can a backup fail?
 
 A backup can fail for various reasons, almost all of them fall into four categories: 
@@ -26,20 +36,21 @@ In order to troubleshoot a storage issue please verify your storage settings in 
 
 <img src="/static/features/edit-storage.png" alt="Edit storage" width=500/>
 
-### 2. GitHub outage
-
-GitHub itself may go offline, sometimes it happens and may last a few hours. Cloudback will try to backup 6 times in 6 hours. If nothing works a backup will fail. There is a [GitHub Status](https://www.githubstatus.com/) page where you can check the `API Requests` operational status.
-
-### 3. GitHub account issue
+### 2. GitHub account issue
 
 There may be two types of issues related to your GitHub account:
 - [Cloudback App](github.com/apps/cloudback) installation may be suspended or uninstalled from your account. If the application is uninstalled, Cloudback cannot access your data so backup fails.
 - Repository may be deleted or inaccessible to Cloudback App
 - Your GitHub account may be locked or suspended. It is rare but happens. Please check your account is accessible.
 
-### 4. Cloudback issue 
+### 3. Cloudback issue 
 
-Sometimes backup software itself can fail. It happens and our Cloudback Support Team is in charge to recover the backup, analyze a root cause and implement all necessary changes to prevent it from happening in the future.
+Sometimes backup software itself can fail. It happens and our Cloudback Support Team is in charge to recover the backup, analyze a root cause and implement all necessary changes to prevent it from happening in the future. Please [contact us](/contact-us) if you think it is the case.
+
+### 4. GitHub outage
+
+GitHub itself may go offline, sometimes it happens and may last a few hours. Cloudback will try to backup 6 times in 6 hours. If nothing works a backup will fail. There is a [GitHub Status](https://www.githubstatus.com/) page where you can check the `API Requests` operational status.
+
 
 ## Notifications on a successful backup
 
