@@ -17,7 +17,7 @@ Once you click the `Download this backup` button the dialog will be shown. The d
 
 ## Archive's password email
 
-You will receive an email with the password each time you download a repository backup:
+You will receive an email with the password each time you download a [password-protected archive](/features/archive) of a repository backup:
 
 <img src="/static/features/password-email.png" alt="Password email"/>
 
@@ -37,3 +37,4 @@ In any of these cases you will get the `File not found` notification:
 
 - [What is inside of a backup?](/features/metadata)
 - [What is a backup storage?](/features/various-backup-storages)
+- [Password-Protected Archives](/features/archive)

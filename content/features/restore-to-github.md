@@ -7,7 +7,7 @@ weight: 6
 
 Cloudback allows you to restore a particular backup into a GitHub repository. This is a manual operation accessible from the repository card in the Cloudback Dashboard.
 
-<img src="/static/features/restore-this-backup.png" alt="Restore" width=500/>
+<img src="/static/features/restore-this-backup.png" alt="Restore" width="500"/>
 
 ## Prerequisites
 
@@ -28,10 +28,10 @@ If the [Cloudback Restore](https://github.com/apps/cloudback-restore) GitHub app
 
 Once restore is finished please follow the link `Open restored repository` to open GitHub and verify the resulting repository:
 
-<img src="/static/features/open-restored.png" alt="Open restored" width=500/>
+<img src="/static/features/open-restored.png" alt="Open restored" width="500"/>
 
 ## Learn more
 
 - [What is a backup storage?](/features/various-backup-storages)
 - [What is inside of a backup?](/features/metadata)
-- [What is inside of an archive?](/features/archive)
+- [Password-Protected Archives](/features/archive)

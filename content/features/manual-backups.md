@@ -11,7 +11,7 @@ Cloudback allows you to trigger a backup process on demand by clicking a single 
 - You want to test [your own storage](/features/various-backup-storages) that you configured recently
 - You want to secure your data at a specific point in time
 
-<img src="/static/features/manual-backup.png" alt="Manual Backup" width=450/>
+<img src="/static/features/manual-backup.png" alt="Manual Backup" width="450"/>
 
 ## Trigger a backup
 
@@ -30,5 +30,5 @@ Please note, that you will receive no email notifications for manual backups. Em
 
 - [What is a backup storage?](/features/various-backup-storages)
 - [What is inside of a backup?](/features/metadata)
-- [What is inside of an archive?](/features/archive)
 - [What is an email notification?](/features/email-notifications)
+- [Password-Protected Archives](/features/archive)

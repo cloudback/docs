@@ -12,7 +12,7 @@ Important things to know:
 - We don't backup your GitHub Organization
 - The resulting backup should never be considered as a complete all-embracing one
 
-<img src="/static/features/issue-tracker-metadata.png" alt="Metadata" width=600/>
+<img src="/static/features/issue-tracker-metadata.png" alt="Metadata" width="600"/>
 
 ## What is included in a backup?
 
@@ -55,5 +55,5 @@ We can't backup or restore this data because of GitHub limitations. Please let u
 
 ## Learn more
 
-- [What is inside of an archive?](/features/archive)
+- [Password-Protected Archives](/features/archive)
 - [What is a backup storage?](/features/various-backup-storages)
