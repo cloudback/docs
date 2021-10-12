@@ -230,11 +230,11 @@
     -ms-flex: 1 1 auto;
     -o-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 24px 40px 24px 40px;
+    padding: 24px 40px 64px 40px;
   }
 
   .blog-body {
-    padding: 24px 40px 24px 40px;
+    padding: 24px 40px 64px 40px;
   }
   
   .hidden { display: none; }
@@ -451,7 +451,7 @@
     .docs-header { display: block; }
     .toc-label-right { display: block; }
     .markdown-body, .blog-body {
-      padding: 16px 40px 24px 40px;
+      padding: 16px 40px 64px 40px;
     }
     .toc-control:checked + div .page-toc {
        display: block;
@@ -506,12 +506,12 @@
   }
   @media screen and (max-width: 544px) {
     .markdown-body, .blog-body {
-      padding: 8px 16px 8px 16px;
+      padding: 8px 16px 48px 16px;
     }
   }
   @media screen and (max-width: 320px) {
     .markdown-body, .blog-body {
-      padding: 4px 8px 8px 8px;
+      padding: 4px 8px 32px 8px;
     }
     body {
       overflow-x: auto;
@@ -607,4 +607,5 @@
   .markdown-body img {
     background-color: var(--docs-content-background);
     box-shadow: 0px 15px 20px -10px var(--shadow-color);
+    margin-bottom: 32px;
   }
