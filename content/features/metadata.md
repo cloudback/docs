@@ -30,6 +30,7 @@ Here is the list of repository's data in a backup archive:
 - All [Releases](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/about-releases)
 - All [Collaborators](https://docs.github.com/en/rest/reference/repos#collaborators)
 - All [Webhooks](https://docs.github.com/en/rest/reference/repos#webhooks) except [secret tokens](https://docs.github.com/en/developers/webhooks-and-events/webhooks/securing-your-webhooks#setting-your-secret-token). Secret tokens must be set manually after restore
+- All [Pull Requests](https://docs.github.com/articles/using-pull-requests) except pull-requests without commits between branches and pull-requests from forks
 
 Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 
@@ -43,15 +44,17 @@ The metadata listed below are in our plans for future releases. You can speed up
 
 We can't backup or restore this data because of GitHub limitations. Please let us know if there is a mistake or API is changed - we will fix it as soon as possible.
 
-- [Deploy Keys](https://docs.github.com/en/rest/reference/repos#deploy-keys): Justification: not accessible by GitHub Apps integration API yet
-- [Autolinks](https://docs.github.com/en/rest/reference/repos#autolinks): Justification: not accessible by GitHub Apps integration API yet
-- [Environments](https://docs.github.com/en/rest/reference/repos#environments): Justification: there is no [API](https://docs.github.com/en/rest/reference/actions#get-an-environment-secret) to get environment variable value 
-- [Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets): Justification: there is no [API](https://docs.github.com/en/rest/reference/actions#get-a-repository-secret) to get an encrypted value
-- [Forks](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/about-forks): Justification: there is no API
-- [Watchers](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications): Justification: there is no API
-- [Stargazers](https://docs.github.com/en/rest/reference/activity#starring): Justification: there is no API
-- [Commit Statuses](https://docs.github.com/en/rest/reference/repos#statuses): Justification: there is an API, but it doesn't allow to explore all statuses for a whole repository
-- [Deployments](https://docs.github.com/en/rest/reference/repos#deployments): Justification: there is no API to restore completed deployments
+- [Deploy Keys](https://docs.github.com/en/rest/reference/repos#deploy-keys):  Not accessible by GitHub Apps integration API yet
+- [Autolinks](https://docs.github.com/en/rest/reference/repos#autolinks): Not accessible by GitHub Apps integration API yet
+- [Environments](https://docs.github.com/en/rest/reference/repos#environments): There is no [API](https://docs.github.com/en/rest/reference/actions#get-an-environment-secret) to get environment variable value 
+- [Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets): There is no [API](https://docs.github.com/en/rest/reference/actions#get-a-repository-secret) to get an encrypted value
+- [Forks](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/about-forks): There is no API
+- [Watchers](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications): There is no API
+- [Stargazers](https://docs.github.com/en/rest/reference/activity#starring): There is no API
+- [Commit Statuses](https://docs.github.com/en/rest/reference/repos#statuses): There is an API, but it doesn't allow to explore all statuses for a whole repository
+- [Deployments](https://docs.github.com/en/rest/reference/repos#deployments): There is no API to restore completed deployments
+- [Pull Requests](https://docs.github.com/articles/using-pull-requests) without commits: due to an API restriction: validation is failing with a message `No commits between feature-branch and main-branch`
+- [Pull Requests](https://docs.github.com/articles/using-pull-requests) from forks: a source branch is located in the fork of the old repository. But a new repository is created during a restore process. There is no API the allows us to create a pull-request from an old repository fork into a newly created repository
 
 ## Learn more
 
