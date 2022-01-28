@@ -5,9 +5,11 @@ weight: 7
 
 # Email Notifications
 
-If something goes wrong and a backup process fails we will send you an email notification. We send notifications daily at 22:00 UTC with all failures in the previous 24 hours. 
+If something goes wrong and a backup process fails we will send you an email notification. We send notifications daily at 22:00 UTC with all failures of automated backups in the previous 24 hours. 
 
-Once backup is failed our Support Team gets notification as well. Is the issue is not related to [storage](/features/email-notifications/#1-storage-issue), the team starts investigation as soon as possible and reports you their findings by email.
+Once any backup is failed our Support Team gets notification as well. Is the issue is not related to [storage](/features/email-notifications/#1-storage-issue), the team starts investigation as soon as possible and reports you their findings by email.
+
+Please note: email notifications are enabled for automated backups only. Cloudback doesn't send email notifications for manual on-demand backups.
 
 <img src="/static/features/email-failure-notification.png" alt="Email notification"/>
 
