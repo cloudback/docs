@@ -34,6 +34,8 @@ To be able to create a new Blob Container it is required to have a storage accou
 
  - Sep up SAS permissions and Start and expiry date/time:
 
+   - Select mandatory `Create`, `Write`, `Read` permissions
+   - Optionally, if you specify `Delete` permission, our retention policy logic will be able to cleanup outdated backups from your cloud storage.
 <p align="center">
   <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-4-container-shared-access-signature.png" alt="azure container page" title="azure container page" class="screenshot">
 </p>
