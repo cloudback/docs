@@ -43,3 +43,4 @@ For a brief description of content please refer [Metadata Backups](/features/met
 
 - [What is a backup storage?](/features/various-backup-storages)
 - [Restore to GitHub](/features/restore-to-github)
+- [Data Deduplication](/features/deduplication/)

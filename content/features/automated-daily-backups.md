@@ -63,3 +63,4 @@ Available options:
 - [What is inside of a backup?](/features/metadata)
 - [What is a backup storage?](/features/various-backup-storages)
 - [Password-Protected Archives](/features/archive)
+- [Data Deduplication](/features/deduplication/)

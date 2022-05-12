@@ -8,7 +8,7 @@ title: Supported Storages
 
 ## Cloudback default storage
 
-By default, Cloudback uses its own storage to backup GitHub repositories. The storage is powered by Microsoft Azure Storage and available for all Cloudback users without any additional payments. 
+By default, Cloudback uses its own storage to backup GitHub repositories. The storage is available for all Cloudback users without any additional payments.
 
 ## Your own storages
 

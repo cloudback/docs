@@ -7,9 +7,9 @@ weight: 2
 
 Cloudback allows you to store a backup archive in your own storage, leaving no copies to us. That is. Cloudback backs up a repository into an archive, sends the archive to your storage, and wipes the archive from Cloudback's disk leaving no chance to recover any data from the Cloudback servers.
 
-Also, we offer our in-build storage named just `Cloudback`. It is an [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) with a [Geo-redundant](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy#redundancy-in-a-secondary-region) replication. 
+Also, we offer our in-build storage named just `Cloudback`.
 
-<img src="/static/features/storages-wizard-combobox.png" alt="Storages" width=500/>
+<img src="/static/features/storages-wizard-combobox.png" alt="Storages" width="500"/>
 
 ## Register your storage
 
@@ -27,7 +27,7 @@ Please note, that you could apply recently registered storage to all your reposi
 
 Please follow the link below to find additional details about particular storage:
 
-- Cloudback in-build storage (Azure powered)
+- Cloudback in-build storage
 - [Microsoft Azure Blob Storage](/custom-storages/microsoft-azure-blob-container/)
 - [Microsoft OneDrive Personal](/custom-storages/onedrive)
 - [Microsoft OneDrive For Business](/custom-storages/onedrive)
@@ -49,3 +49,4 @@ We upload password-protected zip archives. The password is encrypted and stored 
 ## Learn more
 
 - [What is inside of a backup?](/features/metadata)
+- [Data Deduplication](/features/deduplication/)
