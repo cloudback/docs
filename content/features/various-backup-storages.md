@@ -49,3 +49,4 @@ We upload password-protected zip archives. The password is encrypted and stored 
 ## Learn more
 
 - [What is inside of a backup?](/features/metadata)
+- [Data Deduplication](/features/deduplication/)

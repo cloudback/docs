@@ -34,13 +34,13 @@ Here is the list of repository's data in a backup archive:
 
 Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 
-## This metadata is not included yet 
+## What metadata is not included?
 
 The metadata listed below are in our plans for future releases. You can speed up the release if you up-vote by email. Just let us know and we consider changing its priority to a higher one.
 
 - All [Discussions](https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions)
 
-## This metadata is not included due to GitHub API restrictions
+## Metadata that is not included due to GitHub API restrictions
 
 We can't backup or restore this data because of GitHub limitations. Please let us know if there is a mistake or API is changed - we will fix it as soon as possible.
 

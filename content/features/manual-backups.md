@@ -32,3 +32,4 @@ Please note, that you will receive no email notifications for manual backups. Em
 - [What is inside of a backup?](/features/metadata)
 - [What is an email notification?](/features/email-notifications)
 - [Password-Protected Archives](/features/archive)
+- [Data Deduplication](/features/deduplication/)
