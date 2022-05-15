@@ -37,7 +37,7 @@ Wasabi Storage Service is an object storage service with full S3 API support.
 
 * Copy ARN and paste it in Step 1 on the Cloudback site
 
-* Create an [Wasabi access key] (https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/index.html#t=topics%2FCreating_a_New_Access_Key.htm) 
+* Create an [Wasabi access key](https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/index.html#t=topics%2FCreating_a_New_Access_Key.htm) 
 
 * Type it's id and secret to Step 2 and click on `Test` button:
 
