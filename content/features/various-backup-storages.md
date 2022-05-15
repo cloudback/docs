@@ -37,6 +37,7 @@ Please follow the link below to find additional details about particular storage
 - [Google Cloud Storage Bucket](/custom-storages/google-cloud)
 - [Alibaba Cloud Object Storage Service](/custom-storages/alibaba-cloud)
 - [OpenStack Swift Container via S3 API](/custom-storages/swift)
+- [Wasabi Bucket (S3 API)](/custom-storages/wasabi)
 
 ## Need another storage?
 
