@@ -9,7 +9,7 @@ type: docs
 
 ### Introduction
 
-The Cloudback Terms of Service are between MYRTLECONSULTING S.A. ("we" or "Cloudback") and the customer who orders the Cloudback services ("you" or "Customer"). By using the cloudback.it website or any services described on the cloudback.it website (collectively, "Service"), you are agreeing to be bound by the following terms and conditions ("Terms of Service").
+The Cloudback Terms of Service are between MYRTLE GROUP S.A. ("we" or "Cloudback") and the customer who orders the Cloudback services ("you" or "Customer"). By using the cloudback.it website or any services described on the cloudback.it website (collectively, "Service"), you are agreeing to be bound by the following terms and conditions ("Terms of Service").
 
 Violation of any of the terms below will result in the termination of your Account.  Cloudback prohibits certain conduct on the Service as described below. You understand and agree that Cloudback cannot be responsible for conduct or activity on the Service or for "Content" transmitted, posted, or stored  using the Service. You agree to use the Service at your own risk. For the purposes of this agreement "Content" means information, data files, written text, computer software, music, audio files or other sounds, photographs, videos or other images to which you may have access as part of, or through your use of, the Service.
 
