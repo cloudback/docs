@@ -9,7 +9,7 @@ bookToc: true
 
 ### Introduction
 
-We, the MYRTLECONSULTING S.A., have built the Cloudback application as a Commercial service. This service is provided by us and is intended for use as is. We fully comply with the European General Data Protection Regulation (GDPR) laws, requirements and regulations.
+We, the MYRTLE GROUP S.A., have built the Cloudback application as a Commercial service. This service is provided by us and is intended for use as is. We fully comply with the European General Data Protection Regulation (GDPR) laws, requirements and regulations.
 
 This Policy is used to inform visitors and users regarding our policies about the collection, use, and disclosure of Personal Information of anyone using the Service.
 
@@ -83,7 +83,7 @@ We value your data subject rights under GDPR and therefore appointed GDPR-Rep.eu
   GDPR-Rep.eu </br>
   Maetzler Rechtsanwalts GmbH & Co KG </br>
   Attorneys at Law </br>
-  c/o MYRTLECONSULTING S.A. </br>
+  c/o MYRTLE GROUP S.A. </br>
   Schellinggasse 3/10, 1010 Vienna, Austria </br>
 
   Please add the following subject to all correspondence:
@@ -91,7 +91,7 @@ We value your data subject rights under GDPR and therefore appointed GDPR-Rep.eu
   
 **Information according to Art 27 EU GDPR**
 
-MYRTLECONSULTING S.A. is a company located outside of the European Union. In order to comply with Art 27 EU GDPR, GDPR-Rep.eu has been nominated as our representative in the European Union. If you want to
+MYRTLE GROUP S.A. is a company located outside of the European Union. In order to comply with Art 27 EU GDPR, GDPR-Rep.eu has been nominated as our representative in the European Union. If you want to
 make use of your data privacy rights, please visit [our GDPR-Rep.eu landing page](https://gdpr-rep.eu/q/15719145)
 
 <a href="https://gdpr-rep.eu/q/15719145"><img style="max-width: 301px; max-height: 148px;" src="https://gdpr-rep.eu/certificateofrepresentation/15719145/getwebcertificate.png"

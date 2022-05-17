@@ -24,7 +24,7 @@ If you have any issues with the product or any ideas about how it can be improve
 
 ### Company name and address
 
-We are the MYRTLECONSULTING S.A.
+We are the MYRTLE GROUP S.A.
 
 Address: </br>
 Ecuador, Quito </br>
