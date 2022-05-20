@@ -26,6 +26,7 @@ There are several options available for Cloudback users:
  - Google Cloud Storage Bucket
  - Alibaba Cloud Object Storage Service
  - OpenStack Swift Container via S3 API
+ - Wasabi Bucket (S3)
 
 Each of the options can be used as a custom storage for the repository backups. You can use any of your custom storage for each of your GitHub repositories. Please be aware that the user-defined storages are provided by third-party companies may require additional expenses which are not included in Cloudback's pricing.
 
@@ -64,3 +65,4 @@ Read more about setting up the custom storages:
  - [Set up new storage using Amazon S3 Glacier](https://docs.cloudback.it/custom-storages/amazon-s3-glacier/)
  - [Set up new storage using Google Cloud Storage Bucket](https://docs.cloudback.it/custom-storages/google-cloud/)
  - [Set up new storage using Alibaba Cloud Object Storage Service](https://docs.cloudback.it/custom-storages/alibaba-cloud/)
+ - [Set up new storage using Wasabi Storage Service](https://docs.cloudback.it/custom-storages/wasabi/)
