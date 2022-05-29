@@ -23,11 +23,11 @@ hidePageToc: true
 </div>
 <div class="flex-row-to-column pb-5">
 {{< docsCard 
-  title="Cloudback security"
-  href="/security"
-  text="Detailed information on how we protect your data can be found here." >}}
+  title="One-click manual backup"
+  href="/features/manual-backups/"
+  text="Cloudback allows you to create backups on-demand, just with a single click." >}}
 {{< docsCard 
-  title="Metadata backups"
+  title="Metadata"
   href="/features/metadata"
   text="Cloudback archives not only the whole git repository but GitHub-specific metadata as well." >}}
 {{< docsCard 

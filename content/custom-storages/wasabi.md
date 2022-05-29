@@ -9,7 +9,7 @@ weight: 9
 
 ## About Wasabi
 
-Wasabi Storage Service is an object storage service with full S3 API support.
+[Wasabi](https://wasabi.com/) is a public cloud object storage service that is 1/5th the price of Amazon S3 and faster than the competition with no fees for egress or API requests. Wasabi provides 11 x 9s of data durability, high system availability, and support for immutable storage buckets. Wasabi is fully compatible with the Amazon S3 API with support for hundreds of S3-compatible storage applications and has been certified for compliance with enterprise security and privacy standards.
 
 ## Set up Wasabi as a custom storage
 

@@ -47,6 +47,23 @@ hidePageToc: true
   href="/features/email-notifications"
   text="If something happens and a backup process fails we will send you an email notification." >}}
 {{< featureCard 
+  title="Instant notifications" 
+  image="/static/lib/logo/features/security.png" 
+  href="/features/instant-notifications"
+  text="Get real-time notification of backup completion via Slack, Microsoft Teams, or Discord." >}}
+{{< featureCard 
+  title="Backup status badge" 
+  image="/static/lib/logo/features/status-badge.png" 
+  href="/features/status-badges"
+  text="Cloudback offers a public HTTP endpoint for status badges so you can embed it into your web page." >}}
+</div>
+<div class="flex-row-to-column">
+{{< featureCard 
+  title="Bulk operations" 
+  image="/static/lib/logo/features/bulk-operations.png" 
+  href="/features/bulk-operations"
+  text="When you are managing hundreds of repositories, you need a proper tool to handle administrative tasks." >}}
+{{< featureCard 
   title="GitHub organizations" 
   image="/static/lib/logo/features/organizations.png" 
   href="/features/github-organizations"
@@ -56,21 +73,4 @@ hidePageToc: true
   image="/static/lib/logo/features/invoiced-customers.png" 
   href="/features/invoiced-customers"
   text="For GitHub Enterprise accounts paid by invoice we offer direct payment to Cloudback." >}}  
-</div>
-<div class="flex-row-to-column">
-{{< featureCard 
-  title="Bulk operations" 
-  image="/static/lib/logo/features/bulk-operations.png" 
-  href="/features/bulk-operations"
-  text="When you are managing hundreds of repositories, you need a proper tool to handle administrative tasks." >}}
-{{< featureCard 
-  title="Backup Status Badge" 
-  image="/static/lib/logo/features/status-badge.png" 
-  href="/features/status-badges"
-  text="Cloudback offers a public HTTP endpoint for status badges so you can embed it into your web page." >}}
-{{< featureCard 
-  title="Security" 
-  image="/static/lib/logo/features/security.png" 
-  href="/security"
-  text="Cloudback is a service with focus on data security and availability. We value your data and make our best to protect it." >}}
 </div>
