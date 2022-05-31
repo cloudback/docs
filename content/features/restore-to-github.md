@@ -5,24 +5,24 @@ weight: 6
 
 # Restore to GitHub
 
-Cloudback allows you to restore a particular backup into a GitHub repository. This is a manual operation accessible from the repository card in the Cloudback Dashboard.
+Cloudback allows you to restore any backup to a new GitHub repository. This is a manual process, accessible from the repository card in the Cloudback Dashboard.
 
 <img src="/static/features/restore-this-backup.png" alt="Restore" width="500"/>
 
 ## Prerequisites
 
-The restore process requires read-write access to your GitHub data. Permissions are managed by [GitHub](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/connecting-with-third-party-applications#types-of-application-access-and-data) applications. [Cloudback](https://github.com/apps/cloudback) GitHub application has read-only access only, according to the least privilege principle. We published an additional [Cloudback Restore](https://github.com/apps/cloudback-restore) GitHub application with read-write access to your data. This application should be installed for a short period of time, while the restore is in progress. Once restore is done the application should be uninstalled.
+The restore process requires read and write access to your GitHub data, but the [Cloudback](https://github.com/apps/cloudback) app has read-only access, following the principle of least privilege. We have released an additional application [Cloudback Restore](https://github.com/apps/cloudback-restore) with read and write access to your data. This application should be installed for a short period of time while the restore is running. Once the restore is complete, you should uninstall the application.
 
-When you click the `Restore this backup` button Cloudback will ask you to install the Restore application:
+When you click on the `Restore this backup` button, Cloudback will prompt you to install the 'Restore' application:
 
 ![Restore Application](/static/features/install-restore-app.png)
 
 ## Restore to a new repository
 
-If the [Cloudback Restore](https://github.com/apps/cloudback-restore) GitHub application is installed you will be asked to enter a new repository name. When you click the `Restore` button, we immediately create an empty repository and initiate a restore process that runs in the background. The status is displayed in the repository card:
+In the `Restore` dialog you will be prompted to enter a new repository name and a target account name (owner). After that you will be asked to install the [Cloudback Restore](https://github.com/apps/cloudback-restore) GitHub application, if it is not installed yet. Once installation is done Cloudback creates an empty repository and initiates a restore process that runs in the background. The status is displayed in the repository card:
 
 <p align="center">
-  <img src="/static/features/restore-to-repo.png" data-alt="/static/features/restore-to-repo.gif"
+  <img src="/static/features/restore.png" data-alt="/static/features/restore.gif"
        alt="Restore to repository" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
