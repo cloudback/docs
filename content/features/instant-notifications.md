@@ -8,14 +8,13 @@ Cloudback supports real-time notifications via messenger services:
 
 <img src="/static/features/instant-notifications-desktop.png" alt="Instant Notifications"/>
 
-Notifications about successful and failed backups are supported and can be configured per account in the `Notification Settings` dialog of the main menu. All notifications are webhook based - you need to configure your messenger service and get a special webhook URL.
+Instant Notifications about successful and failed backups can be configured per account in the 'Notification Settings' dialog of the main menu of **Cloudback Dashboard**. All notifications are **Webhook** based. **Webhooks** are user-defined HTTP URL callbacks. They are usually triggered to facilitate integration of different applications, in our particular case it is Cloudback and a Messenger. Within a Messenger, you can create an **Incoming Webhook** for a text channel and get a URL for created **Webhook**. Then you pass that **Webhook URL** to Cloudback, and when Cloudback wants to send a notification, it triggers the **Webhook URL** provided.
 
-Supported messengers:
-                            
-- [Slack](/features/instant-notifications#slack)
-- [Microsoft Teams](/features/instant-notifications#microsoft-teams)
-- [Discord](/features/instant-notifications#discord)
-- Need another one? Please raise a feature request using our [issue tracker](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md)
+Supported messengers are [Slack](/features/instant-notifications#slack), [Microsoft Teams](/features/instant-notifications#microsoft-teams), and [Discord](/features/instant-notifications#discord). If you need another one - please submit a request via our [issue tracker](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md).
+
+The steps to configure instant notifications are similar for all messengers:
+1. Go to your messenger, create **Incoming Webhook**, and get its **Webhook URL**.
+2. Go to **Cloudback Dashboard** and enter this **Webhook URL** in the 'Notification Settings' dialog.
 
 <p align="center">
   <img src="/static/features/instant-notifications.png" data-alt="/static/features/instant-notifications.gif"
@@ -23,24 +22,25 @@ Supported messengers:
 </p>
 
 ## Slack
-* Website: https://slack.com
-* Webhook guide: https://api.slack.com/messaging/webhooks
+* Messenger website: https://slack.com
+* To configure Incoming Webhook please follow the Slack guide: [Sending messages using Incoming Webhooks](https://api.slack.com/messaging/webhooks)
 
 <p align="center">
   <img src="/static/features/instant-notifications-slack.png" alt="Discord Notification"/>
 </p>
 
 ## Microsoft Teams
-* Website: https://www.microsoft.com/en-us/microsoft-teams
-* Webhook guide: https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook
+* Messenger website: https://www.microsoft.com/en-us/microsoft-teams
+* An overview of Webhooks for Microsoft Teams: [What are webhooks and connectors](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* Tutorial on how to create an incoming webhook for Microsoft Teams: [Add incoming webhook](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)
 
 <p align="center">
   <img src="/static/features/instant-notifications-msteams.png" alt="Discord Notification"/>
 </p>
 
 ## Discord
-* Website: https://discord.com
-* Webhook guide: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+* Messenger website: https://discord.com
+* A guide on how to create an Incoming Webhook in Discord: [Intro to Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 <p align="center">
   <img src="/static/features/instant-notifications-discord.png" alt="Discord Notification"/>
 </p>
