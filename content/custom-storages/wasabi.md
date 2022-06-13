@@ -17,32 +17,31 @@ weight: 9
 
 ![Click-on-repository-settings](/static/bucket/0001-Dashboard.png)
 
-* Click on the `+ New storage` button:
+* Click the `+ New storage` button, it will open the `New storage` dialog:
 
 ![Click-on-new-storage](/static/bucket/001-Add-new-storage.png)
 
-* Type a storage name:
+* Enter a new storage name, and select `Wasabi S3 Bucket: Access Key` as the storage provider:
 
 ![name](/static/wasabi/01-storage-name.png)
 
-* Select ‘Wasabi S3 Bucket: Access Key’ as a storage provider
+* Go to the [Wasabi](https://wasabi.com) website and create a `Wasabi Bucket` by following the instruction [Creating a Bucket](https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/topics/Creating_a_Bucket.htm)
 
-* Create an [Wasabi Bucket](https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/topics/Creating_a_Bucket.htm) 
+* Go back to the Cloudback website and provide a valid `Bucket Region` as was selected during bucket creation on `Wasabi`:
 
-* On Cloudback site, select the same Bucket Region as was selected during bucket creation on Wasabi
-
-* To find Bucket ARN, open bucket settings on Wassabi Console and navigate to "Policies" tab:
+    * To find `Bucket ARN`, open `Bucket Settings` in the `Wasabi Console` and navigate to the `Policies` tab:
+    * Copy and paste `Bucket ARN` into the `Step 1` section of the `New Storage` dialog on the Cloudback website
 
 ![click-name-bucket](/static/wasabi/02-click-name.png)
 
-* Copy ARN and paste it in Step 1 on the Cloudback site
+* Got to the `Wasabi` website and create a `Bucket Access Key` by following the instruction [Creating a New Access Key](https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/index.html#t=topics%2FCreating_a_New_Access_Key.htm) 
 
-* Create an [Wasabi access key](https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/index.html#t=topics%2FCreating_a_New_Access_Key.htm) 
-
-* Type it's id and secret to Step 2 and click on `Test` button:
+    * Go back to the `Cloudback` website, enter `Access Key Id` and `Access Key Secret` to the `Step 2` section of the `New Storage` dialog, and then click the `Test` button:
 
 ![save](/static/wasabi/06-save.png)
 
-* Save your new storage by clicking "Save" button
+* Save your new storage by clicking the `Save` button
 
-* Save your repository settings
+* Now, click the `Save Changes` button to apply changes to your repository
+
+* Once the storage is created, you can use the [Bulk Operations](/features/bulk-operations/) menu to assign a newly created storage to a large number of repositories with one click
