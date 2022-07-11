@@ -1,0 +1,14 @@
+  <div class="flex-row-to-column">
+    <div class="w-66-to-100 pt-3">
+      <article class="lh-125 pt-4 pr-3 pl-3">
+      <h1 class="pb-4 fw600 mb-3 with-border-bottom mt-0">Recent Blog Posts</h1>
+      {{ range first 5 (where (where $.Site.Pages.ByDate.Reverse "Params.hidden" "ne" true) "Section" "posts") }}
+        {{ partial "docs/post-list-item" . }}
+      {{ end }}
+      </article>
+    </div>
+    <div class="w-33-to-100 pt-3 pb-3">
+      <h1 class="pt-4 pb-5 mb-2 pl-5 lh-125 border-none mt-0">Latest Tweets</h1>      
+      <div id="blog-timeline" class="timeline pl-3 pr-3"></div>
+    </div>
+  </div>

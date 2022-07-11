@@ -35,3 +35,5 @@ hidePageToc: true
   href="https://github.com/cloudback/issue-tracker/issues"
   text="Here we track user requests. Report a bug or ask for a new feature." >}}
 </div>
+
+{{<recentPosts>}}
