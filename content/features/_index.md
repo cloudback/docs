@@ -74,3 +74,20 @@ hidePageToc: true
   href="/features/invoiced-customers"
   text="For GitHub Enterprise accounts paid by invoice we offer direct payment to Cloudback." >}}  
 </div>
+<div class="flex-row-to-column">
+{{< featureCard 
+  title="Card view" 
+  image="/static/lib/logo/features/card-view.png" 
+  href="/features/card-view"
+  text="User friendly screen that is easy to use" >}}
+{{< featureCard 
+  title="Table view" 
+  image="/static/lib/logo/features/table-view.png" 
+  href="/features/table-view"
+  text="Advanced screen for managing a large number of repositories" >}}
+{{< featureCard 
+  title="Custom schedules" 
+  image="/static/lib/logo/features/custom-schedule.png" 
+  href="/features/custom-schedule"
+  text="Create and use your own schedule for backups" >}}
+</div>
