@@ -34,12 +34,6 @@ Here is the list of repository's data in a backup archive:
 
 Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 
-## What metadata is not included?
-
-The metadata listed below are in our plans for future releases. You can speed up the release if you up-vote by email. Just let us know and we consider changing its priority to a higher one.
-
-- All [Discussions](https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions)
-
 ## Metadata that is not included due to GitHub API restrictions
 
 We can't backup or restore this data because of GitHub limitations. Please let us know if there is a mistake or API is changed - we will fix it as soon as possible.
@@ -55,6 +49,8 @@ We can't backup or restore this data because of GitHub limitations. Please let u
 - [Deployments](https://docs.github.com/en/rest/reference/repos#deployments): There is no API to restore completed deployments
 - [Pull Requests](https://docs.github.com/articles/using-pull-requests) without commits: due to an API restriction: validation is failing with a message `No commits between feature-branch and main-branch`
 - [Pull Requests](https://docs.github.com/articles/using-pull-requests) from forks: a source branch is located in the fork of the old repository. But a new repository is created during a restore process. There is no API the allows us to create a pull-request from an old repository fork into a newly created repository
+- [Discussions](https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions): There is no API to restore discussion categories
+- [ProjectV2](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects): There is no API to restore views and columns
 
 ## Learn more
 
