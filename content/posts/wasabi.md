@@ -11,7 +11,7 @@ Wasabi provides simple, predictable and affordable hot cloud storage for busines
 
 Wasabi is fully compatible with the Amazon S3 API with support for hundreds of S3-compatible storage applications and has been certified for compliance with enterprise security and privacy standards.
 
-## Need another storage?
+## Need another storage provider?
 
 Contact us or create a feature request, and we will consider implementing your storage. Please check our [supported storages list](https://docs.cloudback.it/features/various-backup-storages/#supported-storages) first, just in case your storage provider is already supported.
 
