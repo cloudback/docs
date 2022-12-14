@@ -76,11 +76,11 @@ This policy is effective as of 2020-07-16.
 
 ### For Data Subjects in the EU
 
-We value your data subject rights under GDPR and therefore appointed GDPR-Rep.eu as representative according to Art 27 GDPR and provide you with an easy way to submit us privacy related request like a requests to access or erase your personal data. If you want to make use of your data subject rights, please visit: https://gdpr-rep.eu/q/15719145
+We value your data subject rights under GDPR and therefore appointed Prighter.com as representative according to Art 27 GDPR and provide you with an easy way to submit us privacy related request like a requests to access or erase your personal data. If you want to make use of your data subject rights, please visit: https://prighter.com/q/15719145
 
-  **Contact GDPR-Rep.eu**
+  **Contact Prighter.com**
 
-  GDPR-Rep.eu </br>
+  Prighter.com </br>
   Maetzler Rechtsanwalts GmbH & Co KG </br>
   Attorneys at Law </br>
   c/o MYRTLE GROUP S.A. </br>
@@ -91,11 +91,11 @@ We value your data subject rights under GDPR and therefore appointed GDPR-Rep.eu
   
 **Information according to Art 27 EU GDPR**
 
-MYRTLE GROUP S.A. is a company located outside of the European Union. In order to comply with Art 27 EU GDPR, GDPR-Rep.eu has been nominated as our representative in the European Union. If you want to
-make use of your data privacy rights, please visit [our GDPR-Rep.eu landing page](https://gdpr-rep.eu/q/15719145)
+MYRTLE GROUP S.A. is a company located outside of the European Union. In order to comply with Art 27 EU GDPR, Prighter.com has been nominated as our representative in the European Union. If you want to
+make use of your data privacy rights, please visit [our Compliance Landing Page](https://prighter.com/q/15719145)
 
-<a href="https://gdpr-rep.eu/q/15719145"><img style="max-width: 301px; max-height: 148px;" src="https://gdpr-rep.eu/certificateofrepresentation/15719145/getwebcertificate.png"
-     alt="GDPR-Rep.eu certificate of Art 27 representation"></a>
+<a href="https://prighter.com/q/15719145"><img style="max-width: 301px; max-height: 148px;" src="https://prighter.com/certificateofrepresentation/15719145/getwebcertificate.png"
+     alt="Prighter.com certificate of Art 27 representation"></a>
 
 ### Controller Name and Address
 
