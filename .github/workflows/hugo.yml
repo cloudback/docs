@@ -35,4 +35,4 @@ jobs:
           source-directory: 'public'
           destination-github-username: 'cloudback'
           destination-repository-name: 'cloudback.github.io'
-          target-branch: main
+          target-branch: master
