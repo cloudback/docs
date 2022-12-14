@@ -32,7 +32,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'public'
+          source-directory: 'docs'
           destination-github-username: 'cloudback'
           destination-repository-name: 'cloudback.github.io'
           target-branch: master
