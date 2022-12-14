@@ -26,7 +26,7 @@ We may collect and process the following data about you:
 * Information provided by GitHub at the time of signing up into our service or requesting further services: 
   - Your GitHub account name
   - Your email address
-* Information that you provide by filling in forms on our site (https://cloudback.it). We may also ask you for information when you report a problem with our site or sending any feedback information.
+* Information that you provide by filling in forms on our site ([https://cloudback.it](https://cloudback.it)). We may also ask you for information when you report a problem with our site or sending any feedback information.
 * If you contact us, we may keep a record of that correspondence.
 * We may also ask you to complete some surveys that we use for research purposes, although you do not have to respond to them.
 * Details of your visits to our site including, but not limited to, traffic data, location data, weblogs, operating workspace, browser usage and other communication data.
