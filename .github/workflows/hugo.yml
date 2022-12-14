@@ -26,7 +26,6 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - uses: actions/checkout@v2
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
