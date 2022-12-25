@@ -1,17 +1,17 @@
 ---
-title: Automated Daily Backups
+title: Automated Backups
 weight: 1
 ---
 
 # Automated Daily Backups
 
-This is why we created Cloudback - to continuously backup a repository and its metadata on a daily basis. Cloudback captures a backup daily at a defined hour according to a defined time zone and puts a resulting archive into defined storage.
+This is why we created Cloudback - to continuously backup a repository and its metadata on a daily basis. By default, Cloudback captures a backup daily at a defined hour according to a defined time zone and puts a resulting archive into defined storage. You can also create a [custom schedule](/features/custom-schedule) to run your backups on non-daily basis.
 
 <img src="/static/features/triggered-automatically.png" alt="Backup" width="500"/>
 
 ## Schedule
 
-You can configure the exact hour you want to capture a backup every day. We recommend you to choose an hour when your repositories are not in use. For instance, it could be an early morning hour.
+You can configure the exact hour you want to capture a backup every day, or define your [own schedule](/features/custom-schedule). We recommend you to choose an hour when your repositories are not in use. For instance, it could be an early morning hour.
 
 Here is how you can change the schedule for an individual repository:
 
@@ -60,6 +60,7 @@ Available options:
 
 ## Learn more
 
+- [Define a custom schedule](/features/custom-schedule)
 - [What is inside of a backup?](/features/metadata)
 - [What is a backup storage?](/features/various-backup-storages)
 - [Password-Protected Archives](/features/archive)
