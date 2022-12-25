@@ -3,13 +3,9 @@ title: What is Cloudback
 weight: 2
 ---
 
-# What is Cloudback
+# Introducing Cloudback
 
-Cloudback is the [cloud backup](https://en.wikipedia.org/wiki/Remote_backup_service) service for [GitHub repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories). 
-
-The main feature is the support of [various backup storages](/features/various-backup-storages). When user storage is configured we **do not store backup archives** inside Cloudback infrastructure at all. All archives are put into your storage. In case you don't have your own storage there is still an option to use our internal storage called `Cloudback`.
-
-It uses the official GitHub [REST API](https://docs.github.com/en/rest) to access repository metadata for backups. Backups are triggered on a daily basis according to a defined schedule.
+Cloudback - the ultimate [cloud backup](https://en.wikipedia.org/wiki/Remote_backup_service) solution for your [GitHub repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories). With Cloudback, you have the flexibility to choose from a [variety of backup storage options](/features/various-backup-storages). If you already have your own storage, we'll simply place your backup archives there. No need to worry about using our internal storage, called Cloudback. And, with the power of the official GitHub [REST API](https://docs.github.com/en/rest), we ensure that all repository metadata is accurately backed up on a daily basis, according to your preferred schedule. Protect your valuable code and project data with Cloudback.
 
 ![infrastructure](/static/infrastructure.svg)
 
