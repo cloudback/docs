@@ -2,6 +2,7 @@
 title: Terms of Service
 weight: 20
 type: docs
+description: Cloudback's Terms of Service for customers - agree and order now.
 ---
 
 

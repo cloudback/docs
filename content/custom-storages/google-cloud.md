@@ -1,6 +1,7 @@
 ---
 title: Google Cloud Storage Bucket
 weight: 4
+description: Backup GitHub repository using Google Cloud Storage Bucket
 ---
 
 # Backup GitHub repository using Google Cloud Storage Bucket

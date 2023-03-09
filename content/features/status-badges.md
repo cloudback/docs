@@ -1,6 +1,7 @@
 ---
 title: "Backup Status Badge"
 weight: 11
+description: Track your GitHub backups with Cloudback's embedded badge
 ---
 
 # Backup Status Badge

@@ -1,6 +1,7 @@
 ---
 title: How to create a new Microsoft Azure Blob Container
 weight: 2
+description: Easily backup GitHub repositories with Azure
 ---
 
 # Backup GitHub repository using Azure: How to create a new Microsoft Azure Blob Container

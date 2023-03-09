@@ -1,6 +1,7 @@
 ---
 title: "Bulk Operations"
 weight: 10
+description: Manage GitHub Backup settings faster with Cloudback's Bulk Operations
 ---
 
 # Bulk Operations

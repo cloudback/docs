@@ -3,6 +3,7 @@ title: "Cloudback introduces new marketplace plans"
 tags: ["News", "Cloudback", "GitHub Marketplace"]
 date: 2021-03-19
 categories: ["News", "Cloudback"]
+description: Cloudback introduces new marketplace plans to fit your backup needs
 ---
 
 Today we reached 100+ installations and completed GitHub Marketplace financial onboarding. Now Cloudback meets all the requirements for GitHub Marketplace, including listing, billing, brand, and user experience requirements. It means that we completed the public beta stage, and now Cloudback is in production with no limits. 

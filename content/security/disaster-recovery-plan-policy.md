@@ -3,6 +3,7 @@ title: Disaster Recovery Plan Policy
 weight: 20
 type: docs
 bookToc: true
+description: Establishing a disaster recovery process in Cloudback
 ---
 
 ## Disaster Recovery Plan Policy

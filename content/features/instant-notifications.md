@@ -1,6 +1,7 @@
 ---
 title: "Instant Notifications"
 weight: 7
+description: Configure notifications with Cloudback's Webhooks for backup updates
 ---
 
 # Instant Notifications

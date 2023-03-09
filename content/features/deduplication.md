@@ -1,6 +1,7 @@
 ---
 title: Data Deduplication
 weight: 13
+description: Save storage space and reduce costs with Cloudback's deduplication
 ---
 
 # Data Deduplication

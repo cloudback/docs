@@ -1,6 +1,7 @@
 ---
 title: How to create a new shared access signature (SAS)
 weight: 3
+description: Create shared access signature for Azure GitHub backup
 ---
 
 # Backup GitHub repository using Azure: How to create a new shared access signature

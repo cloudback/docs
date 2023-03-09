@@ -1,6 +1,7 @@
 ---
 title: Download Backups
 weight: 5
+description: Easily download GitHub backups with Cloudback's archive feature
 ---
 
 # Download Backups

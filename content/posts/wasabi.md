@@ -3,6 +3,7 @@ title: "We support a new storage now: Wasabi Cloud Storage"
 tags: ["News", "Release notes"]
 date: 2022-11-21
 categories: ["News", "Release notes"]
+description: Backup GitHub repositories to Wasabi Cloud Storage with Cloudback.
 ---
 
 Cloudback provides an easy way to store GitHub repository backups in various storages. And today, we are delighted to announce the support of a new storage - Wasabi Cloud Storage. 

@@ -1,6 +1,7 @@
 ---
 title: Table View
 weight: 15
+description: Efficiently manage many GitHub repos with Cloudback's advanced screen
 ---
 
 # Table View

@@ -1,6 +1,7 @@
 ---
 title: Automated Backups
 weight: 1
+description: Effortless daily GitHub backups with Cloudback's automation
 ---
 
 # Automated Daily Backups

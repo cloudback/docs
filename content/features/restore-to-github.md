@@ -1,6 +1,7 @@
 ---
 title: Restore to GitHub
 weight: 6
+description: Restore GitHub backups with Cloudback's simple process
 ---
 
 # Restore to GitHub

@@ -1,11 +1,10 @@
 ---
 title: Wasabi
 weight: 9
+description: Backup GitHub repository using Wasabi
 ---
 
 # Backup GitHub repository using Wasabi
-
-
 
 ## About Wasabi
 
@@ -25,7 +24,7 @@ weight: 9
 
 ![name](/static/wasabi/01-storage-name.png)
 
-* Go to the [Wasabi](https://wasabi.com) website and create a `Wasabi Bucket` by following the instruction [Creating a Bucket](https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/topics/Creating_a_Bucket.htm)
+* Go to the [Wasabi](https://wasabi.com) website and create a `Wasabi Bucket` by following the instruction [Creating a Bucket](https://docs.wasabi.com/docs/creating-a-bucket)
 
 * Go back to the Cloudback website and provide a valid `Bucket Region` as was selected during bucket creation on `Wasabi`:
 

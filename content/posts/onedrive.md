@@ -3,6 +3,7 @@ title: "We support new storage now: Microsoft OneDrive"
 tags: ["News", "Release notes"]
 date: 2021-06-14
 categories: ["News", "Release notes"]
+description: Store GitHub backups with Microsoft OneDrive and Cloudback
 ---
 
 Cloudback provides an easy way to store GitHub repository backups in various storages. And today, we are delighted to announce the support of new storage - Microsoft OneDrive. 

@@ -3,6 +3,7 @@ title: Data Breach Response Policy
 weight: 30
 type: docs
 bookToc: true
+description: Establishing a data breach response policy in Cloudback
 ---
 
 ## Data Breach Response Policy

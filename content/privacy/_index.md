@@ -3,6 +3,7 @@ title: Privacy Policy
 weight: 30
 type: docs
 bookToc: true
+description: Cloudback - GDPR compliant commercial backup service by MYRTLE GROUP.
 ---
 
 ## Privacy Policy

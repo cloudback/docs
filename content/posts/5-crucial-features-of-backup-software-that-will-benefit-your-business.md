@@ -3,6 +3,7 @@ title: "5 crucial features of Backup Software that will benefit your Business"
 tags: ["General", "Cloudback"]
 date: 2021-10-11
 categories: ["General", "Cloudback"]
+description: Protect your business with essential backup software features
 ---
 
 <img src="/static/blog/1.png" alt="Open restored" style="width: 100%;"/>

@@ -2,6 +2,7 @@
 title: Getting Started
 weight: 5
 type: docs
+Description: Start creating backups for GitHub repositories with this guide
 ---
 
 # Getting Started

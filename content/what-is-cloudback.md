@@ -1,6 +1,7 @@
 ---
 title: What is Cloudback
 weight: 2
+Description: Ultimate cloud backup solution for GitHub repositories. Protect your code and data with Cloudback.
 ---
 
 # Introducing Cloudback

@@ -1,6 +1,7 @@
 ---
 title: "GitHub Organizations"
 weight: 8
+description: Efficiently manage GitHub backups for teams with Cloudback
 ---
 
 # GitHub Organizations

@@ -1,6 +1,7 @@
 ---
 title: Custom Schedules
 weight: 16
+description: Customize GitHub backup schedules with Cloudback's Schedule Manager
 ---
 
 # Custom Schedules

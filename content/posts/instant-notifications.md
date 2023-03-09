@@ -3,6 +3,7 @@ title: "Instant notifications of successful and failed backups"
 tags: ["News", "Release notes"]
 date: 2022-05-28
 categories: ["News", "Release notes"]
+description: Get real-time backup notifications with Cloudback's messenger integration
 ---
 
 <div style="width: 100%; display: table;">

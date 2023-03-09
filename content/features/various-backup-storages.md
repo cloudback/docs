@@ -1,6 +1,7 @@
 ---
 title: Various Backup Storages
 weight: 2
+description: Securely store GitHub backups with Cloudback's self-managed storage option
 ---
 
 # Various Backup Storages

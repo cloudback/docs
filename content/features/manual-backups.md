@@ -1,6 +1,7 @@
 ---
 title: One-Click Manual Backups
 weight: 4
+description: Manual GitHub backups made easy with Cloudback
 ---
 
 # One-Click Manual Backups

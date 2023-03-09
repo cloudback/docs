@@ -1,6 +1,7 @@
 ---
 title: Amazon S3 Bucket via Access Point
 weight: 2
+description: Backup GitHub repository using Amazon S3 Bucket
 ---
 
 # Backup GitHub repository using Amazon S3 Bucket

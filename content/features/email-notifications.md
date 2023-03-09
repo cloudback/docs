@@ -1,6 +1,7 @@
 ---
 title: "Email Notifications"
 weight: 7
+description: Stay informed with Cloudback's email notifications for failed backups
 ---
 
 # Email Notifications

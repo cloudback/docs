@@ -3,6 +3,7 @@ title: Home
 weight: 1
 type: docs
 hidePageToc: true
+Description: Explore Cloudback's GitHub Backup functionality with our documentation
 ---
 
 # Cloudback Documentation

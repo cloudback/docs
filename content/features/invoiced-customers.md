@@ -1,6 +1,7 @@
 ---
 title: "Invoiced Customers"
 weight: 9
+description: Alternative options for Cloudback's paid plans for GitHub Enterprise
 ---
 
 # Invoiced Customers

@@ -3,6 +3,7 @@ title: "We added custom email address for notifications"
 tags: ["News", "Release notes"]
 date: 2021-10-12
 categories: ["News", "Release notes"]
+description: Stay informed with Cloudback's email notifications for failed backups
 ---
 
 Cloudback sends an email notification to the user if the backup fails. By default, we are using the primary email address taken from the GitHub profile. 

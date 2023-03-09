@@ -1,6 +1,7 @@
 ---
 title: Card View
 weight: 14
+description: Cloudback Dashboard - simple and intuitive for easy backups
 ---
 
 # Card View

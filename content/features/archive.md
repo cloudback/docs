@@ -1,6 +1,7 @@
 ---
 title: Password-Protected Archives
 weight: 12
+description: Secure your GitHub backups with Cloudback's password protection
 ---
 
 # Password-Protected Archives

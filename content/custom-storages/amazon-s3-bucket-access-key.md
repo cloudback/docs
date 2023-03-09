@@ -1,11 +1,10 @@
 ---
 title: Amazon S3 Bucket via Access Key
 weight: 2
+description: Backup GitHub repository using Amazon S3 Bucket Access Key
 ---
 
 # Backup GitHub repository using Amazon S3 Bucket Access Key
-
-
 
 ## About Amazon S3 Bucket
 

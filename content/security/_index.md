@@ -1,6 +1,7 @@
 ---
 weight: 15
 bookCollapseSection: true
+description: Secure your data with Cloudback's robust security features
 ---
 
 # Security

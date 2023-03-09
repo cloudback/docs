@@ -2,6 +2,7 @@
 weight: 8
 bookCollapseSection: true
 hidePageToc: true 
+description: Discover Cloudback's features for GitHub backup
 ---
 
 # Cloudback Features

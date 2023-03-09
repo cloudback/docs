@@ -3,6 +3,7 @@ title: Incident Response Plan
 weight: 10
 type: docs
 bookToc: true
+description: Establishing an incident response plan in Cloudback
 ---
 
 ## Incident Response Plan

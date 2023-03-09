@@ -1,6 +1,7 @@
 ---
 title: Metadata Backups
 weight: 3
+description: Secure all GitHub repository metadata with Cloudback's backups
 ---
 
 # Metadata Backups

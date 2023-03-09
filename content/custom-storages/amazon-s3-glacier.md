@@ -1,6 +1,7 @@
 ---
 title: Amazon S3 Glacier
 weight: 3
+description: Backup GitHub repository using Amazon S3 Glacier
 ---
 
 # Backup GitHub repository using Amazon S3 Glacier

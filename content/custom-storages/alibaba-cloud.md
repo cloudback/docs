@@ -1,6 +1,7 @@
 ---
 title: Alibaba Cloud Object Storage Service
 weight: 5
+description: Securely backup GitHub repos with Alibaba Cloud Storage
 ---
 
 # Backup GitHub repository using Alibaba Cloud Object Storage Service
