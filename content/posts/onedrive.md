@@ -14,7 +14,7 @@ The team decided to support both [OneDrive Personal](https://www.microsoft.com/e
 
 ## Need another storage?
 
-Contact us or create a feature request, and we will consider implementing your storage. Please check our [supported storages list](https://docs.cloudback.it/features/various-backup-storages/#supported-storages) first, just in case your storage provider is already supported.
+Contact us or create a feature request, and we will consider implementing your storage. Please check our list of [supported storages](https://docs.cloudback.it/features/customer-storages/#supported-storages) first, just in case your storage provider is already supported.
 
 Learn more: 
- - [Various backup storages](https://docs.cloudback.it/features/various-backup-storages/) 
+ - [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages)

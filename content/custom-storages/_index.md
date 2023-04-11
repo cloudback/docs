@@ -29,11 +29,11 @@ There are several options available for Cloudback users:
  - OpenStack Swift Container via S3 API
  - Wasabi Bucket (S3)
 
-Each of the options can be used as a custom storage for the repository backups. You can use any of your custom storage for each of your GitHub repositories. Please be aware that the user-defined storages are provided by third-party companies may require additional expenses which are not included in Cloudback's pricing.
+Each of the options can be used as a customer managed storage for the repository backups. You can use any of your storages for each of your GitHub repositories. Please be aware that the user-defined storages are provided by third-party companies may require additional expenses which are not included in Cloudback's pricing.
 
-## Setting up a custom storage
+## Setting up a customer managed storage
 
-You can set up custom storage using the steps below. 
+You can set up customer managed storage using the steps below. 
 
 **Step 1:** Open repository settings
 
@@ -59,7 +59,7 @@ Type the name of the storage you want to create, select the storage provider, fi
   <img src="https://github.com/cloudback/docs/blob/master/static/custom_storage_screeshot3.png?raw=true" alt="img" class="screenshot">
 </p>
 
-Read more about setting up the custom storages:
+Read more about setting up the customer managed storages:
 
  - [Set up new storage using Microsoft Azure Blob Container](https://docs.cloudback.it/custom-storages/microsoft-azure-blob-container/)
  - [Set up new storage using Amazon S3 Bucket](https://docs.cloudback.it/custom-storages/amazon-s3-bucket/)

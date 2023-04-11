@@ -63,6 +63,6 @@ Available options:
 
 - [Define a custom schedule](/features/custom-schedule)
 - [What is inside of a backup?](/features/metadata)
-- [What is a backup storage?](/features/various-backup-storages)
+- [Customer Managed Storages](/features/customer-storages)
 - [Password-Protected Archives](/features/archive)
 - [Data Deduplication](/features/deduplication/)

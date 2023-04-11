@@ -46,7 +46,7 @@ So when choosing a software, carefully checkout their certifications and the typ
 
 ## 5. Storage options
 
-In some cases, you may want to have various options for your storage. You should also choose software that supports [various storages](https://docs.cloudback.it/custom-storages/) like Microsoft OneDrive, Google Cloud, OpenStack, Alibaba, and more. This way, you have more options on where you want to store your backups.
+In some cases, you may want to have various options for your storage. You should also choose software that supports [customer managed storages](https://docs.cloudback.it/features/customer-storages/) like Microsoft OneDrive, Google Cloud, OpenStack, Alibaba, and more. This way, you have more options on where you want to store your backups.
 
 ## Back it up
 

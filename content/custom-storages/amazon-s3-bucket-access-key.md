@@ -10,7 +10,7 @@ description: Backup GitHub repository using Amazon S3 Bucket Access Key
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. 
 
-## Set up Amazon S3 Bucket Access Key as a custom storage
+## Set up Amazon S3 Bucket Access Key as a customer managed storage
 
 * In the Cloudback Dashboard open the repository settings by clicking on the settings icon:
 

@@ -12,7 +12,7 @@ Amazon S3 Glacier and S3 Glacier Deep Archive are secure, durable, and extremely
 
 --------------------
 
-## Set up Amazon S3 Glacier as a custom storage
+## Set up Amazon S3 Glacier as a customer managed storage
 
 * In the Cloudback Dashboard open the repository settings by clicking on the settings icon:
 

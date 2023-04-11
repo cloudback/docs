@@ -18,8 +18,8 @@ Description: Explore Cloudback's GitHub Backup functionality with our documentat
   href="/getting-started"
   text="Check out how to start using Cloudback and protect your repositories." >}}
 {{< docsCard 
-  title="Various backup storages"
-  href="/features/various-backup-storages/"
+  title="Customer managed storages"
+  href="/features/customer-storages/"
   text="Cloudback allows you to store a backup archive in your own storage." >}}
 </div>
 <div class="flex-row-to-column pb-5">

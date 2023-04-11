@@ -50,4 +50,4 @@ The steps to configure instant notifications are similar for all messengers:
 
 - [Email notifications](/features/email-notifications)
 - [What is inside of a backup?](/features/metadata)
-- [What is a backup storage?](/features/various-backup-storages)
+- [Customer Managed Storages](/features/customer-storages)

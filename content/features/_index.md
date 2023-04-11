@@ -14,9 +14,9 @@ description: Discover Cloudback's features for GitHub backup
   href="/features/automated-daily-backups"
   text="Cloudback will automatically create daily backups of your repositories. No manual actions are needed, just enable backup once." >}}
 {{< featureCard 
-  title="Various backup storages" 
-  image="/static/lib/logo/features/various-backup-storages.png" 
-  href="/features/various-backup-storages"
+  title="Customer managed storages" 
+  image="/static/lib/logo/features/customer-storages.png" 
+  href="/features/customer-storages"
   text="We support Microsoft Azure, Microsoft OneDrive, Amazon S3, Google Cloud, Alibaba Cloud, and OpenStack Swift." >}}
 {{< featureCard 
   title="Metadata backups" 

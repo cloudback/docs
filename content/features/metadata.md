@@ -55,5 +55,5 @@ We can't backup or restore this data because of GitHub limitations. Please let u
 
 ## Learn more
 
-- [What is a backup storage?](/features/various-backup-storages)
+- [Customer Managed Storages](/features/customer-storages)
 - [Password-Protected Archives](/features/archive)

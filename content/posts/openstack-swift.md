@@ -13,4 +13,4 @@ The development process took around two weeks, and today we are pleased to annou
 Feel free to use our issues tracker to create a new feature request. That can be anything from minor UI improvements to a new storage provider support.
 
 Learn more: 
- - [Various backup storages](https://docs.cloudback.it/features/various-backup-storages/) 
+ - [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages)

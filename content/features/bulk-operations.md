@@ -1,5 +1,5 @@
 ---
-title: "Bulk Operations"
+title: Bulk Operations
 weight: 10
 description: Manage GitHub Backup settings faster with Cloudback's Bulk Operations
 ---
@@ -38,4 +38,4 @@ For the account `cristobal-martinez` with 4 repositories `awesome`, `awesome-rep
 ## Learn more
 
 - [What is inside of a backup?](/features/metadata)
-- [What is a backup storage?](/features/various-backup-storages)
+- [Customer Managed Storages](/features/customer-storages)

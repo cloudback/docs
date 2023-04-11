@@ -22,10 +22,10 @@ Deduplication occurs when certain conditions are met:
 ## How to enable deduplication
 
 > The feature is released on 06 May 2022, please note that:
-> - Deduplication is disabled by default for all custom storage created before 06 May 2022; you must enable it manually if you want to use this feature.
-> - Deduplication is enabled by default for all custom storage created after 06 May 2022; you must manually disable it if you don't want to use this feature.
+> - Deduplication is disabled by default for all customer managed storages created before 06 May 2022; you must enable it manually if you want to use this feature.
+> - Deduplication is enabled by default for all customer managed storages created after 06 May 2022; you must manually disable it if you don't want to use this feature.
 
-Data deduplication is a custom storage setting. It's configured separately for each custom storage. Use an additional `Deduplication Type` combo box in the `New Storage` and `Edit Storage` dialogs to control the behavior of data deduplication:
+Data deduplication is a customer managed storage setting. It's configured separately for each storage. Use an additional `Deduplication Type` combo box in the `New Storage` and `Edit Storage` dialogs to control the behavior of data deduplication:
 
 <img src="/static/features/data-deduplication.png" alt="Data Deduplication"/>
 

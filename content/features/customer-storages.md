@@ -1,10 +1,10 @@
 ---
-title: Various Backup Storages
+title: Customer Managed Storages
 weight: 2
 description: Securely store GitHub backups with Cloudback's self-managed storage option
 ---
 
-# Various Backup Storages
+# Customer Managed Storages
 
 Cloudback allows you to store a backup archive in your own storage, leaving no copies to us. That is. Cloudback backs up a repository into an archive, sends the archive to your storage, and wipes the archive from Cloudback's disk leaving no chance to recover any data from the Cloudback servers.
 
@@ -50,5 +50,6 @@ We upload password-protected zip archives. The password is encrypted and stored 
 
 ## Learn more
 
+- [Cloudback Managed Storages](/features/cloudback-storages)
 - [What is inside of a backup?](/features/metadata)
 - [Data Deduplication](/features/deduplication/)

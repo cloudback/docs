@@ -62,4 +62,4 @@ At the moment, you will be notified by email of failures only. Take a look at [I
 
 - [Instant notifications](/features/instant-notifications)
 - [What is inside of a backup?](/features/metadata)
-- [What is a backup storage?](/features/various-backup-storages)
+- [Customer Managed Storages](/features/customer-storages)

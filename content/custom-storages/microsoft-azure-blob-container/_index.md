@@ -7,10 +7,10 @@ description: Backup GitHub repo with Azure Blob Container
 
 # Backup GitHub repository using Microsoft Azure Blob Container
 
-One of the ways to [backup GitHub repository](https://docs.cloudback.it/features/automated-daily-backups/) using custom storage is to use your own Azure Container. Azure Blob Storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, therefore it can be used as a storage for GitHub repository backups created by Cloudback.
+One of the ways to [backup GitHub repository](https://docs.cloudback.it/features/automated-daily-backups/) using customer managed storage is to use your own Azure Container. Azure Blob Storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, therefore it can be used as a storage for GitHub repository backups created by Cloudback.
 
-This page describes how to set up your own Azure Blob Container as a custom storage for Cloudback backups of your GitHub repositories. 
-To be able to use your Azure Blob Container as custom storage, you need to have an existing Azure storage or create a new one. Also, you should create a new shared access signature for that storage.
+This page describes how to set up your own Azure Blob Container as a customer managed storage for Cloudback backups of your GitHub repositories. 
+To be able to use your Azure Blob Container as customer managed storage, you need to have an existing Azure storage or create a new one. Also, you should create a new shared access signature for that storage.
 
  - [How to create a new Microsoft Azure Blob Container](https://docs.cloudback.it/custom-storages/microsoft-azure-blob-container/create-microsoft-azure-blob-container/)
  - [How to create a new shared access signature](https://docs.cloudback.it/custom-storages/microsoft-azure-blob-container/create-shared-access-signature/)
@@ -20,7 +20,7 @@ To be able to use your Azure Blob Container as custom storage, you need to have 
 Azure Blob storage is Microsoft's object storage solution for the cloud that is optimized for storing massive amounts of unstructured data. Unstructured data is data that doesn't adhere to a particular data model or definition, such as text or binary data. Azure Storage is a Microsoft-managed service that provides highly available, secure, durable, and scalable cloud storage.
 
 
-## Set up Microsoft Azure Blob Containers as a custom storage
+## Set up Microsoft Azure Blob Containers as a customer managed storage
 
  - In the Cloudback Dashboard open the repository settings by clicking on the settings icon:
 
