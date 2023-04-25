@@ -24,6 +24,20 @@ Description: Explore Cloudback's GitHub Backup functionality with our documentat
 </div>
 <div class="flex-row-to-column pb-5">
 {{< docsCard 
+  title="Regional Storages"
+  href="/features/cloudback-storages/"
+  text="Securely store GitHub backups with Cloudback managed storages." >}}
+{{< docsCard 
+  title="Custom Schedules"
+  href="/features/custom-schedule/"
+  text="Customize GitHub backup schedules with Cloudback's Schedule Manager." >}}
+{{< docsCard 
+  title="Amazon S3 Object Lock"
+  href="/features/s3-object-lock/"
+  text="Cloudback supports S3 Object Lock feature for your backups" >}}
+</div>
+<div class="flex-row-to-column pb-5">
+{{< docsCard 
   title="One-click manual backup"
   href="/features/manual-backups/"
   text="Cloudback allows you to create backups on-demand, just with a single click." >}}
@@ -36,5 +50,6 @@ Description: Explore Cloudback's GitHub Backup functionality with our documentat
   href="https://github.com/cloudback/issue-tracker/issues"
   text="Here we track user requests. Report a bug or ask for a new feature." >}}
 </div>
+
 
 {{<recentPosts>}}
