@@ -55,6 +55,9 @@ Format `yyyy-MM-ddThh:mm:ssZ`. The retain-until-date value must be in the format
 #### x-amz-object-lock-legal-hold
 Can be `ON` or `OFF` (case-sensitive). If legal hold is `ON`, the object is placed under a legal hold. If legal hold is OFF, no legal hold is placed. Any other value results in a 400 Bad Request (InvalidArgument) error.
 
+#### Content-MD5
+The required `Content-MD5` header is added by Cloudback automatically, no need to specify it manually.
+
 ### Dynamic values for retain-until-date
 
 Cloudback allows to calculate the value for `x-amz-object-lock-retain-until-date` dynamically using `liquid` templates. Cloudback uses [scriban](https://github.com/scriban/scriban) template engine to render the value of the header. Below are few examples:
@@ -78,5 +81,5 @@ Please refer to scriban documentation article to find more about scripting:
 ## Learn more
 
 - [Customer Managed Storages](/features/customer-storages)
-- [Amazon S3 Object Lock](https://aws.amazon.com/s3/features/object-lock/)
-- [Using S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html)
+- External Article: [Using S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html)
+- External Article: [Managing S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-managing.html)
