@@ -92,3 +92,20 @@ description: Discover Cloudback's features for GitHub backup
   href="/features/custom-schedule"
   text="Create and use your own schedule for backups" >}}
 </div>
+<div class="flex-row-to-column">
+{{< featureCard 
+  title="Data deduplication" 
+  image="/static/lib/logo/features/data-deduplication.png" 
+  href="/features/deduplication"
+  text="Save a significant amount of cloud storage space and reduce operational costs" >}}
+{{< featureCard 
+  title="Amazon S3 Object Lock" 
+  image="/static/lib/logo/features/amazon-s3-object-lock.png" 
+  href="/features/s3-object-lock"
+  text="Protect your data from being accidentally or intentionally deleted or overwritten" >}}
+{{< featureCard 
+  title="Regional storages" 
+  image="/static/lib/logo/features/regional-storages.png" 
+  href="/features/cloudback-storages"
+  text="Select the storage option nearest to your location without incurring extra fees" >}}
+</div>
