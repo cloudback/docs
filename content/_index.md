@@ -1,5 +1,5 @@
 ---
-title: Home
+title: GitHub Repository Backup
 weight: 1
 type: docs
 hidePageToc: true

@@ -1,5 +1,5 @@
 ---
-title: Amazon S3 Glacier
+title: Amazon S3 Glacier For GitHub Repository Backup
 weight: 3
 description: Backup GitHub repository using Amazon S3 Glacier
 keywords: github backup, cloudback, custom storage, customer-managed storage, amazon s3 glacier

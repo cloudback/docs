@@ -1,5 +1,5 @@
 ---
-title: Amazon S3 Bucket via Access Point
+title: Amazon S3 Bucket via Access Point For GitHub Repository Backup
 weight: 2
 description: Backup GitHub repository using Amazon S3 Bucket
 keywords: github backup, cloudback, custom storage, customer-managed storage, amazon s3 bucket, amazon s3 bucket access point

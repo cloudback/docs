@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting Started with Cloudback GitHub Backup
 weight: 5
 type: docs
 description: Start creating backups for GitHub repositories with this guide
