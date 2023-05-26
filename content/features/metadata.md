@@ -2,6 +2,7 @@
 title: Metadata Backups
 weight: 3
 description: Secure all GitHub repository metadata with Cloudback's backups
+keywords: github backup, cloudback, metadata backups, metadata, backups, github, repository, repositories
 ---
 
 # Metadata Backups
@@ -33,7 +34,7 @@ Here is the list of repository's data in a backup archive:
 - All [Webhooks](https://docs.github.com/en/rest/reference/repos#webhooks) except [secret tokens](https://docs.github.com/en/developers/webhooks-and-events/webhooks/securing-your-webhooks#setting-your-secret-token). Secret tokens must be set manually after restore
 - All [Pull Requests](https://docs.github.com/articles/using-pull-requests) except pull-requests without commits between branches and pull-requests from forks
 
-Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
+Metadata is stored as a JSON file per data type in the same format we download it from GitHub. If you want us to add any additional metadata into a backup, please, [let us know](/contact-us/) or just [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing it.
 
 ## Metadata that is not included due to GitHub API restrictions
 
@@ -55,5 +56,5 @@ We can't backup or restore this data because of GitHub limitations. Please let u
 
 ## Learn more
 
-- [Customer Managed Storages](/features/customer-storages)
-- [Password-Protected Archives](/features/archive)
+- [Customer Managed Storages](/features/customer-storages/)
+- [Password-Protected Archives](/features/archive/)

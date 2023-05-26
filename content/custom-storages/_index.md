@@ -3,15 +3,16 @@ weight: 10
 bookCollapseSection: true
 title: Supported Storages
 description: Backup GitHub repository into Azure Blob, Microsoft OneDrive, Amazon S3, Google Cloud, Alibaba Cloud, OpenStack Swift or Wasabi
+keywords: github backup, cloudback, custom storage, customer-managed storage
 ---
 
 # Supported Storages
 
-## Cloudback default storage
+## Cloudback managed storage
 
 By default, Cloudback uses its own storage to backup GitHub repositories. The storage is available for all Cloudback users without any additional payments.
 
-## Your own storages
+## Customer managed storage
 
 Cloudback provides you the ability to set up your own storage that will be used to save repository backups.
 

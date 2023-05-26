@@ -2,6 +2,7 @@
 title: Table View
 weight: 15
 description: Efficiently manage many GitHub repos with Cloudback's advanced screen
+keywords: github backup, cloudback, table view, table, view, advanced screen, advanced, screen
 ---
 
 # Table View
@@ -45,5 +46,5 @@ Here you can find the next functionality:
 
 ## Learn more
 
-- [Card View](/features/card-view)
-- [What is inside of a backup?](/features/metadata)
+- [Card View](/features/card-view/)
+- [What is inside of a backup?](/features/metadata/)

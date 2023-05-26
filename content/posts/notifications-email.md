@@ -4,6 +4,7 @@ tags: ["News", "Release notes"]
 date: 2021-10-12
 categories: ["News", "Release notes"]
 description: Stay informed with Cloudback's email notifications for failed backups
+keywords: github backup, cloudback, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools, github backup software
 ---
 
 Cloudback sends an email notification to the user if the backup fails. By default, we are using the primary email address taken from the GitHub profile. 

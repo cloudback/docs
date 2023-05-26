@@ -2,6 +2,7 @@
 title: "GitHub Organizations"
 weight: 8
 description: Efficiently manage GitHub backups for teams with Cloudback
+keywords: github backup, cloudback, github organizations, organizations, teams, team, github team, github teams
 ---
 
 # GitHub Organizations

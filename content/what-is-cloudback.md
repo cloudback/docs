@@ -1,12 +1,13 @@
 ---
 title: What is Cloudback
 weight: 2
-Description: Ultimate cloud backup solution for GitHub repositories. Protect your code and data with Cloudback.
+description: Ultimate cloud backup solution for GitHub repositories. Protect your code and data with Cloudback.
+keywords: cloudback, github backup, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools, github backup software
 ---
 
 # Introducing Cloudback
 
-Cloudback - the ultimate [cloud backup](https://en.wikipedia.org/wiki/Remote_backup_service) solution for your [GitHub repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories). With Cloudback, you have the flexibility to choose from a [variety of backup storage options](/features/customer-storages). If you already have your own storage, we'll simply place your backup archives there. No need to worry about using our internal storage, called Cloudback. And, with the power of the official GitHub [REST API](https://docs.github.com/en/rest), we ensure that all repository metadata is accurately backed up on a daily basis, according to your preferred schedule. Protect your valuable code and project data with Cloudback.
+Cloudback - the ultimate [cloud backup](https://en.wikipedia.org/wiki/Remote_backup_service) solution for your [GitHub repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories). With Cloudback, you have the flexibility to choose from a [variety of backup storage options](/features/customer-storages/). If you already have your own storage, we'll simply place your backup archives there. No need to worry about using our internal storage, called Cloudback. And, with the power of the official GitHub [REST API](https://docs.github.com/en/rest), we ensure that all repository metadata is accurately backed up on a daily basis, according to your preferred schedule. Protect your valuable code and project data with Cloudback.
 
 ![infrastructure](/static/infrastructure.svg)
 

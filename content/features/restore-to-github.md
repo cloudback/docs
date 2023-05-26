@@ -2,6 +2,7 @@
 title: Restore to GitHub
 weight: 6
 description: Restore GitHub backups with Cloudback's simple process
+keywords: github backup, cloudback, restore to github, restore, github, process
 ---
 
 # Restore to GitHub
@@ -33,6 +34,6 @@ Once restore is finished please follow the link `Open restored repository` to op
 
 ## Learn more
 
-- [Customer Managed Storages](/features/customer-storages)
-- [What is inside of a backup?](/features/metadata)
-- [Password-Protected Archives](/features/archive)
+- [Customer Managed Storages](/features/customer-storages/)
+- [What is inside of a backup?](/features/metadata/)
+- [Password-Protected Archives](/features/archive/)

@@ -2,7 +2,8 @@
 title: Terms of Service
 weight: 20
 type: docs
-description: Cloudback's Terms of Service for customers - agree and order now.
+description: Cloudback's Terms of Service for customers - agree and backup GitHub repository now
+keywords: github backup, cloudback, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools, github backup software, terms of service
 ---
 
 

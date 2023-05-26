@@ -3,6 +3,7 @@ title: Microsoft Azure Blob Container
 weight: 1
 bookCollapseSection: true
 description: Backup GitHub repo with Azure Blob Container
+keywords: github backup, azure, blob container, cloudback
 ---
 
 # Backup GitHub repository using Microsoft Azure Blob Container

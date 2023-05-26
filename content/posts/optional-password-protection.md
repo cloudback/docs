@@ -4,6 +4,7 @@ tags: ["News", "Release notes"]
 date: 2021-10-19
 categories: ["News", "Release notes"]
 description: Cloudback now offers optional archive encryption using AES-256
+keywords: github backup, cloudback, archive, zip, aes-256, encryption, password, password-protected, password-protected zip archive, password-protected zip archives, password-protected zip archive, password-protected zip archives
 ---
 
 For security reasons, Cloudback uses [AES-256](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption for all backup archives. If you download a specific backup, you can access its content using the password. The password is sent automatically to your GitHub account primary email. However, some people may find this approach a little bit overcomplicated, especially when using [customer managed storage](/features/customer-storages/) somewhere inside your own secure infrastructure.

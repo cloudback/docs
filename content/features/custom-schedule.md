@@ -2,6 +2,7 @@
 title: Custom Schedules
 weight: 16
 description: Customize GitHub backup schedules with Cloudback's Schedule Manager
+keywords: github backup, cloudback, custom schedule, custom schedules, schedule manager, schedule, schedules
 ---
 
 # Custom Schedules
@@ -38,6 +39,6 @@ Let's create `Every Monday Morning` schedule for weekly backups step-by-step:
 
 ## Learn more
 
-- [Card View](/features/card-view)
-- [Table View](/features/table-view)
-- [What is inside of a backup?](/features/metadata)
+- [Card View](/features/card-view/)
+- [Table View](/features/table-view/)
+- [What is inside of a backup?](/features/metadata/)

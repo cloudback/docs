@@ -4,6 +4,7 @@ weight: 30
 type: docs
 bookToc: true
 description: Cloudback - GDPR compliant commercial backup service by MYRTLE GROUP.
+keywords: cloudback, privacy policy, gdpr, gdpr compliant, gdpr compliant backup service, gdpr compliant backup services, gdpr compliant backup solution, gdpr compliant backup solutions, gdpr compliant backup tool, gdpr compliant backup tools, gdpr compliant backup software, gdpr compliant backup service provider, gdpr compliant backup service providers, gdpr compliant backup solution provider, gdpr compliant backup solution providers, gdpr compliant backup tool provider, gdpr compliant backup tool providers, gdpr compliant backup software provider, gdpr compliant backup software providers
 ---
 
 ## Privacy Policy

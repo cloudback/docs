@@ -2,6 +2,7 @@
 title: Card View
 weight: 14
 description: Cloudback Dashboard - simple and intuitive for easy backups
+keywords: github backup, cloudback, card view, card, view, dashboard, simple, intuitive, easy, backups
 ---
 
 # Card View
@@ -39,5 +40,5 @@ Here you can find the next functionality:
 
 ## Learn more
 
-- [Table View](/features/table-view)
-- [What is inside of a backup?](/features/metadata)
+- [Table View](/features/table-view/)
+- [What is inside of a backup?](/features/metadata/)

@@ -2,6 +2,7 @@
 title: Cloudback Managed Storages
 weight: 2
 description: Securely store GitHub backups with Cloudback managed storages
+keywords: github backup, cloudback, managed storage, cloudback managed storage, cloudback storage, cloudback managed storages, cloudback storages
 ---
 
 # Cloudback Managed Storages
@@ -24,6 +25,6 @@ The storage for the particular repository can be changed in the [back side](/fea
 
 ## Learn more
 
-- [Customer Managed Storages](/features/customer-storages)
-- [What is inside of a backup?](/features/metadata)
+- [Customer Managed Storages](/features/customer-storages/)
+- [What is inside of a backup?](/features/metadata/)
 - [Data Deduplication](/features/deduplication/)

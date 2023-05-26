@@ -2,6 +2,7 @@
 title: Data Deduplication
 weight: 13
 description: Save storage space and reduce costs with Cloudback's deduplication
+keywords: github backup, cloudback, data deduplication, deduplication, dedup, deduplicate, deduplication type, deduplication types, deduplication type, deduplication types
 ---
 
 # Data Deduplication
@@ -38,5 +39,5 @@ In the dashboard, on the repository card, you'll find the `Backup Information` t
 
 ## Learn more
 
-- [What is inside of a backup?](/features/metadata)
-- [Password-Protected Archives](/features/archive)
+- [What is inside of a backup?](/features/metadata/)
+- [Password-Protected Archives](/features/archive/)

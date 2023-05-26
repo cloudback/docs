@@ -2,6 +2,7 @@
 title: "Email Notifications"
 weight: 7
 description: Stay informed with Cloudback's email notifications for failed backups
+keywords: github backup, cloudback, email, notifications, email notifications, failed backups, backup failure
 ---
 
 # Email Notifications
@@ -47,7 +48,7 @@ There can be two types of issues related to your GitHub account:
 
 ### 3. Cloudback issue 
 
-Sometimes the backup software itself can fail. This happens and our Cloudback Support Team is responsible for restoring the backup, analyzing the cause and making any necessary changes to prevent this from happening in the future. Please [contact us](/contact-us) if you believe this is the case.
+Sometimes the backup software itself can fail. This happens and our Cloudback Support Team is responsible for restoring the backup, analyzing the cause and making any necessary changes to prevent this from happening in the future. Please [contact us](/contact-us/) if you believe this is the case.
 
 ### 4. GitHub outage
 
@@ -56,10 +57,10 @@ GitHub itself can go offline. This happens sometimes and can take a few hours. C
 
 ## Notifications on a successful backup
 
-At the moment, you will be notified by email of failures only. Take a look at [Instant Notification](/features/instant-notifications) - notifications about successful backups are supported there.
+At the moment, you will be notified by email of failures only. Take a look at [Instant Notification](/features/instant-notifications/) - notifications about successful backups are supported there.
 
 ## Learn more
 
-- [Instant notifications](/features/instant-notifications)
-- [What is inside of a backup?](/features/metadata)
-- [Customer Managed Storages](/features/customer-storages)
+- [Instant notifications](/features/instant-notifications/)
+- [What is inside of a backup?](/features/metadata/)
+- [Customer Managed Storages](/features/customer-storages/)

@@ -2,6 +2,7 @@
 title: Amazon S3 Object Lock
 weight: 17
 description: Cloudback supports S3 Object Lock feature for your backups.
+keywords: github backup, cloudback, amazon s3 object lock, s3 object lock, object lock, amazon s3, s3, aws s3, s3 bucket, s3 storage, s3 object lock feature
 ---
 
 # Amazon S3 Object Lock
@@ -90,6 +91,6 @@ x-amz-object-lock-retain-until-date:{{ date.now | date.add_years 1 }}
 ```
 
 ## Learn more
-- [Customer Managed Storages](/features/customer-storages)
+- [Customer Managed Storages](/features/customer-storages/)
 - External Article: [Using S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html)
 - External Article: [Managing S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-managing.html)

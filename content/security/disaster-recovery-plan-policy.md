@@ -3,7 +3,8 @@ title: Disaster Recovery Plan Policy
 weight: 20
 type: docs
 bookToc: true
-description: Establishing a disaster recovery process in Cloudback
+description: Establishing a disaster recovery process in Cloudback for GitHub repository backup
+keywords: github backup, cloudback, security, data security, data protection, data privacy, data backup, data recovery, data breach, disaster recovery, incident response plan, disaster recovery plan
 ---
 
 ## Disaster Recovery Plan Policy

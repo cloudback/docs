@@ -3,7 +3,8 @@ title: Data Breach Response Policy
 weight: 30
 type: docs
 bookToc: true
-description: Establishing a data breach response policy in Cloudback
+description: Establishing a data breach response policy in Cloudback for GitHub repository backup
+keywords: github backup, cloudback, security, data security, data protection, data privacy, data backup, data recovery, data breach, disaster recovery, incident response plan, disaster recovery plan, vulnerability management, vulnerability management workflow, data breach response policy
 ---
 
 ## Data Breach Response Policy

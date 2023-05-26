@@ -4,6 +4,7 @@ tags: ["News", "Release notes"]
 date: 2023-04-26
 categories: ["News", "Release notes"]
 description: Take advantage of the new feature to strengthen the protection of your valuable GitHub repository backups
+keywords: github backup, cloudback, amazon, s3 object lock, object lock, compliance, data protection, retention requirement, retention policy
 ---
 
 Cloudback announces the latest addition to its robust suite of features: support for Amazon S3 Object Lock. This enhancement will enable developers to further strengthen the security and protection of their GitHub repository backups stored on Amazon S3.
@@ -21,6 +22,6 @@ Upgrade your backup security now — log in to Cloudback and secure your GitHub 
 
 Learn more: 
 - [Amazon S3 Object Lock](https://docs.cloudback.it/features/s3-object-lock/)
-- [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages)
+- [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages/)
 - External Article: [Using S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html)
 - External Article: [Managing S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-managing.html)

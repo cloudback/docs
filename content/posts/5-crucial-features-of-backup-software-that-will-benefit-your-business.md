@@ -4,6 +4,7 @@ tags: ["General", "Cloudback"]
 date: 2021-10-11
 categories: ["General", "Cloudback"]
 description: Protect your business with essential backup software features
+keywords: github backup, cloudback, benefits, backup software, backup software features, backup software benefits
 ---
 
 <img src="/static/blog/1.png" alt="Open restored" style="width: 100%;"/>

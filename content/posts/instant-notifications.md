@@ -4,6 +4,7 @@ tags: ["News", "Release notes"]
 date: 2022-05-28
 categories: ["News", "Release notes"]
 description: Get real-time backup notifications with Cloudback's messenger integration
+keywords: github backup, cloudback, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools, github backup software
 ---
 
 <div style="width: 100%; display: table;">
@@ -18,11 +19,11 @@ description: Get real-time backup notifications with Cloudback's messenger integ
 </div>
 
 We have added support for the three most popular messengers:
-- [Slack](/features/instant-notifications#slack)
-- [Microsoft Teams](/features/instant-notifications#microsoft-teams)
-- [Discord](/features/instant-notifications#discord)
+- [Slack](/features/instant-notifications/#slack)
+- [Microsoft Teams](/features/instant-notifications/#microsoft-teams)
+- [Discord](/features/instant-notifications/#discord)
 
-If you miss your messenger in the list, please [contact us](/contact-us) or raise a feature request using our [issue tracker](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md).
+If you miss your messenger in the list, please [contact us](/contact-us/) or raise a feature request using our [issue tracker](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md).
 
 ### Learn more
  - [Instant notifications](/features/instant-notifications/)

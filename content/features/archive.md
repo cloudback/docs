@@ -2,6 +2,7 @@
 title: Password-Protected Archives
 weight: 12
 description: Secure your GitHub backups with Cloudback's password protection
+keywords: github backup, cloudback, password protection, zip encryption, aes encryption, zip aes, zip password, zip password protection
 ---
 
 # Password-Protected Archives
@@ -12,7 +13,7 @@ Also, please note that we put one ZIP archive into another one. This is done to 
 
 ### ZIP archives without password protection
 
-There is an option to disable archive encryption and switch to an unencrypted ZIP archive. This option is available for [customer managed storage](/features/customer-storages) only. The `Cloudback` build-in storage is password-protected and this behavior can't be changed.
+There is an option to disable archive encryption and switch to an unencrypted ZIP archive. This option is available for [customer managed storage](/features/customer-storages/) only. The `Cloudback` build-in storage is password-protected and this behavior can't be changed.
 
 > **WARNING**: If you disable archive encryption, please take all necessary precautions to protect your backups inside your own storage from unauthorized access.
 
@@ -36,12 +37,12 @@ The archive is password protected in the same way as all Cloudback backups are. 
 
 ### Archive content
 
-For a brief description of content please refer [Metadata Backups](/features/metadata)
+For a brief description of content please refer [Metadata Backups](/features/metadata/)
 
 <img src="/static/features/zip-content.png" alt="Inside a backup 3"/>
 
 ## Learn more
 
-- [Customer Managed Storages](/features/customer-storages)
-- [Restore to GitHub](/features/restore-to-github)
+- [Customer Managed Storages](/features/customer-storages/)
+- [Restore to GitHub](/features/restore-to-github/)
 - [Data Deduplication](/features/deduplication/)

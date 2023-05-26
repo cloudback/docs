@@ -2,7 +2,8 @@
 title: Getting Started
 weight: 5
 type: docs
-Description: Start creating backups for GitHub repositories with this guide
+description: Start creating backups for GitHub repositories with this guide
+keywords: github backup, cloudback, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools, github backup software
 ---
 
 # Getting Started

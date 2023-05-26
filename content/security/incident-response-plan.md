@@ -3,7 +3,8 @@ title: Incident Response Plan
 weight: 10
 type: docs
 bookToc: true
-description: Establishing an incident response plan in Cloudback
+description: Establishing an incident response plan in Cloudback for GitHub repository backup
+keywords: github backup, cloudback, security, data security, data protection, data privacy, data backup, data recovery, data breach, disaster recovery, incident response plan
 ---
 
 ## Incident Response Plan

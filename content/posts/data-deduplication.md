@@ -4,6 +4,7 @@ tags: ["News", "Release notes"]
 date: 2022-05-06
 categories: ["News", "Release notes"]
 description: Reduce storage costs with Cloudback's data deduplication feature
+keywords: github backup, cloudback, data deduplication, deduplication, dedup, deduplicate, deduplication type, deduplication types, deduplication type, deduplication types
 ---
 
 The Cloudback team is pleased to announce a new feature: Data deduplication for customer managed storage. The use case is a daily backup for a GitHub repository that's not changed every day. The feature prevents wasting storage space just because Cloudback saves backup archives with the same content every day, even though nothing has changed in your GitHub repository. In certain scenarios, the feature can drastically reduce storage costs.

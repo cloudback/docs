@@ -4,6 +4,7 @@ tags: ["News", "Release notes"]
 date: 2020-09-03
 categories: ["News", "Release notes"]
 description: Backup GitHub repos with Cloudback's private cloud storage integration
+keywords: github backup, cloudback, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools
 ---
 
 Our team is proud to announce to you the first public release of Cloudback - GitHub repository backup as a service. The decision to start the Cloudback project has been made a few months ago when we noticed there are no solutions that provide the ability to back up a GitHub repository into private cloud storage. We made this a key feature of our product - the integration with various cloud storage providers. Cloudback backs up a GitHub repository and its metadata and stores the resulting archive into your own storage facility. The supported storage providers are described in our documentation article [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages/).

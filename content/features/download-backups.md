@@ -2,6 +2,7 @@
 title: Download Backups
 weight: 5
 description: Easily download GitHub backups with Cloudback's archive feature
+keywords: github backup, cloudback, download backups, download, backups, archive, feature
 ---
 
 # Download Backups
@@ -18,7 +19,7 @@ Once you click the `Download this backup` button the dialog will be shown. The d
 
 ## Archive's password email
 
-You will receive an email with the password each time you download a [password-protected archive](/features/archive) of a repository backup:
+You will receive an email with the password each time you download a [password-protected archive](/features/archive/) of a repository backup:
 
 <img src="/static/features/password-email.png" alt="Password email"/>
 
@@ -36,6 +37,6 @@ In any of these cases you will get the `File not found` notification:
 
 ## Learn more
 
-- [What is inside of a backup?](/features/metadata)
-- [Customer Managed Storages](/features/customer-storages)
-- [Password-Protected Archives](/features/archive)
+- [What is inside of a backup?](/features/metadata/)
+- [Customer Managed Storages](/features/customer-storages/)
+- [Password-Protected Archives](/features/archive/)

@@ -2,6 +2,7 @@
 title: Wasabi
 weight: 9
 description: Backup GitHub repository using Wasabi
+keywords: github backup, cloudback, custom storage, customer-managed storage, wasabi
 ---
 
 # Backup GitHub repository using Wasabi

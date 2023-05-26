@@ -4,6 +4,7 @@ tags: ["News", "Release notes"]
 date: 2023-04-12
 categories: ["News", "Release notes"]
 description: Cloudback Regional Storage. Choose from USA, EU, Asia, and Australia
+keywords: github backup, cloudback, storage, regional storage, cloudback storage, cloudback regional storage, cloudback storages, compliance, data residency, data regulations, data residency regulations, data residency compliance
 ---
 
 The Cloudback Team is excited to announce the addition of regional storage options for our clients. If you're utilizing Cloudback Storage for your repositories, you can now select from a variety of storage regions to best suit your needs. See the list of supported storage locations below:
@@ -21,5 +22,5 @@ By default, all backups are stored in the Cloudback US storage. However, clients
 As businesses continue to navigate the complexities of data management, Cloudback's commitment to providing secure, accessible, and compliant storage solutions is poised to drive growth and customer satisfaction.
 
 Learn more: 
- - [Cloudback Managed Storages](https://docs.cloudback.it/features/cloudback-storages)
- - [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages)
+ - [Cloudback Managed Storages](https://docs.cloudback.it/features/cloudback-storages/)
+ - [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages/)

@@ -3,7 +3,8 @@ title: Home
 weight: 1
 type: docs
 hidePageToc: true
-Description: Explore Cloudback's GitHub Backup functionality with our documentation
+description: Explore Cloudback's GitHub Backup functionality with our documentation
+Keywords: github backup, cloudback, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools, github backup software
 ---
 
 # Cloudback Documentation
@@ -11,11 +12,11 @@ Description: Explore Cloudback's GitHub Backup functionality with our documentat
 <div class="flex-row-to-column">
 {{< docsCard 
   title="What is Cloudback?"
-  href="/what-is-cloudback"
+  href="/what-is-cloudback/"
   text="Learn more about what Cloudback is and how it works." >}}
 {{< docsCard 
   title="Getting started"
-  href="/getting-started"
+  href="/getting-started/"
   text="Check out how to start using Cloudback and protect your repositories." >}}
 {{< docsCard 
   title="Customer managed storages"
@@ -43,7 +44,7 @@ Description: Explore Cloudback's GitHub Backup functionality with our documentat
   text="Cloudback allows you to create backups on-demand, just with a single click." >}}
 {{< docsCard 
   title="Metadata"
-  href="/features/metadata"
+  href="/features/metadata/"
   text="Cloudback archives not only the whole git repository but GitHub-specific metadata as well." >}}
 {{< docsCard 
   title="Issue tracker"

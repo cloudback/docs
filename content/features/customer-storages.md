@@ -2,6 +2,7 @@
 title: Customer Managed Storages
 weight: 2
 description: Securely store GitHub backups with Cloudback's self-managed storage option
+keywords: github backup, cloudback, managed storage, cloudback managed storage, cloudback storage, cloudback managed storages, cloudback storages
 ---
 
 # Customer Managed Storages
@@ -42,7 +43,7 @@ Please follow the link below to find additional details about particular storage
 
 ## Need another storage?
 
-We added support of [OpenStack Swift](https://github.com/cloudback/issue-tracker/issues/6) and [Microsoft OneDrive](https://github.com/cloudback/issue-tracker/issues/7) within a feature request of our users. [Contact us](/contact-us) or [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing your storage.
+We added support of [OpenStack Swift](https://github.com/cloudback/issue-tracker/issues/6) and [Microsoft OneDrive](https://github.com/cloudback/issue-tracker/issues/7) within a feature request of our users. [Contact us](/contact-us/) or [create a feature request](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md) and we will consider implementing your storage.
 
 ## What we upload to the storage?
 
@@ -50,6 +51,6 @@ We upload password-protected zip archives. The password is encrypted and stored 
 
 ## Learn more
 
-- [Cloudback Managed Storages](/features/cloudback-storages)
-- [What is inside of a backup?](/features/metadata)
+- [Cloudback Managed Storages](/features/cloudback-storages/)
+- [What is inside of a backup?](/features/metadata/)
 - [Data Deduplication](/features/deduplication/)

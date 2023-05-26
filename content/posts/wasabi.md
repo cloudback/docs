@@ -17,5 +17,5 @@ Wasabi is fully compatible with the Amazon S3 API with support for hundreds of S
 Contact us or create a feature request, and we will consider implementing your storage. Please check our list of [supported storages](https://docs.cloudback.it/features/customer-storages/#supported-storages) first, just in case your storage provider is already supported.
 
 Learn more: 
- - [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages)
+ - [Customer Managed Storages](https://docs.cloudback.it/features/customer-storages/)
  - [Backup GitHub repository using Wasabi](https://docs.cloudback.it/custom-storages/wasabi/) 

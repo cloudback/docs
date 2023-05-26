@@ -2,6 +2,7 @@
 title: "Instant Notifications"
 weight: 7
 description: Configure notifications with Cloudback's Webhooks for backup updates
+keywords: github backup, cloudback, instant notifications, notifications, webhook, webhooks, slack, discord, microsoft teams
 ---
 
 # Instant Notifications
@@ -11,7 +12,7 @@ Cloudback supports real-time notifications via messenger services:
 
 Instant Notifications about successful and failed backups can be configured per account in the 'Notification Settings' dialog of the main menu of **Cloudback Dashboard**. All notifications are **Webhook** based. **Webhooks** are user-defined HTTP URL callbacks. They are usually triggered to facilitate integration of different applications, in our particular case it is Cloudback and a Messenger. Within a Messenger, you can create an **Incoming Webhook** for a text channel and get a URL for created **Webhook**. Then you pass that **Webhook URL** to Cloudback, and when Cloudback wants to send a notification, it triggers the **Webhook URL** provided.
 
-Supported messengers are [Slack](/features/instant-notifications#slack), [Microsoft Teams](/features/instant-notifications#microsoft-teams), and [Discord](/features/instant-notifications#discord). If you need another one - please submit a request via our [issue tracker](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md).
+Supported messengers are [Slack](/features/instant-notifications/#slack), [Microsoft Teams](/features/instant-notifications/#microsoft-teams), and [Discord](/features/instant-notifications/#discord). If you need another one - please submit a request via our [issue tracker](https://github.com/cloudback/issue-tracker/issues/new?template=feature_request.md).
 
 The steps to configure instant notifications are similar for all messengers:
 1. Go to your messenger, create **Incoming Webhook**, and get its **Webhook URL**.
@@ -48,6 +49,6 @@ The steps to configure instant notifications are similar for all messengers:
 
 ## Learn more
 
-- [Email notifications](/features/email-notifications)
-- [What is inside of a backup?](/features/metadata)
-- [Customer Managed Storages](/features/customer-storages)
+- [Email notifications](/features/email-notifications/)
+- [What is inside of a backup?](/features/metadata/)
+- [Customer Managed Storages](/features/customer-storages/)
