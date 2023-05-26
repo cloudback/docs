@@ -43,7 +43,7 @@ This Service may contain links to other sites. If you click on a third-party lin
 
 **Google Analytics** is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 
-For more information on the privacy practices of Google, please visit the Google Privacy & Terms ([link](http://www.google.com/intl/en/policies/privacy/)).
+For more information on the privacy practices of Google, please visit the Google Privacy & Terms ([link](https://www.google.com/intl/en/policies/privacy/)).
 
 **GitHub** brings together the world's largest community of developers to discover, share, and build better software. Cloudback was build as a GitHub Application for public use.
 
