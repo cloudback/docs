@@ -1,5 +1,5 @@
 ---
-title: Amazon S3 Glacier For GitHub Repository Backup
+title: Amazon S3 Glacier
 weight: 3
 description: Backup GitHub repository using Amazon S3 Glacier
 keywords: github backup, cloudback, custom storage, customer-managed storage, amazon s3 glacier
@@ -12,6 +12,19 @@ keywords: github backup, cloudback, custom storage, customer-managed storage, am
 Amazon S3 Glacier and S3 Glacier Deep Archive are secure, durable, and extremely low-cost Amazon S3 cloud storage classes for data archiving and long-term backup. They are designed to deliver 99.999999999% durability, and provide comprehensive security and compliance capabilities that can help meet even the most stringent regulatory requirements.
 
 --------------------
+
+## Requires permissions
+
+- glacier:UploadArchive
+- glacier:DeleteArchive
+- glacier:InitiateJob
+- glacier:GetJobOutput
+- glacier:InitiateMultipartUpload
+- glacier:CompleteMultipartUpload
+- glacier:AbortMultipartUpload
+- glacier:UploadMultiPart
+- glacier:UploadMultipartPart
+- glacier:DescribeJob
 
 ## Set up Amazon S3 Glacier as a customer managed storage
 

@@ -1,7 +1,7 @@
 ---
 weight: 10
 bookCollapseSection: true
-title: Supported Storages For GitHub Repository Backup
+title: Supported Storages
 description: Backup GitHub repository into Azure Blob, Microsoft OneDrive, Amazon S3, Google Cloud, Alibaba Cloud, OpenStack Swift or Wasabi
 keywords: github backup, cloudback, custom storage, customer-managed storage
 ---

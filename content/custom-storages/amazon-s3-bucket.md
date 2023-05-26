@@ -1,5 +1,5 @@
 ---
-title: Amazon S3 Bucket via Access Point For GitHub Repository Backup
+title: Amazon S3 Bucket via Access Point
 weight: 2
 description: Backup GitHub repository using Amazon S3 Bucket
 keywords: github backup, cloudback, custom storage, customer-managed storage, amazon s3 bucket, amazon s3 bucket access point
@@ -7,11 +7,16 @@ keywords: github backup, cloudback, custom storage, customer-managed storage, am
 
 # Backup GitHub repository using Amazon S3 Bucket
 
-
-
 ## About Amazon S3 Bucket
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. 
+
+## Requires permissions
+
+- **s3:PutObject** - required, for backup archive upload to Amazon S3 bucket
+- **s3:GetObject** - optional, for backup restore and instant download from Amazon S3 bucket
+- **s3:DeleteObject** - optional, for retention policy, automatic removal of outdated backups from Amazon S3 bucket
+- **s3:GetBucketLocation** - optional, required to automatically determine the `Service Endpoint URL`
 
 ## Set up Amazon S3 Bucket as a customer managed storage
 

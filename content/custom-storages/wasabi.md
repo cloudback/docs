@@ -1,5 +1,5 @@
 ---
-title: Wasabi Customer Managed Storage For GitHub Repository Backup
+title: Wasabi Customer Managed Storage
 weight: 9
 description: Backup GitHub repository using Wasabi
 keywords: github backup, cloudback, custom storage, customer-managed storage, wasabi

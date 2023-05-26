@@ -1,5 +1,5 @@
 ---
-title: Microsoft OneDrive For GitHub Repository Backup
+title: Microsoft OneDrive
 weight: 4
 description: Backup GitHub repository using Microsoft OneDrive
 keywords: github backup, cloudback, custom storage, customer-managed storage, microsoft onedrive, onedrive
