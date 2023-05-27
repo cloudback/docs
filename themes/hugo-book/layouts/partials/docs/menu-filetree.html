@@ -36,7 +36,7 @@
       <span class="docs-menu-item">
         <span class="docs-menu-item-text d-flex flex-grow-1">
           <a href="{{ .Page.Permalink }}" class="{{ if $current }}active{{ end }}">
-            {{- partial "docs/title" .Page -}}
+            {{- partial "docs/menu-title" .Page -}}
           </a>
           <span class="docs-menu-item-icon flex-grow-1 text-right">
             <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12">
@@ -50,7 +50,7 @@
   {{ else }}
     <a href="{{ .Page.Permalink }}" class="docs-menu-item d-flex {{ if $current }} active{{ end }}">
       <div class="d-flex flex-grow-1">
-        <span class="docs-menu-item-text d-flex flex-grow-1">{{- partial "docs/title" .Page -}}</span>
+        <span class="docs-menu-item-text d-flex flex-grow-1">{{- partial "docs/menu-title" .Page -}}</span>
       </div>
     </a>
   {{ end }}

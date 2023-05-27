@@ -1,5 +1,6 @@
 ---
-title: What is Cloudback?
+title: What is Cloudback GitHub Backup?
+linkTitle: What is Cloudback?
 weight: 2
 description: Ultimate cloud backup solution for GitHub repositories. Protect your code and data with Cloudback.
 keywords: cloudback, github backup, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools, github backup software
