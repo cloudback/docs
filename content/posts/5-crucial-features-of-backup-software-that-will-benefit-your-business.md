@@ -7,7 +7,7 @@ description: Protect your business with essential backup software features
 keywords: github backup, cloudback, benefits, backup software, backup software features, backup software benefits
 ---
 
-<img src="/static/blog/1.png" alt="Open restored" style="width: 100%;"/>
+<img src="/static/blog/1.png" alt="GitHub repository backup" style="width: 100%;"/>
 
 Your business can be susceptible to losing data. Worse, it can sometimes catch you off guard, causing delays and disruptions in your operations. Prevent that from happening by investing in the enterprise backup software for your business.
 

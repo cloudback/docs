@@ -9,7 +9,7 @@ keywords: github backup, automated backup, daily backup, cloudback
 
 This is why we created Cloudback - to continuously backup a repository and its metadata on a daily basis. By default, Cloudback captures a backup daily at a defined hour according to a defined time zone and puts a resulting archive into defined storage. You can also create a [custom schedule](/features/custom-schedule/) to run your backups on non-daily basis.
 
-<img src="/static/features/triggered-automatically.png" alt="Backup" width="500"/>
+<img src="/static/features/triggered-automatically.png" alt="automatically triggered GitHub repository backup" width="500"/>
 
 ## Schedule
 
@@ -19,14 +19,14 @@ Here is how you can change the schedule for an individual repository:
 
 <p align="center">
   <img src="/static/features/change-backup-schedule.png" data-alt="/static/features/change-backup-schedule.gif"
-       alt="Change Backup Schedule" onclick="swapGif(this)" style="cursor: pointer;"/>
+       alt="change GitHub repository backup schedule" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
 Also, there is an option to change the schedule for all repositories in a GitHub account via the `Bulk Operations` menu:
 
 <p align="center">
   <img src="/static/features/change-schedule-bulk.png" data-alt="/static/features/change-schedule-bulk.gif"
-       alt="Change Schedule in a Bulk" onclick="swapGif(this)" style="cursor: pointer;"/>
+       alt="change GitHub repository backup schedule fro multiple repositories" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
 ## Number of scheduled repositories
@@ -38,7 +38,7 @@ The overall number of scheduled repositories depends on a purchased [GitHub Mark
   - **In use**: the number of scheduled repositories
   - **Remaining**: the delta between the number of purchased and the number of scheduled
 
-<img src="/static/features/billing-profile.png" alt="Billing Profile"/>
+<img src="/static/features/billing-profile.png" alt="Cloudback user's billing profile"/>
 
 ## Time zone
 
@@ -46,7 +46,7 @@ Please be aware that a backup schedule is sensitive to the account time zone you
 
 <p align="center">
   <img src="/static/features/account-time-zone.png" data-alt="/static/features/account-time-zone.gif"
-       alt="Change Schedule in a Bulk" onclick="swapGif(this)" style="cursor: pointer;"/>
+       alt="Set up timezone to display GitHub repository backup time" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
 ## Retention policy

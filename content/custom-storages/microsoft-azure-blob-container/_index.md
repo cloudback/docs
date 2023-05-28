@@ -32,7 +32,7 @@ Azure Blob storage is Microsoft's object storage solution for the cloud that is 
  - Click on the `+ New storage` button:
  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/cloudback-2-new-storage.png" alt="add new storage" title="add new storage" class="screenshot">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/cloudback-2-new-storage.png" alt="add new storage for GitHub repository backups" title="add new storage for GitHub repository backups" class="screenshot">
 </p>
 
  - Type a storage name
@@ -40,7 +40,7 @@ Azure Blob storage is Microsoft's object storage solution for the cloud that is 
  - Insert Blob SAS URL and click on the `Save` button:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/cloudback-3-new-storage-details.png" alt="new storage details" title="new storage details" class="screenshot">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/cloudback-3-new-storage-details.png" alt="new storage details to backup GitHub repository" title="new storage details to backup GitHub repository" class="screenshot">
 </p>
 
  - The new storage will automatically be selected as a storage for this repository
@@ -53,12 +53,12 @@ Azure Blob storage is Microsoft's object storage solution for the cloud that is 
  - After the changes are saved you should be able to see that the new storage is selected as a default storage for this repository:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/cloudback-5-new-storage-added-2.png" alt="new storage added" title="new storage added" class="screenshot">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/cloudback-5-new-storage-added-2.png" alt="new storage on the Cloudback dashboard" title="new storage on the Cloudback dashboard" class="screenshot">
 </p>
 
  - When the backup is created you should be able to see it in the Azure Blob Container page:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-6-container-backup-uploaded.png" alt="backup uploaded" title="backup uploaded" class="screenshot">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-6-container-backup-uploaded.png" alt="GitHub repository backup uploaded to the new storage" title="GitHub repository backup uploaded to the new storage" class="screenshot">
 </p>
 

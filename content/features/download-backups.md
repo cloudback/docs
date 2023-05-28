@@ -9,19 +9,19 @@ keywords: github backup, cloudback, download backups, download, backups, archive
 
 You can download an archive of any backup of your repositories. There is the `Download this backup` button in the repository card:
 
-<img src="/static/features/download-this-backup.png" alt="Download this backup" width=500/>
+<img src="/static/features/download-this-backup.png" alt="download GitHub repository backup from Cloudback dashboard" width=500/>
 
 ## Download dialog
 
 Once you click the `Download this backup` button the dialog will be shown. The dialog reminds you that the archive's password will be sent to your email right after the download process is initiated.
 
-<img src="/static/features/download-dialog.png" alt="Download dialog"/>
+<img src="/static/features/download-dialog.png" alt="GitHub repository backup download dialog"/>
 
 ## Archive's password email
 
 You will receive an email with the password each time you download a [password-protected archive](/features/archive/) of a repository backup:
 
-<img src="/static/features/password-email.png" alt="Password email"/>
+<img src="/static/features/password-email.png" alt="password email for a password-protected GitHub repository backup"/>
 
 ## What if the file is deleted?
 
@@ -33,7 +33,7 @@ There are a few situations when we could not download a backup archive:
 
 In any of these cases you will get the `File not found` notification:
 
-<img src="/static/features/file-not-found.png" alt="File not found"/>
+<img src="/static/features/file-not-found.png" alt="GitHub repository backup file not found"/>
 
 ## Learn more
 

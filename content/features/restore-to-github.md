@@ -9,7 +9,7 @@ keywords: github backup, cloudback, restore to github, restore, github, process
 
 Cloudback allows you to restore any backup to a new GitHub repository. This is a manual process, accessible from the repository card in the Cloudback Dashboard.
 
-<img src="/static/features/restore-this-backup.png" alt="Restore" width="500"/>
+<img src="/static/features/restore-this-backup.png" alt="restore a GitHub repository backup" width="500"/>
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ The restore process requires read and write access to your GitHub data, but the 
 
 When you click on the `Restore this backup` button, Cloudback will prompt you to install the 'Restore' application:
 
-![Restore Application](/static/features/install-restore-app.png)
+![install a restore GitHub application](/static/features/install-restore-app.png)
 
 ## Restore to a new repository
 
@@ -25,12 +25,12 @@ In the `Restore` dialog you will be prompted to enter a new repository name and 
 
 <p align="center">
   <img src="/static/features/restore.png" data-alt="/static/features/restore.gif"
-       alt="Restore to repository" onclick="swapGif(this)" style="cursor: pointer;"/>
+       alt="restore GitHub repository backup to a new repository" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
 Once restore is finished please follow the link `Open restored repository` to open GitHub and verify the resulting repository:
 
-<img src="/static/features/open-restored.png" alt="Open restored" width="500"/>
+<img src="/static/features/open-restored.png" alt="link to open a new restored repository on GitHub website" width="500"/>
 
 ## Learn more
 

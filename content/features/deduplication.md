@@ -28,13 +28,13 @@ Deduplication occurs when certain conditions are met:
 
 Data deduplication is a customer managed storage setting. It's configured separately for each storage. Use an additional `Deduplication Type` combo box in the `New Storage` and `Edit Storage` dialogs to control the behavior of data deduplication:
 
-<img src="/static/features/data-deduplication.png" alt="Data Deduplication"/>
+<img src="/static/features/data-deduplication.png" alt="Cloudback data deduplication to save a significant amount of cloud storage space and reduce operational costs"/>
 
 ## How to check if a backup is deduplicated
 
 In the dashboard, on the repository card, you'll find the `Backup Information` tooltip available for all backups. Within the tooltip there's an additional label `Deduplication`. There it says `Yes` if the backup has been deduplicated. See the screenshot below:
 
-<img src="/static/features/data-deduplication-label.png" alt="Data Deduplication Label"/>
+<img src="/static/features/data-deduplication-label.png" alt="data deduplication label on the GitHub repository backup"/>
 
 
 ## Learn more

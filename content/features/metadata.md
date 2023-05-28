@@ -15,7 +15,7 @@ Important things to know:
 - We don't backup your GitHub Organization
 - The resulting backup should never be considered as a complete all-embracing one
 
-<img src="/static/features/issue-tracker-metadata.png" alt="Metadata" width="600"/>
+<img src="/static/features/issue-tracker-metadata.png" alt="GitHub repository backup metadata information" width="600"/>
 
 ## What is included in a backup?
 

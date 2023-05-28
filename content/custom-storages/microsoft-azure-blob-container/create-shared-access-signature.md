@@ -39,14 +39,14 @@ To be able to create a new Blob Container it is required to have a storage accou
    - Select mandatory `Create`, `Write`, `Read` permissions
    - Optionally, if you specify `Delete` permission, our retention policy logic will be able to cleanup outdated backups from your cloud storage.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-4-container-shared-access-signature.png" alt="azure container page" title="azure container page" class="screenshot">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-4-container-shared-access-signature.png" alt="shared access signature" title="shared access signature" class="screenshot">
 </p>
 
  - Click on the `Generate SAS token and URL` button
  - After the SAS is generated you will see 'Blob SAS token' and 'Blob SAS URL' are ready to use
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-5-container-shared-access-signature-created.png" alt="azure container page" title="azure container page" class="screenshot">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-5-container-shared-access-signature-created.png" alt="shared access signature permissions to protect your GitHub repository using Cloudback" title="shared access signature permissions to protect your GitHub repository using Cloudback" class="screenshot">
 </p>
 
 Now you can use 'Blob SAS URL' to provide Cloudback access to your own Azure Blob Container. Please note that after the SAS is expired Cloudback will no longer be able to upload backups of your GitHub repositories to your storage.

@@ -13,7 +13,7 @@ Once a backup has failed, our support team will also be notified. If the problem
 
 Please note: Email notifications are only enabled for automatic backups. Cloudback does not send email notifications for manual on-demand backups.
 
-<img src="/static/features/email-failure-notification.png" alt="Email notification"/>
+<img src="/static/features/email-failure-notification.png" alt="email notification for automatic GitHub repository backup"/>
 
 ## Email address 
 
@@ -21,7 +21,7 @@ All emails and email notifications are sent to the [primary email address](https
 
 <p align="center">
   <img src="/static/features/email-override.png" data-alt="/static/features/email-override.gif"
-       alt="Change Failed Backups Notifications Email" onclick="swapGif(this)" style="cursor: pointer;"/>
+       alt="change failed backups notifications email" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
 ## Why can a backup fail?
@@ -37,7 +37,7 @@ The issue related to storage is the most frequent cause of backup failures. Usua
 
 In order to troubleshoot a storage issue please verify your storage settings in the repository card using the `Edit storage` button:
 
-<img src="/static/features/edit-storage.png" alt="Edit storage" width=500/>
+<img src="/static/features/edit-storage.png" alt="edit GitHub repository backup storage" width=500/>
 
 ### 2. GitHub account issue
 

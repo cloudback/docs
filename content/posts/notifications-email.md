@@ -11,7 +11,7 @@ Cloudback sends an email notification to the user if the backup fails. By defaul
 
 We received a feature request to support custom emails for notifications. This may be useful when you have a separate email for such kinds of notifications. We decided to provide such functionality for every account where the Cloudback GitHub Application is installed. Now you can set up a new email address for failed backup notifications for each account using the `Account Settings` dialog:
 
-<img src="/static/blog/notifications-email.png" alt="notifications email" style="width: 100%;"/>
+<img src="/static/blog/notifications-email.png" alt="notifications email about GitHub repository backups" style="width: 100%;"/>
 
 ### Learn more
  - [Email Notifications](https://docs.cloudback.it/features/email-notifications/)

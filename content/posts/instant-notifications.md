@@ -13,7 +13,7 @@ keywords: github backup, cloudback, github repository backup, github backup as a
             Four months ago, in February 2022, we received a new feature request from our user in our <a href="https://github.com/cloudback/issue-tracker/issues">issue tracker</a>. In the request, the user asked us to implement real-time notification support via messengers. As soon as a backup fails or succeeds, he should receive a notification. We found the request extremely useful and prioritized it in the backlog of our project. Despite the delay in delivery, we are happy to say that the work is done and the feature is now available.
         </div>
         <div style="display: table-cell;"> 
-            <img style="float: right; width: 90%" src="/static/features/instant-notifications-desktop.png" alt="Instant Notifications"/>
+            <img style="float: right; width: 90%" src="/static/features/instant-notifications-desktop.png" alt="instant notifications about GitHub repository backups"/>
         </div>
     </div>
 </div>

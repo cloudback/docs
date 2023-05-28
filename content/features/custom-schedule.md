@@ -10,7 +10,7 @@ keywords: github backup, cloudback, custom schedule, custom schedules, schedule 
 
 Cloudback provides build-in schedules for daily backups out of the box. If you want to backup on a weekly or monthly basis, you can create your own schedule using the `Schedule Manager` from the `Main Menu`. Once you create your own schedule, it becomes available in the `Schedule` dropdown box of repository settings.
 
-<img src="/static/features/custom-schedule-1.png" alt="Card View"/>
+<img src="/static/features/custom-schedule-1.png" alt="using Cloudback schedule manager to set up GitHub repository backup schedule"/>
 
 ## Example: Every Monday Morning Schedule
 
@@ -21,22 +21,22 @@ Let's create `Every Monday Morning` schedule for weekly backups step-by-step:
 3. Type **"Every Monday Morning"** into the `Schedule name` text box
 4. Choose **"4"** in the `Specific hour (choose one or many)` section. It means backup will start at 4 am.
 
-<img src="/static/features/custom-schedule-2.png" alt="Card View"/>
+<img src="/static/features/custom-schedule-2.png" alt="Add new schedule to backup GitHub repository"/>
 
 5. Switch to the `Day` tab
 6. Choose **"Monday"** in the `Specific day of week (choose one or many)` section. It means backup will start Monday only.
 
-<img src="/static/features/custom-schedule-3.png" alt="Card View"/>
+<img src="/static/features/custom-schedule-3.png" alt="Custom schedule to back up GitHub repository at a specific day of week"/>
 
 7. Click the `Save` button, and it will close the `Add Schedule` dialog.
 
-<img src="/static/features/custom-schedule-4.png" alt="Card View"/>
+<img src="/static/features/custom-schedule-4.png" alt="save a new custom schedule to back up GitHub repositories"/>
 
 8. Click the `Close` button, and it will close the `Schedule Manager` dialog.
 9. Find your repository, open repository settings and change `Schedule` to `Every Monday Morning`.
 10. Save repository settings. All done.
 
-<img src="/static/features/custom-schedule-5.png" alt="Card View"/>
+<img src="/static/features/custom-schedule-5.png" alt="select a new custom schedule to back up GitHub repositories"/>
 
 ## Learn more
 
