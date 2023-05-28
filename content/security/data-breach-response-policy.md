@@ -33,9 +33,9 @@ Any Cloudback personnel found in violation of this policy may be subject to disc
 
 ## Definitions 
 
-*Encryption or encrypted data* – The most effective way to achieve data security. To read an encrypted file, you must have access to a secret key or password that enables you to decrypt it. Unencrypted data is called plain text; </br>
-*Plain text* – Unencrypted data. </br>
-*Personally Identifiable Information (PII)* - Any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered </br>
-*Protected data* - See PII </br>
-*Information Resource* - The data and information assets of an organization, department or unit. </br>
-*Sensitive data* - Data that is encrypted or in plain text and contains PII data. </br>
+*Encryption or encrypted data* – The most effective way to achieve data security. To read an encrypted file, you must have access to a secret key or password that enables you to decrypt it. Unencrypted data is called plain text; <br/>
+*Plain text* – Unencrypted data. <br/>
+*Personally Identifiable Information (PII)* - Any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered <br/>
+*Protected data* - See PII <br/>
+*Information Resource* - The data and information assets of an organization, department or unit. <br/>
+*Sensitive data* - Data that is encrypted or in plain text and contains PII data. <br/>

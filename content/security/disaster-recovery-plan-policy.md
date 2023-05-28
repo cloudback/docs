@@ -37,7 +37,7 @@ The following contingency plans will be created if required:
  - Mass Media Management: Who is in charge of giving information to the mass media?
  - Also provide some guidelines on what data is appropriate to be provided.
 
-After creating the plans, it is important to practice them to the extent possible. The time will be set to test implementation of the disaster recovery plan. Table top exercises should be conducted annually. During these tests, issues that may cause the plan to fail can be discovered and corrected in an environment that has few consequences. </br>
+After creating the plans, it is important to practice them to the extent possible. The time will be set to test implementation of the disaster recovery plan. Table top exercises should be conducted annually. During these tests, issues that may cause the plan to fail can be discovered and corrected in an environment that has few consequences. <br/>
 The plan, at a minimum, should be reviewed an updated on an annual basis.
 
 ## Policy Compliance

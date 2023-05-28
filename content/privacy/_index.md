@@ -82,11 +82,11 @@ We value your data subject rights under GDPR and therefore appointed Prighter.co
 
   **Contact Prighter.com**
 
-  Prighter.com </br>
-  Maetzler Rechtsanwalts GmbH & Co KG </br>
-  Attorneys at Law </br>
-  c/o MYRTLE GROUP S.A. </br>
-  Schellinggasse 3/10, 1010 Vienna, Austria </br>
+  Prighter.com <br/>
+  Maetzler Rechtsanwalts GmbH & Co KG <br/>
+  Attorneys at Law <br/>
+  c/o MYRTLE GROUP S.A. <br/>
+  Schellinggasse 3/10, 1010 Vienna, Austria <br/>
 
   Please add the following subject to all correspondence:
   GDPR-REP ID: 15719145
@@ -103,13 +103,13 @@ make use of your data privacy rights, please visit [our Compliance Landing Page]
 
 Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
 
-Address: </br>
-Ecuador, Quito </br>
-La Armenia, Juan Montalvo </br> 
-Conjunto Prados de la Armenia, casa 73 </br>
-RUC 1792537754001 </br>
-Postal code 170803 </br>
-Email: support@cloudback.it </br>
+Address: <br/>
+Ecuador, Quito <br/>
+La Armenia, Juan Montalvo <br/> 
+Conjunto Prados de la Armenia, casa 73 <br/>
+RUC 1792537754001 <br/>
+Postal code 170803 <br/>
+Email: support@cloudback.it <br/>
 Website: [cloudback.it](https://cloudback.it)
 
 ## Contact Us
