@@ -7,15 +7,15 @@ keywords: github backup, cloudback, github repository backup, github backup as a
 ---
 
 
-## Terms of Service
+# Terms of Service
 
-### Introduction
+## Introduction
 
 The Cloudback Terms of Service are between MYRTLE GROUP S.A. ("we" or "Cloudback") and the customer who orders the Cloudback services ("you" or "Customer"). By using the cloudback.it website or any services described on the cloudback.it website (collectively, "Service"), you are agreeing to be bound by the following terms and conditions ("Terms of Service").
 
 Violation of any of the terms below will result in the termination of your Account.  Cloudback prohibits certain conduct on the Service as described below. You understand and agree that Cloudback cannot be responsible for conduct or activity on the Service or for "Content" transmitted, posted, or stored  using the Service. You agree to use the Service at your own risk. For the purposes of this agreement "Content" means information, data files, written text, computer software, music, audio files or other sounds, photographs, videos or other images to which you may have access as part of, or through your use of, the Service.
 
-### Account Terms
+## Account Terms
 
  - You must be a human. Accounts registered by "bots" or other automated methods are not permitted.
  - You must be 16 years or older to use this Service.
@@ -25,17 +25,17 @@ Violation of any of the terms below will result in the termination of your Accou
  - You are responsible for all Content posted and activity that occurs under your account (even when Content is posted by others who have accounts under your account).
  - You may not use the Service for any illegal or unauthorized purpose. You must not, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws).
 
-### Payment, Refunds, Upgrading and Downgrading Terms
+## Payment, Refunds, Upgrading and Downgrading Terms
 
 All payments are processed by GitHub Marketplace. By using the Service you agree with [GitHub Marketplace Terms of Service](https://docs.github.com/en/github/site-policy/github-marketplace-terms-of-service)
 Downgrading your Service may cause the loss of features or capacity of your Account. Cloudback does not accept any liability for such loss.
 
-### GitHub Marketplace Plan Cancellation
+## GitHub Marketplace Plan Cancellation
 
 You are solely responsible for properly canceling your plan. An email or phone request to cancel your plan is not considered cancellation. You can cancel your plan at any time at GitHub website.
 For more details visit [Canceling a GitHub Marketplace app](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/canceling-a-github-marketplace-app) page in the [Managing Billing for GitHub Marletplace app](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/managing-billing-for-github-marketplace-apps) guide.
 
-### Cloudback Account Termination
+## Cloudback Account Termination
 
 You are solely responsible for properly terminating your account. An email or phone request to terminate your account is not considered termination.
 You can terminate your account by clicking on the Settings link in the user menu at the top right corner of the screen, and going into the Settings page. Under Account Settings, there is a 'Delete my account' button.
@@ -43,19 +43,19 @@ Your error details and related account information will be deleted from the Serv
 Be aware that account termination does not cancel your GitHub Marketplace plan.
 Cloudback, in its sole discretion, has the right to suspend or terminate your account and refuse any and all current or future use of the Service, for any reason at any time. Such termination of the Service will result in the deactivation or deletion of your Account or your access to your Account. Cloudback reserves the right to refuse service to anyone for any reason at any time.
 
-### Modifications to the Service and Prices
+## Modifications to the Service and Prices
 
 Cloudback reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice.
 Prices of all Services, including but not limited to monthly subscription plan fees to the Service, are subject to change upon 30 days notice from us. Such notice may be provided at any time by posting the changes to the [Cloudback website](https://cloudback.it) or the Service itself.
 Cloudback shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the Service.
 
-### Copyright and Content Ownership
+## Copyright and Content Ownership
 
 We claim no intellectual property rights over the material you provide to the Service. Your profile and materials uploaded remain yours.
 Cloudback does not pre-screen Content, but Cloudback and its designee have the right (but not the obligation) in their sole discretion to refuse or remove any Content that is available via the Service.
 All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML/CSS, Javascript, or visual design elements or concepts without express written permission from Cloudback. 
 
-### General Conditions
+## General Conditions
 
 Your use of the Service is at your sole risk. The service is provided on an "as is" and "as available" basis.
 By using Cloudback, your company accepts public disclosure of its integration with Cloudback via Cloudback's marketing activities. If you want to opt out, please contact our marketing team at team@cloudback.it.
@@ -83,5 +83,5 @@ The failure of Cloudback to exercise or enforce any right or provision of the Te
 
 This document is effective as of 2020-07-16.
 
-### Contact Us
+## Contact Us
 If you have any questions or suggestions about the Terms of Service, do not hesitate to contact us at support@cloudback.it.
