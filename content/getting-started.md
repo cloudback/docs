@@ -7,15 +7,15 @@ description: Start creating backups for GitHub repositories with this guide
 keywords: github backup, cloudback, github repository backup, github backup as a service, github backup service, github backup solution, github backup tool, github backup tools, github backup software
 ---
 
-# Getting Started
+# Getting Started 
 
 This is a short instruction describing how to start creating backups for your GitHub repositories.
 
-# Installation
+## Installation
 
 Follow these simple steps below to start using Cloudback. 
 
-## Step 1: Set up a new plan from the GitHub Marketplace
+### Step 1: Set up a new plan from the GitHub Marketplace
 
  - Open Cloudback's page on the GitHub Marketplace by clicking on the [following link](https://github.com/marketplace/cloudback)
  - Click on the `Set up a plan` button.
@@ -38,7 +38,7 @@ Follow these simple steps below to start using Cloudback.
 
 You will be redirected to the Cloudback application installation page. 
 
-## Step 2: Install GitHub application
+### Step 2: Install GitHub application
 
  - On the Cloudback installation page, select the repositories you want to backup by providing Cloudback the access to them
  - Click on the `Install` button
@@ -59,7 +59,7 @@ You will be redirected to the Cloudback application installation page.
   <img src="https://github.com/cloudback/docs/blob/master/static/screeshot6.png?raw=true" alt="redirecting to Cloudback dashboard" class="screenshot">
 </p>
 
-## Step 3: Complete installation on Cloudback Dashboard
+### Step 3: Complete installation on Cloudback Dashboard
 
  - On the Cloudback Dashboard page review the default settings that will be used for creating repository backups
  - Accept the Cloudback's Terms of Service and Privacy Policy by clicking on the corresponding checkboxes

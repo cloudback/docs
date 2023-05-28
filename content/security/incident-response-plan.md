@@ -7,9 +7,9 @@ description: Establishing an incident response plan in Cloudback for GitHub repo
 keywords: github backup, cloudback, security, data security, data protection, data privacy, data backup, data recovery, data breach, disaster recovery, incident response plan
 ---
 
-## Incident Response Plan
+# Incident Response Plan
 
-### Introduction
+## Introduction
 
 The purpose of the document is to establish the goals and the vision for the incident management process in the MYRTLE GROUP S.A. (“we” or “Cloudback”).
 This document discusses the steps taken during an incident response plan.
