@@ -1,5 +1,6 @@
 ---
-title: Google Cloud Storage Bucket
+title: Google Cloud Storage Bucket For GitHub Repository Backup
+linkTitle: Google Cloud Storage Bucket
 weight: 4
 description: Backup GitHub repository using Google Cloud Storage Bucket
 keywords: github backup, cloudback, custom storage, customer-managed storage, google cloud, gcp, google cloud storage bucket

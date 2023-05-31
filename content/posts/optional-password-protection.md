@@ -14,7 +14,7 @@ We are glad to announce that it is possible to opt-out of password-based encrypt
 1. **Password-protected ZIP archive**. This means Cloudback will create each backup as a password-protected encrypted archive.
 2. **ZIP archive without password protection**. Choosing this option will disable password-based encryption, so please make sure to take the necessary actions to protect your backups.
 
-<img src="/static/blog/archive-type.png" alt="notifications email" style="width: 100%;"/>
+<img src="/static/blog/archive-type.png" alt="GitHub repository backup password protection" style="width: 100%;"/>
 
 ### Learn more
  - [Password-Protected Archives](/features/archive/)

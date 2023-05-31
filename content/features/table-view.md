@@ -9,7 +9,7 @@ keywords: github backup, cloudback, table view, table, view, advanced screen, ad
 
 Advanced screen for managing a large number of repositories.
 
-<img src="/static/features/table-view-1.png" alt="Card View"/>
+<img src="/static/features/table-view-1.png" alt="open table view on Cloudback dashboard"/>
 
 ## Table Controls
 
@@ -22,7 +22,7 @@ Here you can find the next functionality:
 * Sorting and filtering
 * Checkboxes for triggering multiple backups at once 
 
-<img src="/static/features/table-view-2.png" alt="Card View"/>
+<img src="/static/features/table-view-2.png" alt="table view description"/>
 
 ### Repository Settings
 
@@ -31,7 +31,7 @@ Here you can find the next functionality:
     * don't forget to press `Save` button
 * Set up schedule/retention/storage for the repository
 
-<img src="/static/features/table-view-4.png" alt="Card View"/>
+<img src="/static/features/table-view-4.png" alt="GitHub repository backup settings on the table view"/>
 
 ### Backups and Restores
 
@@ -42,7 +42,7 @@ Here you can find the next functionality:
 * Restore arbitrary backup
 * Download an archive of arbitrary backup
 
-<img src="/static/features/table-view-3.png" alt="Card View"/>
+<img src="/static/features/table-view-3.png" alt="backups and restores of the GitHub repository backup on the table view"/>
 
 ## Learn more
 

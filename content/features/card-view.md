@@ -9,7 +9,7 @@ keywords: github backup, cloudback, card view, card, view, dashboard, simple, in
 
 It is a default view for Cloudback Dashboard, extremely simple and user friendly. Suitable for small number of repositories and basic scenarios. 
 
-<img src="/static/features/card-view-1.png" alt="Card View"/>
+<img src="/static/features/card-view-1.png" alt="enable card view for GitHub repository backups"/>
 
 ## Card Controls
 
@@ -24,7 +24,7 @@ Here you can find the next functionality:
 * Restore arbitrary backup
 * Download an archive of arbitrary backup
 
-<img src="/static/features/card-view-2.png" alt="Card View"/>
+<img src="/static/features/card-view-2.png" alt="Cloudback card view main features"/>
 
 ### Back side of the card
 
@@ -35,7 +35,7 @@ Here you can find the next functionality:
 * Create a new storage
 * Get a Badge URL
 
-<img src="/static/features/card-view-3.png" alt="Card View"/>
+<img src="/static/features/card-view-3.png" alt="GitHub repository backup settings"/>
 
 
 ## Learn more

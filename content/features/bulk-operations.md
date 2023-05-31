@@ -9,7 +9,7 @@ keywords: github backup, cloudback, bulk operations, bulk, operations, settings,
 
 If you have a large number of repositories it is not comfortable to manage their settings using Cloudback Dashboard with the card-based user interface. Cloudback offers the `Bulk Operations` dialog instead. The dialog allows you to apply settings to many repositories with a single click.
 
-<img src="/static/features/bulk-operations.png" alt="Bulk Operations"/>
+<img src="/static/features/bulk-operations.png" alt="apply settings to many GitHub repository backup settings with a single click"/>
 
 ## Repository name pattern
 

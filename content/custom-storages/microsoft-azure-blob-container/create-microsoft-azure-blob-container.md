@@ -25,7 +25,7 @@ To be able to create a new Blob Container it is required to have a storage accou
  - Follow the steps in the 'Create a storage account' wizard:
  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-1-create-a-storage-account.png" alt="create a storage account" title="create a storage account" class="screenshot">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-1-create-a-storage-account.png" alt="create a storage account to back up your GitHub repositories to Azure" title="create a storage account to back up your GitHub repositories to Azure" class="screenshot">
 </p>
 
 ### Create a new container
@@ -39,5 +39,5 @@ After the storage account is created, follow the steps below to create a new con
  - Click on the `Create` button
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-2-create-a-new-container.png" alt="create a storage account" title="create a storage account" class="screenshot">
+  <img src="https://raw.githubusercontent.com/cloudback/docs/master/static/azure/azure-2-create-a-new-container.png" alt="create a Azure container to back up your GitHub repositories to Azure" title="create a Azure container to back up your GitHub repositories to Azure" class="screenshot">
 </p>

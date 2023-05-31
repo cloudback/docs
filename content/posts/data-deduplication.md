@@ -14,7 +14,7 @@ The Cloudback team is pleased to announce a new feature: Data deduplication for 
 
 Please see our documentation article for [data deduplication](/features/deduplication/).
 
-<img src="/static/features/data-deduplication-label.png" alt="Data Deduplication"/>
+<img src="/static/features/data-deduplication-label.png" alt="GitHub repository backup data deduplication"/>
 
 ### Learn more
  - [Data Deduplication](/features/deduplication/)

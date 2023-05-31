@@ -13,7 +13,7 @@ Cloudback allows you to trigger a backup process on demand by clicking a single 
 - You want to test [your own storage](/features/customer-storages/) that you configured recently
 - You want to secure your data at a specific point in time
 
-<img src="/static/features/manual-backup.png" alt="Manual Backup" width="450"/>
+<img src="/static/features/manual-backup.png" alt="trigger GitHub repository backup manually" width="450"/>
 
 ## Trigger a backup
 
@@ -21,7 +21,7 @@ Once your repository is scheduled, just click a button and trigger a backup, tha
 
 <p align="center">
   <img src="/static/features/manual-backup-trigger.png" data-alt="/static/features/manual-backup-trigger.gif"
-       alt="Trigger a manual backup" onclick="swapGif(this)" style="cursor: pointer;"/>
+       alt="how to trigger a manual GitHub repository backup" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
 ## Email notification are disabled for manual backups

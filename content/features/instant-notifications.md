@@ -8,7 +8,7 @@ keywords: github backup, cloudback, instant notifications, notifications, webhoo
 # Instant Notifications
 Cloudback supports real-time notifications via messenger services:
 
-<img src="/static/features/instant-notifications-desktop.png" alt="Instant Notifications"/>
+<img src="/static/features/instant-notifications-desktop.png" alt="instant notifications about GitHub repository backup"/>
 
 Instant Notifications about successful and failed backups can be configured per account in the 'Notification Settings' dialog of the main menu of **Cloudback Dashboard**. All notifications are **Webhook** based. **Webhooks** are user-defined HTTP URL callbacks. They are usually triggered to facilitate integration of different applications, in our particular case it is Cloudback and a Messenger. Within a Messenger, you can create an **Incoming Webhook** for a text channel and get a URL for created **Webhook**. Then you pass that **Webhook URL** to Cloudback, and when Cloudback wants to send a notification, it triggers the **Webhook URL** provided.
 
@@ -20,7 +20,7 @@ The steps to configure instant notifications are similar for all messengers:
 
 <p align="center">
   <img src="/static/features/instant-notifications.png" data-alt="/static/features/instant-notifications.gif"
-       alt="Instant Notifications Settings" onclick="swapGif(this)" style="cursor: pointer;"/>
+       alt="GitHub repository backup instant notifications settings" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
 ## Slack
@@ -28,7 +28,7 @@ The steps to configure instant notifications are similar for all messengers:
 * To configure Incoming Webhook please follow the Slack guide: [Sending messages using Incoming Webhooks](https://api.slack.com/messaging/webhooks)
 
 <p align="center">
-  <img src="/static/features/instant-notifications-slack.png" alt="Discord Notification"/>
+  <img src="/static/features/instant-notifications-slack.png" alt="Slack notification about GitHub repository backup"/>
 </p>
 
 ## Microsoft Teams
@@ -37,14 +37,14 @@ The steps to configure instant notifications are similar for all messengers:
 * Tutorial on how to create an incoming webhook for Microsoft Teams: [Add incoming webhook](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)
 
 <p align="center">
-  <img src="/static/features/instant-notifications-msteams.png" alt="Discord Notification"/>
+  <img src="/static/features/instant-notifications-msteams.png" alt="Microsoft teams notification about GitHub repository backup"/>
 </p>
 
 ## Discord
 * Messenger website: https://discord.com
 * A guide on how to create an Incoming Webhook in Discord: [Intro to Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 <p align="center">
-  <img src="/static/features/instant-notifications-discord.png" alt="Discord Notification"/>
+  <img src="/static/features/instant-notifications-discord.png" alt="Discord notification about GitHub repository backup"/>
 </p>
 
 ## Learn more

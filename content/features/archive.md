@@ -19,27 +19,27 @@ There is an option to disable archive encryption and switch to an unencrypted ZI
 
 The option resides in the `Storage Editor` dialog and can be set when you create or edit your own customer managed storage:
 
-<img src="/static/features/optional-password.png" alt="Open restored" width="500"/>
+<img src="/static/features/optional-password.png" alt="Select archive type of the new Cloudback storage" width="500"/>
 
 ### Sample of an archive
 
 You can download a sample password-protected archive by the link below:
 * [bee12062e5d741b1baf334088c2c980d.zip](/static/features/bee12062e5d741b1baf334088c2c980d.zip)
 
-<img src="/static/features/zip-aes.png" alt="Inside a backup 1"/>
+<img src="/static/features/zip-aes.png" alt="password-protected archive encryption method"/>
 
 ### Password prompt
 
 The archive is password protected in the same way as all Cloudback backups are. A new password is generated every time a new backup is created. Here is a password for this particular archive:
 * c8f42392e86e4f7fbe8b4adf7ec65694
 
-<img src="/static/features/zip-password.png" alt="Inside a backup 2"/>
+<img src="/static/features/zip-password.png" alt="password-protected GitHub repository backup"/>
 
 ### Archive content
 
 For a brief description of content please refer [Metadata Backups](/features/metadata/)
 
-<img src="/static/features/zip-content.png" alt="Inside a backup 3"/>
+<img src="/static/features/zip-content.png" alt="GitHub repository backup structure"/>
 
 ## Learn more
 

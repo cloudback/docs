@@ -9,9 +9,9 @@ keywords: github backup, cloudback, managed storage, cloudback managed storage, 
 
 Cloudback allows you to store a backup archive in your own storage, leaving no copies to us. That is. Cloudback backs up a repository into an archive, sends the archive to your storage, and wipes the archive from Cloudback's disk leaving no chance to recover any data from the Cloudback servers.
 
-Also, we offer our in-build storage named just `Cloudback`.
+Also, we offer our [in-build storages](/features/cloudback-storages/) named according to the storage location: `Cloudback US`, `Cloudback EU`, `Cloudback UK`, `Cloudback Sidney`, and `Cloudback Singapore`.
 
-<img src="/static/features/storages-wizard-combobox.png" alt="Storages" width="500"/>
+<img src="/static/features/storages-wizard-combobox.png" alt="Select a storage provider to back up GitHub repository" width="500"/>
 
 ## Register your storage
 
@@ -21,7 +21,7 @@ Please note, that you could apply recently registered storage to all your reposi
 
 <p align="center">
   <img src="/static/features/storages-wizard.png" data-alt="/static/features/storages-wizard.gif"
-       alt="Storage Wizard" onclick="swapGif(this)" style="cursor: pointer;"/>
+       alt="Register a new storage to protect GitHub repositories" onclick="swapGif(this)" style="cursor: pointer;"/>
 </p>
 
 

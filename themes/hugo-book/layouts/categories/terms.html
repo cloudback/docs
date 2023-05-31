@@ -2,20 +2,20 @@
 <div class="flex-row-to-column">
   <div class="w-66-to-100 pt-3">
     <article class="blog-body">
-    <h1 class="pb-3">Blog Categories</h1>
-    <div>
-      {{ range .Data.Terms.ByCount }}
-        <div class="pb-4">
-          <a class="pt-3 pb-3" href="{{ .Page.Permalink }}"><h2>{{ .Page.Title }}</h2></a>
-          {{ $pageCount := len .Pages }}
-          <p>{{ $pageCount }} post{{ if ne $pageCount 1 }}s{{ end }} </p>
-        </div>
-      {{ end }}
-    </div>
+      <h1 class="pb-3">Blog Categories</h1>
+      <div>
+        {{ range .Data.Terms.ByCount }}
+          <div class="pb-4">
+            <a class="pt-3 pb-3" href="{{ .Page.Permalink }}"><h2>{{ .Page.Title }}</h2></a>
+            {{ $pageCount := len .Pages }}
+            <p>{{ $pageCount }} post{{ if ne $pageCount 1 }}s{{ end }} </p>
+          </div>
+        {{ end }}
+      </div>
     </article>
   </div>
   <div class="w-33-to-100 pt-3 pb-3">
-    <h1 class="pt-4 pb-5 mb-2 pl-5 lh-125">Latest Tweets</h1>      
+    <div class="h1 pt-4 pb-5 mb-2 pl-5 lh-125">Latest Tweets</div>
     <div id="blog-timeline" class="timeline pl-3 pr-3"></div>
   </div>
 </div>
