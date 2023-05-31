@@ -58,17 +58,22 @@ Below is the list of S3 Object Lock related headers:
 
 #### x-amz-object-lock-mode
 
-Must be `COMPLIANCE` (case sensitive). If you specify `x-amz-object-lock-mode`, you must also specify `x-amz-object-lock-retain-until-date`.
+- Must be `COMPLIANCE` (case sensitive).
+- If you specify `x-amz-object-lock-mode`, you must also specify `x-amz-object-lock-retain-until-date`.
+- `s3:PutObjectRetention` permission is required to use this header.
 
 #### x-amz-object-lock-retain-until-date
 
-Format `yyyy-MM-ddThh:mm:ssZ`. The retain-until-date value must be in the format 2023-04-23T11:28:00Z. Fractional seconds are allowed, but only 3 decimal digits are preserved (milliseconds precision). Other ISO 8601 formats are not allowed. The retain-until-date must be in the future.
+- Format `yyyy-MM-ddThh:mm:ssZ`. The retain-until-date value must be in the format 2023-04-23T11:28:00Z. Fractional seconds are allowed, but only 3 decimal digits are preserved (milliseconds precision). Other ISO 8601 formats are not allowed.
+- The retain-until-date must be in the future.
+- [Dynamic values for retain-until-date](#dynamic-values-for-retain-until-date) can be used.
 
 #### x-amz-object-lock-legal-hold
-Can be `ON` or `OFF` (case-sensitive). If legal hold is `ON`, the object is placed under a legal hold. If legal hold is OFF, no legal hold is placed. Any other value results in a 400 Bad Request (InvalidArgument) error.
+- Can be `ON` or `OFF` (case-sensitive). If legal hold is `ON`, the object is placed under a legal hold. If legal hold is OFF, no legal hold is placed. Any other value results in a 400 Bad Request (InvalidArgument) error.
+- `s3:PutObjectLegalHold` permission is required to use this header.
 
 #### Content-MD5
-The required `Content-MD5` header is added by Cloudback automatically, no need to specify it manually.
+- The required `Content-MD5` header is added by Cloudback automatically, no need to specify it manually.
 
 ### Dynamic values for retain-until-date
 

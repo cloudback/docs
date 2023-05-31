@@ -11,12 +11,13 @@ keywords: github backup, cloudback, custom storage, customer-managed storage, am
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. 
 
-## Requires permissions
+## Required permissions
 
 - **s3:PutObject** - required, for backup archive upload to Amazon S3 bucket
 - **s3:GetObject** - optional, for backup restore and instant download from Amazon S3 bucket
 - **s3:DeleteObject** - optional, for retention policy, automatic removal of outdated backups from Amazon S3 bucket
-- **s3:GetBucketLocation** - optional, required to automatically determine the `Service Endpoint URL`
+- **s3:PutObjectRetention** - optional, required for [S3 Object Lock](/features/s3-object-lock) `x-amz-object-lock-mode`
+- **s3:PutObjectLegalHold** - optional, required for [S3 Object Lock](/features/s3-object-lock) `x-amz-object-lock-legal-hold`
 
 ## Set up Amazon S3 Bucket as a customer managed storage
 
