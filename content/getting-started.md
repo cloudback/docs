@@ -32,9 +32,6 @@ Follow these simple steps below to start using Cloudback.
 
  - Review your order to make sure you've selected the correct plan and account. After that click on the `Complete order and begin installation`
 
-<p align="center">
-  <img src="https://github.com/cloudback/docs/blob/master/static/screeshot3.png?raw=true" alt="order review" class="screenshot">
-</p>
 
 You will be redirected to the Cloudback application installation page. 
 
