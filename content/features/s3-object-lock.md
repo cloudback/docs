@@ -50,8 +50,8 @@ Example `Storage Wizard` screenshot:
 The headers are specified in the the format `key:value` divided by a new line. For example:
 
 ```
-x-amz-object-lock-mode:COMPLIANCE
-x-amz-object-lock-retain-until-date:2025-01-01T00:00:00Z
+x-amz-object-lock-mode: COMPLIANCE
+x-amz-object-lock-retain-until-date: 2025-01-01T00:00:00Z
 ```
 
 Below is the list of S3 Object Lock related headers:
@@ -66,7 +66,7 @@ Below is the list of S3 Object Lock related headers:
 
 - Format `yyyy-MM-ddThh:mm:ssZ`. The retain-until-date value must be in the format 2023-04-23T11:28:00Z. Fractional seconds are allowed, but only 3 decimal digits are preserved (milliseconds precision). Other ISO 8601 formats are not allowed.
 - The retain-until-date must be in the future.
-- [Dynamic values for retain-until-date](#dynamic-values-for-retain-until-date) can be used.
+- [Dynamic values for retain-until-date](#dynamic-values-for-headers) can be used.
 
 #### x-amz-object-lock-legal-hold
 - Can be `ON` or `OFF` (case-sensitive). If legal hold is `ON`, the object is placed under a legal hold. If legal hold is OFF, no legal hold is placed. Any other value results in a 400 Bad Request (InvalidArgument) error.
@@ -75,12 +75,12 @@ Below is the list of S3 Object Lock related headers:
 #### Content-MD5
 - The required `Content-MD5` header is added by Cloudback automatically, no need to specify it manually.
 
-### Dynamic values for retain-until-date
+### Dynamic values for headers
 
-Cloudback allows to calculate the value for `x-amz-object-lock-retain-until-date` dynamically using `liquid` templates. Cloudback uses [scriban](https://github.com/scriban/scriban) template engine to render the value of the header. Refer to the examples provided below for guidance. If you require additional scripting functionality, please consult the scriban documentation:
-- [Date functions](https://github.com/scriban/scriban/blob/master/doc/builtins.md#binary-operations)
-- [Built-in functions](https://github.com/scriban/scriban/tree/master/doc)
-- [Documentation](https://github.com/scriban/scriban/tree/master/doc)
+Cloudback uses `liquid` templates to dynamically calculate values. The [scriban](https://github.com/scriban) template engine is in use. It evaluates expressions inside braces `{{ }}`. You can see how it works in the examples given below. If you need more scripting options, you can consult the scriban documentation:
+- For date functions, visit [here](https://github.com/scriban/scriban/blob/master/doc/builtins.md#binary-operations)
+- For a list of built-in functions, check [this link](https://github.com/scriban/scriban/tree/master/doc)
+- General documentation can be found [here](https://github.com/scriban/scriban/tree/master/doc)
 
 ### Examples of HTTP headers
 
