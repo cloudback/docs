@@ -18,8 +18,9 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 - **s3:GetObject** - optional, for backup restore and instant download from Amazon S3 bucket
 - **s3:DeleteObject** - optional, for retention policy, automatic removal of outdated backups from Amazon S3 bucket
 - **s3:GetBucketLocation** - optional, required to automatically determine the `Service Endpoint URL`
-- **s3:PutObjectRetention** - optional, required for [S3 Object Lock](/features/s3-object-lock) `x-amz-object-lock-mode`
-- **s3:PutObjectLegalHold** - optional, required for [S3 Object Lock](/features/s3-object-lock) `x-amz-object-lock-legal-hold`
+- **s3:PutObjectRetention** - optional, required for the [S3 Object Lock](/features/s3-object-lock) header `x-amz-object-lock-mode`
+- **s3:PutObjectLegalHold** - optional, required for the [S3 Object Lock](/features/s3-object-lock) header `x-amz-object-lock-legal-hold`
+- **s3:PutObjectTagging** - optional, required for the [S3 Object Tagging](/features/s3-object-tag) header `x-amz-tagging`
 
 ## Set up Amazon S3 Bucket Access Key as a customer managed storage
 

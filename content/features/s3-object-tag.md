@@ -13,8 +13,11 @@ keywords: github backup, cloudback, amazon s3 object tag, s3 object tag, object 
 
 ### HTTP headers for S3 Object Tagging
 
-#### x-amz-tagging
-The tag-set for the object. The tag-set must be encoded as URL Query parameters. (For example, "Key1=Value1").
+**x-amz-tagging**: The tag-set for the object.
+
+- The tag-set must be encoded as URL Query parameters. (For example, "Key1=Value1").
+
+> **Important:** `s3:PutObjectTagging` permission is required. You should grant the permission at a bucket level and at an access point level if applicable.
 
 Example:
 ```
@@ -33,7 +36,9 @@ Example:
 x-amz-tagging: RepositoryName={{ context.RepositoryName }}&AccountName={{ context.AccountName }}
 ```
 
-### Storage wizard
+### Configure your storage in the Storage Wizard dialog
+
+You can add an additional header using the [Storage Wizard](/custom-storages/#setting-up-a-customer-managed-storage) dialog. Click on the `+ New storage` or `Edit Storage` button in the middle of the repository card settings. Fill in the required details for the storage and you will see the `Additional HTTP headers` section. Add the `x-amz-tagging` header with the value you need.
 
 Additional HTTP headers are supported for all S3 compatible storages:
 
