@@ -1,10 +1,10 @@
 ---
 title: "What is a bare git repository and how Cloudback uses it?"
 tags: ["General", "Cloudback", "Git"]
-date: 2022-11-21
+date: 2024-01-15
 categories: ["General", "Cloudback", "Git"]
 description: Cloudback archives your source code as a git bare repository.
-keywords: 
+keywords: github backup, cloudback, bare repository, bare git repository, git bare repository, bare repo, bare git repo, bare git repository, bare git repo, bare repository git
 ---
 
 A Git bare repository represents a specialized form of a Git repository, distinct in structure and function from a conventional Git repository. Platforms like GitHub utilize bare repositories on their servers. Essentially, when a user initiates a clone command from GitHub, they are interacting with a bare repository stored on GitHub's server. This type of repository is optimized for server-side storage and facilitates efficient and secure management and distribution of code, without the direct editing capabilities found in standard repositories. Here's a simplified explanation:
