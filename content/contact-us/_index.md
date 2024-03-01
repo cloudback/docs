@@ -26,13 +26,13 @@ If you have any issues with the product or any ideas about how it can be improve
 
 ## Company name and address
 
-We are the MYRTLE GROUP S.A.
+We are the MYRTLELABS S.A.S.
 
 Address: <br/>
 Ecuador, Quito <br/>
-La Armenia, Juan Montalvo <br/> 
-Conjunto Prados de la Armenia, casa 73 <br/>
-RUC 1792537754001 <br/>
+La Armenia, Juan Leon Mera y Numa Pompillo <br/> 
+Conjunto Prados de la Armenia N9-960 <br/>
+RUC 1793212306001 <br/>
 Postal code 170803 <br/>
 Email: support@cloudback.it <br/>
 Website: [cloudback.it](https://cloudback.it)

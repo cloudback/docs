@@ -11,7 +11,7 @@ keywords: cloudback, privacy policy, gdpr, gdpr compliant, gdpr compliant backup
 
 ## Introduction
 
-We, the MYRTLE GROUP S.A., have built the Cloudback application as a Commercial service. This service is provided by us and is intended for use as is. We fully comply with the European General Data Protection Regulation (GDPR) laws, requirements and regulations.
+We, the MYRTLELABS S.A.S. (previosly [MYRTLE GROUP S.A.](https://docs.cloudback.it/posts/myrtlelabs/)), have built the Cloudback application as a Commercial service. This service is provided by us and is intended for use as is. We fully comply with the European General Data Protection Regulation (GDPR) laws, requirements and regulations.
 
 This Policy is used to inform visitors and users regarding our policies about the collection, use, and disclosure of Personal Information of anyone using the Service.
 
@@ -85,7 +85,7 @@ We value your data subject rights under GDPR and therefore appointed Prighter.co
   Prighter.com <br/>
   Maetzler Rechtsanwalts GmbH & Co KG <br/>
   Attorneys at Law <br/>
-  c/o MYRTLE GROUP S.A. <br/>
+  c/o MYRTLELABS S.A.S. <br/>
   Schellinggasse 3/10, 1010 Vienna, Austria <br/>
 
   Please add the following subject to all correspondence:
@@ -93,7 +93,7 @@ We value your data subject rights under GDPR and therefore appointed Prighter.co
   
 **Information according to Art 27 EU GDPR**
 
-MYRTLE GROUP S.A. is a company located outside of the European Union. In order to comply with Art 27 EU GDPR, Prighter.com has been nominated as our representative in the European Union. If you want to
+MYRTLELABS S.A.S. is a company located outside of the European Union. In order to comply with Art 27 EU GDPR, Prighter.com has been nominated as our representative in the European Union. If you want to
 make use of your data privacy rights, please visit [our Compliance Landing Page](https://prighter.com/q/15719145)
 
 <a href="https://prighter.com/q/15719145"><img style="max-width: 301px; max-height: 148px;" src="https://prighter.com/certificateofrepresentation/15719145/getwebcertificate.png"
@@ -105,9 +105,9 @@ Controller for the purposes of the General Data Protection Regulation (GDPR), ot
 
 Address: <br/>
 Ecuador, Quito <br/>
-La Armenia, Juan Montalvo <br/> 
-Conjunto Prados de la Armenia, casa 73 <br/>
-RUC 1792537754001 <br/>
+La Armenia, Juan Leon Mera y Numa Pompillo <br/> 
+Conjunto Prados de la Armenia N9-960 <br/>
+RUC 1793212306001 <br/>
 Postal code 170803 <br/>
 Email: support@cloudback.it <br/>
 Website: [cloudback.it](https://cloudback.it)

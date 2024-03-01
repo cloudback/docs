@@ -11,7 +11,7 @@ keywords: github backup, cloudback, security, data security, data protection, da
 
 ## Purpose 
 
-The purpose of the policy is to establish the goals and the vision for the breach response process in the MYRTLE GROUP S.A. ("we" or "Cloudback"). This policy will clearly define to whom it applies and under what circumstances, and it will include the definition of a breach, staff roles and responsibilities, standards and metrics (e.g., to enable prioritization of the incidents), as well as reporting, remediation, and feedback mechanisms. The policy shall be well publicized and made easily available to all personnel whose duties involve data privacy and security protection.
+The purpose of the policy is to establish the goals and the vision for the breach response process in the MYRTLELABS S.A.S. ("we" or "Cloudback"). This policy will clearly define to whom it applies and under what circumstances, and it will include the definition of a breach, staff roles and responsibilities, standards and metrics (e.g., to enable prioritization of the incidents), as well as reporting, remediation, and feedback mechanisms. The policy shall be well publicized and made easily available to all personnel whose duties involve data privacy and security protection.
 
 Cloudback Information Security's intentions for publishing a Data Breach Response Policy are to focus significant attention on data security and data security breaches and how Cloudback’s established culture of openness, trust and integrity should respond to such activity. Cloudback Information Security is committed to protecting Cloudback's employees, partners and the company from illegal or damaging actions by individuals, either knowingly or unknowingly.
 

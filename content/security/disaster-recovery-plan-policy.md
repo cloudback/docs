@@ -11,7 +11,7 @@ keywords: github backup, cloudback, security, data security, data protection, da
 
 ## Overview
 
-The purpose of the policy is to establish the goals and the vision for the disaster recovery process in the MYRTLE GROUP S.A. ("we" or "Cloudback"). It is important to understand that having a contingency plan in the event of a disaster gives Cloudback a competitive advantage. This policy requires management to financially support and diligently attend to disaster contingency planning efforts. Disasters are not limited to adverse weather conditions. Any event that could likely cause an extended delay of service is considered.
+The purpose of the policy is to establish the goals and the vision for the disaster recovery process in the MYRTLELABS S.A.S. ("we" or "Cloudback"). It is important to understand that having a contingency plan in the event of a disaster gives Cloudback a competitive advantage. This policy requires management to financially support and diligently attend to disaster contingency planning efforts. Disasters are not limited to adverse weather conditions. Any event that could likely cause an extended delay of service is considered.
 
 ## Purpose
 

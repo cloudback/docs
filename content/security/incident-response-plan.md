@@ -11,7 +11,7 @@ keywords: github backup, cloudback, security, data security, data protection, da
 
 ## Introduction
 
-The purpose of the document is to establish the goals and the vision for the incident management process in the MYRTLE GROUP S.A. (“we” or “Cloudback”).
+The purpose of the document is to establish the goals and the vision for the incident management process in the MYRTLELABS S.A.S. (“we” or “Cloudback”).
 This document discusses the steps taken during an incident response plan.
 
 ## Incident Response Process
